@@ -5,6 +5,9 @@ const {
   PurchasePrices,
   Taxes,
   Categories,
+  Stocks,
+  Storages,
+  PriceLists
 } = require("../db");
 const products = {};
 const sequelize = require("sequelize");
@@ -16,7 +19,6 @@ const sequelize = require("sequelize");
 // ivaSubject: DataTypes.BOOLEAN,
 // favorite: DataTypes.BOOLEAN,
 // purchase_price_id: DataTypes.INTEGER,
-// selling_price_id: DataTypes.INTEGER,
 // subcategory_id: DataTypes.INTEGER
 
 async function create(
@@ -27,7 +29,6 @@ async function create(
   iva_subject,
   favorite,
   purchase_price_id,
-  selling_price_id,
   subcategory_id
 ) {
   const product = await Products.create({
@@ -38,7 +39,6 @@ async function create(
     iva_subject: iva_subject,
     favorite: favorite,
     purchase_price_id: purchase_price_id,
-    selling_price_id: selling_price_id,
     subcategory_id: subcategory_id,
   })
     .then((data) => {
@@ -64,7 +64,6 @@ async function findAll() {
       [sequelize.literal("Subcategory.name"), "subcategoryName"],
       [sequelize.literal("Subcategory.category_id"), "categoryId"],
       [sequelize.literal("PurchasePrice.id"), "purchasePriceId"],
-      [sequelize.literal("SellingPrice.id"), "sellingPriceId"],
     ],
     include: [
       {
@@ -73,6 +72,7 @@ async function findAll() {
       },
       { model: SellingPrices },
       { model: PurchasePrices },
+      { model: Stocks, include: [{ model: Storages }] },
     ],
   })
     .then((data) => {
@@ -84,6 +84,90 @@ async function findAll() {
   return product;
 }
 
+
+async function findAllToSalePoint(price_list_id, storage_id) {
+  try {
+    const products = await Products.findAll({
+      include: [
+        { model: Subcategories },
+        {
+          model: Stocks,
+          include: [{ model: Storages }],
+          where: { storage_id: storage_id}, // Filtrar stock por el ID del almacen
+
+        },
+        { model: PurchasePrices },
+        {
+          model: SellingPrices,
+          where: { price_list_id: price_list_id }, // Filtrar precio de venta por el ID de la lista de precios
+
+        },
+      ],
+      //where:  // Filtrar precio de venta por el ID de la lista de precios
+
+    });
+
+
+    const selectedProducts = products.map((product) => ({
+      id: product.id,
+      name: product.name,
+      code: product.code,
+      stockControl: product.stockControl,
+      ivaSubject: product.ivaSubject,
+      subcategoryName: product.subcategoryName,
+      sellingPriceId: product.sellingPriceId,
+      gross: product.SellingPrices[0].gross,
+      net: product.SellingPrices[0].net,
+      utility: product.SellingPrices[0].utility,
+      stockId: product.Stocks[0].id,
+      available: product.Stocks[0].available,
+    }));
+
+    return { code: 1, data: selectedProducts };
+    //return { code: 1, data: products };
+  } catch (err) {
+    return { code: 0, data: err };
+  }
+}
+async function findOneByIAndStorageAndPriceList(id, storage_id, price_list_id) {
+  const product = await Products.findOne({
+    include: [
+      { model: SellingPrices, where: { price_list_id: price_list_id }, include: [{ model: PriceLists }]},
+      { model: PurchasePrices },
+      { model: Stocks, where: { storage_id: storage_id } },
+    ],
+    where: { id: id },
+  })
+    .then((data) => {
+      return { code: 1, data: data };
+    })
+    .catch((err) => {
+      return { code: 0, data: err };
+    });
+
+  return product;
+}
+
+async function findOneByIdToCart(id) {
+  const product = await Products.findOne({
+    include: [
+      { model: Subcategories },
+      { model: SellingPrices },
+      { model: Stocks, include: [{ model: Storages }] },
+    ],
+    where: { id: id },
+  })
+    .then((data) => {
+      return { code: 1, data: data };
+    })
+    .catch((err) => {
+      return { code: 0, data: err };
+    });
+
+  return product;
+
+}
+
 async function findOneById(id) {
   const product = await Products.findOne({
     where: { id: id },
@@ -91,6 +175,7 @@ async function findOneById(id) {
       { model: Subcategories },
       { model: SellingPrices },
       { model: PurchasePrices },
+      { model: Stocks, include: [{ model: Storages }] },
     ],
   })
     .then((data) => {
@@ -108,7 +193,7 @@ async function generalUpdate(
   code,
   description,
   stock_control,
-  ivaSubject,
+  iva_subject,
   favorite,
   subcategory_id
 ) {
@@ -118,8 +203,8 @@ async function generalUpdate(
       code: code,
       description: description,
       stock_control: stock_control,
-      ivaSubject: ivaSubject,
-      favorite: favorite,
+      iva_subject: iva_subject,
+      favorite: false,
       subcategory_id: subcategory_id,
     },
     { where: { id: id } }
@@ -149,5 +234,8 @@ products.findAll = findAll;
 products.findOneById = findOneById;
 products.generalUpdate = generalUpdate;
 products.existByName = existByName;
+products.findAllToSalePoint = findAllToSalePoint;
+products.findOneByIdToCart = findOneByIdToCart;
+products.findOneByIAndStorageAndPriceList = findOneByIAndStorageAndPriceList;
 
 module.exports = products;

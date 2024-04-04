@@ -22,7 +22,7 @@ module.exports = (sequelize, DataTypes) => {
       decrement: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 0 },
       balance: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 0 },
       type: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 0 },
-      reference: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 0 },
+      reference: { type: DataTypes.INTEGER, allowNull: true, defaultValue: 0 },
       stock_id: {
         type: DataTypes.INTEGER,
       },

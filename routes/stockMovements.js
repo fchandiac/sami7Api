@@ -15,17 +15,22 @@ router.post("/stockMovements/create", async (req, res) => {
   res.json(stockMovement);
 });
 
-router.post("/stockMovements/findAllbyStock", async (req, res) => {
-  const { stock_id } = req.body;
-  const stockMovement = await stockMovements.findAllbyStock(stock_id);
-  res.json(stockMovement);
-});
-
+// findLastByStock(stock_id)
 
 router.post("/stockMovements/findLastByStock", async (req, res) => {
   const { stock_id } = req.body;
   const stockMovement = await stockMovements.findLastByStock(stock_id);
   res.json(stockMovement);
 });
+
+
+
+
+
+router.post("/stockMovements/findAllByStock", async (req, res) => {
+  const { stock_id } = req.body;
+  const stockMovement = await stockMovements.findAllByStock(stock_id);
+  res.json(stockMovement);
+})
 
 module.exports = router;

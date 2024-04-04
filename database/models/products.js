@@ -10,7 +10,6 @@ module.exports = (sequelize, DataTypes) => {
         iva_subject: DataTypes.BOOLEAN,
         favorite: DataTypes.BOOLEAN,
         purchase_price_id: DataTypes.INTEGER,
-        selling_price_id: DataTypes.INTEGER,
         subcategory_id: DataTypes.INTEGER
 
     }, {

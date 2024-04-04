@@ -13,7 +13,8 @@ async function create(user_id, action, table, description) {
 
 async function findAll() {
     const record = await Records.findAll({
-        include: [Users]
+        include: [Users],
+        order: [['created_at', 'DESC']]
     }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
     return record
 }

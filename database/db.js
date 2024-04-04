@@ -53,6 +53,10 @@ db.Storages = require('./models/storages')(db.connection, DataTypes)
 db.Products = require('./models/products')(db.connection, DataTypes)
 db.Stocks = require('./models/stocks')(db.connection, DataTypes)
 db.StockMovements = require('./models/stockMovements')(db.connection, DataTypes)
+db.SalePoints = require('./models/salePoints')(db.connection, DataTypes)
+db.CashRegisters = require('./models/cashRegisters')(db.connection, DataTypes)
+db.CashRegisterMovements = require('./models/cashRegisterMovements')(db.connection, DataTypes)
+db.PaymentMethods = require('./models/paymentMethods')(db.connection, DataTypes)
 
 
 db.Users.belongsTo(db.Profiles)
@@ -61,11 +65,17 @@ db.Records.belongsTo(db.Users)
 db.SellingPrices.belongsTo(db.PriceLists)
 
 db.Products.belongsTo(db.Subcategories)
-db.Products.belongsTo(db.SellingPrices)
 db.Products.belongsTo(db.PurchasePrices)
 
-db.Stocks.belongsTo(db.Products)
+db.CashRegisterMovements.belongsTo(db.CashRegisters)
+db.CashRegisterMovements.belongsTo(db.PaymentMethods)
+
+db.Products.hasMany(db.Stocks)
+db.Products.hasMany(db.SellingPrices)
+db.SalePoints.hasMany(db.CashRegisters)
+
 db.Stocks.belongsTo(db.Storages)
+db.SalePoints.belongsTo(db.Storages)
 
 db.StockMovements.belongsTo(db.Stocks)
 

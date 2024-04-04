@@ -31,4 +31,11 @@ router.post('/priceLists/destroy', async (req, res) => {
     res.json(priceList)
 })
 
+
+router.post('/priceLists/findOneByName', async (req, res) => {
+    const { name } = req.body
+    const priceList = await priceLists.findOneByName(name)
+    res.json(priceList)
+})
+
 module.exports = router

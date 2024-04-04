@@ -4,13 +4,12 @@ const { Model } = require('sequelize')
 module.exports = (sequelize, DataTypes) => {
     class SellingPrices extends Model { }
     SellingPrices.init({
-        net: DataTypes.INTEGER,
         gross: DataTypes.INTEGER,
-        price_list_id: DataTypes.INTEGER,
-        purchase_price_id: DataTypes.INTEGER,
+        net: DataTypes.INTEGER,
         purchase_net : DataTypes.INTEGER,
         utility : DataTypes.INTEGER,
-          
+        price_list_id: DataTypes.INTEGER,
+        product_id : DataTypes.INTEGER
     }, {
         sequelize,
         modelName: 'SellingPrices',
@@ -19,3 +18,10 @@ module.exports = (sequelize, DataTypes) => {
     return SellingPrices
 }
 
+
+// gross: 
+// net:
+// purchase_net: 
+// utility: 
+// price_list_id: 
+// product_id: 

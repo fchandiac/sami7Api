@@ -35,8 +35,13 @@ const sellingPrices = {}
 //     }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
 //     return priceList
 // }
-
-async function create(net, gross, price_list_id, purchase_price_id, purchase_net, utility, taxes) {
+// gross: 
+// net:
+// purchase_net: 
+// utility: 
+// price_list_id: 
+// product_id: 
+async function create(gross, net, utility,purchase_net, price_list_id, product_id,  taxes) {
     console.log('TAXES', taxes)
 
     try {
@@ -44,7 +49,7 @@ async function create(net, gross, price_list_id, purchase_price_id, purchase_net
             net: net,
             gross: gross,
             price_list_id: price_list_id,
-            purchase_price_id: purchase_price_id,
+            product_id: product_id,
             purchase_net: purchase_net,
             utility: utility
         })

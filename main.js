@@ -26,6 +26,10 @@ app.use(require('./routes/storages'))
 app.use(require('./routes/products'))
 app.use(require('./routes/stocks'))
 app.use(require('./routes/stockMovements'))
+app.use(require('./routes/salePoints'))
+app.use(require('./routes/cashRegisters'))
+app.use(require('./routes/cashRegisterMovements'))
+app.use(require('./routes/paymentMethods'))
 
 
 

@@ -1,14 +1,26 @@
 const {Customers} = require('../db')
 const customers = {}
 
-
-async function create(rut, name, address, phone, mail) {
+// id: null,
+// rut: "",
+// name: "",
+// activity: "",
+// district: null,
+// city: null,
+// address: "",
+// phone: "",
+// mail: "",
+async function create(rut, name, activity, district, city, address, phone, mail) {
     const customer = await Customers.create({
         rut: rut,
         name: name,
+        activity: activity,
+        district: district,
+        city: city,
         address: address,
         phone: phone,
         mail: mail
+
     }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
     return customer
 }
@@ -25,6 +37,11 @@ async function findOneById(id) {
 
 async function findByRut(rut) {
     const customer = await Customers.findOne({ where: { rut: rut } }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
+    return customer
+}
+
+async function findOneByName(name) {
+    const customer = await Customers.findOne({ where: { name: name } }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
     return customer
 }
 
@@ -52,5 +69,6 @@ customers.findOneById = findOneById
 customers.findByRut = findByRut
 customers.update = update
 customers.destroy = destroy
+customers.findOneByName = findOneByName
 
 module.exports = customers

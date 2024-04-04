@@ -36,4 +36,10 @@ router.post('/storages/destroy', async (req, res) => {
     res.json(storage)
 })
 
+router.post('/storages/findOneByName', async (req, res) => {
+    const { name } = req.body
+    const storage = await storages.findOneByName(name)
+    res.json(storage)
+})
+
 module.exports = router

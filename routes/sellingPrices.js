@@ -3,8 +3,8 @@ const router = express.Router()
 const sellingPrices = require('../database/controllers/sellingPrices')
 
 router.post('/sellingPrices/create', async (req, res) => {
-    const { net, gross, price_list_id, purchase_price_id, purchase_net, utility, taxes } = req.body
-    const priceList = await sellingPrices.create(net, gross, price_list_id, purchase_price_id, purchase_net, utility, taxes)
+    const { gross, net, utility,purchase_net, price_list_id, product_id,  taxes} = req.body
+    const priceList = await sellingPrices.create(gross, net, utility,purchase_net, price_list_id, product_id,  taxes)
     res.json(priceList)
 })
 

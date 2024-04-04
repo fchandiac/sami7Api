@@ -20,6 +20,12 @@ async function findOneById(id) {
     return storage
 }
 
+async function findOneByName(name) {
+    const storage = await Storages.findOne({ where: { name: name } }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
+    return storage
+}
+
+
 async function findAllSalesRoom() {
     const storage = await Storages.findAll({ where: { sales_room: true } }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
     return storage
@@ -46,5 +52,6 @@ storages.findOneById = findOneById
 storages.findAllSalesRoom = findAllSalesRoom
 storages.update = update
 storages.destroy = destroy
+storages.findOneByName = findOneByName
 
 module.exports = storages
