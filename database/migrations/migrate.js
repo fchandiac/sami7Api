@@ -622,7 +622,7 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      description: { type: Sequelize.STRING(500), allowNull: false, unique: true },
+      description: { type: Sequelize.STRING(500), allowNull: true, unique: false },
       status: { type: Sequelize.BOOLEAN, allowNull: false, defaultValue: false },
       open: { type: Sequelize.INTEGER, allowNull: false, defaultValue: 0 },
       balance: { type: Sequelize.INTEGER, allowNull: false, defaultValue: 0 },

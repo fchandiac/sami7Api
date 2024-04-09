@@ -108,23 +108,23 @@ async function findAllToSalePoint(price_list_id, storage_id) {
     });
 
 
-    const selectedProducts = products.map((product) => ({
-      id: product.id,
-      name: product.name,
-      code: product.code,
-      stockControl: product.stockControl,
-      ivaSubject: product.ivaSubject,
-      subcategoryName: product.subcategoryName,
-      sellingPriceId: product.sellingPriceId,
-      gross: product.SellingPrices[0].gross,
-      net: product.SellingPrices[0].net,
-      utility: product.SellingPrices[0].utility,
-      stockId: product.Stocks[0].id,
-      available: product.Stocks[0].available,
-    }));
+    // const selectedProducts = products.map((product) => ({
+    //   id: product.id,
+    //   name: product.name,
+    //   code: product.code,
+    //   stockControl: product.stock_control,
+    //   ivaSubject: product.ivaSubject,
+    //   subcategoryName: product.subcategoryName,
+    //   sellingPriceId: product.sellingPriceId,
+    //   gross: product.SellingPrices[0].gross,
+    //   net: product.SellingPrices[0].net,
+    //   utility: product.SellingPrices[0].utility,
+    //   stockId: product.Stocks[0].id,
+    //   available: product.Stocks[0].available,
+    // }));
 
-    return { code: 1, data: selectedProducts };
-    //return { code: 1, data: products };
+    //return { code: 1, data: selectedProducts };
+    return { code: 1, data: products };
   } catch (err) {
     return { code: 0, data: err };
   }

@@ -72,6 +72,7 @@ db.CashRegisterMovements.belongsTo(db.PaymentMethods)
 
 db.Products.hasMany(db.Stocks)
 db.Products.hasMany(db.SellingPrices)
+db.SellingPrices.belongsTo(db.Products)
 db.SalePoints.hasMany(db.CashRegisters)
 
 db.Stocks.belongsTo(db.Storages)

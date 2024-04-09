@@ -52,9 +52,25 @@ async function updateStatus(id, status) {
 }
 
 async function findAllOpenBySalePoint(sale_point_id) {
-    const cashRegister = await CashRegisters.findAll({ where: { sale_point_id: sale_point_id, status: true } }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
+    const cashRegister = await CashRegisters.findAll({ 
+        where: { 
+            sale_point_id: sale_point_id, 
+            status: true, 
+            close: 0,
+        } 
+    }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
     return cashRegister
 }
+
+async function updateClose(id, close, close_user_id) {
+    const cashRegister = await CashRegisters.update({
+        close: close,
+        close_user_id: close_user_id
+    }, { where: { id: id } }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
+
+    return cashRegister
+}
+
 
 async function balanceCashRegister(cash_register_id, debit, credit) {
     const cashRegister = await CashRegisters.findOne({ where: { id: cash_register_id } })
@@ -72,5 +88,6 @@ cashRegisters.findOneById = findOneById
 cashRegisters.updateStatus = updateStatus
 cashRegisters.findAllOpenBySalePoint = findAllOpenBySalePoint
 cashRegisters.balanceCashRegister = balanceCashRegister
+cashRegisters.updateClose = updateClose
 
 module.exports = cashRegisters

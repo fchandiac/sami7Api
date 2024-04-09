@@ -38,4 +38,14 @@ router.post('/cashRegisters/balanceCashRegister', async (req, res) => {
     res.json(cashRegister)
 })
 
+//updateClose(id, close, close_user_id)
+
+router.post('/cashRegisters/updateClose', async (req, res) => {
+    const { id, close, close_user_id } = req.body
+    const cashRegister = await cashRegisters.updateClose(id, close, close_user_id)
+    res.json(cashRegister)
+})
+
+
+
 module.exports = router

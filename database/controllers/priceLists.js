@@ -1,4 +1,4 @@
-const { PriceLists } = require('../db')
+const { PriceLists, Products } = require('../db')
 const priceLists = {}
 
 async function create(name, description) {
