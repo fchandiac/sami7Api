@@ -37,4 +37,12 @@ router.post('/sellingPrices/destroy', async (req, res) => {
     res.json(priceList)
 })
 
+
+
+router.post('/sellingPrices/findAllByProductAndPriceList', async (req, res) => {
+    const { product_id, price_list_id } = req.body
+    const priceList = await sellingPrices.findAllByProductAndPriceList(product_id, price_list_id)
+    res.json(priceList)
+})
+
 module.exports = router

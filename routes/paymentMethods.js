@@ -36,7 +36,7 @@ const express = require('express')
 const router = express.Router()
 const paymentMethods = require('../database/controllers/paymentMethods')
 
-router.post('/create', async (req, res) => {
+router.post('/paymentMethods/create', async (req, res) => {
     const { name, description, credit } = req.body
     const paymentMethod = await paymentMethods.create(name, description, credit)
     res.json(paymentMethod)

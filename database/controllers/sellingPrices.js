@@ -106,6 +106,31 @@ async function findAll() {
           model: Taxes,
         },
       ],
+      order: [["updated_at", "DESC"]],
+    })
+      .then((data) => {
+        return { code: 1, data: data };
+      })
+      .catch((err) => {
+        return { code: 0, data: err };
+      });
+    return priceList;
+  }
+
+  async function findAllByProductAndPriceList(product_id, price_list_id) {
+    const priceList = await SellingPrices.findAll({
+      where: { product_id: product_id, price_list_id: price_list_id },
+      include: [
+        {
+          model: PriceLists,
+        },
+        {
+          model: Products,
+        },
+        {
+          model: Taxes,
+        },
+      ],
     })
       .then((data) => {
         return { code: 1, data: data };
@@ -181,5 +206,6 @@ sellingPrices.findOneById = findOneById;
 sellingPrices.findAllByPriceList = findAllByPriceList;
 sellingPrices.update = update;
 sellingPrices.destroy = destroy;
+sellingPrices.findAllByProductAndPriceList = findAllByProductAndPriceList;
 
 module.exports = sellingPrices;

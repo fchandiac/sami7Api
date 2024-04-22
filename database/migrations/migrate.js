@@ -407,13 +407,6 @@ module.exports = {
         initialAutoIncrement: 1001,
       }
     );
-    // const paymentMethod = {
-    //   id: null,
-    //   name: "",
-    //   description: "",
-    //   credit: false,
-    // };
-
     //payment_methods
     await queryInterface.createTable(
       "payment_methods",
@@ -444,6 +437,7 @@ module.exports = {
           primaryKey: true,
           type: Sequelize.INTEGER,
         },
+        description: { type: Sequelize.STRING(255), allowNull: true },
         add: { type: Sequelize.INTEGER, allowNull: false, defaultValue: 0 },
         decrement: {
           type: Sequelize.INTEGER,
@@ -464,6 +458,16 @@ module.exports = {
           onDelete: "SET NULL",
           references: {
             model: "stocks",
+            key: "id",
+          },
+        },
+        user_id: {
+          allowNull: true,
+          unique: false,
+          type: Sequelize.INTEGER,
+          onDelete: "SET NULL",
+          references: {
+            model: "users",
             key: "id",
           },
         },
@@ -665,20 +669,6 @@ module.exports = {
       }
     );
 
-    // const cash_register_movements = {
-    //   id: null,
-    //   description: "",
-    //   type: 0,
-    //   previous_balance: 0,
-    //   debit: 0,
-    //   credit: 0,
-    //   balance: 0,
-    //   user_id: null,
-    //   reference_id: null,
-    //   paymentMethod_id: null,
-    //   user_id: null,
-    // };
-
     //cash_register_movements
     await queryInterface.createTable('cash_register_movements',{
       id: {
@@ -734,26 +724,7 @@ module.exports = {
     );
       
 
-        
-    
-
-    // await queryInterface.createTable('payment_methods', {
-    //   id: {
-    //     allowNull: false,
-    //     autoIncrement: true,
-    //     primaryKey: true,
-    //     type: Sequelize.INTEGER,
-    //   },
-    //   name: { type: Sequelize.STRING(255), allowNull: false, unique: true },
-    //   description: { type: Sequelize.STRING(800), allowNull: true },
-    //   credit: { type: Sequelize.BOOLEAN, allowNull: false, defaultValue: false },
-    //   created_at: { type: Sequelize.DATE },
-    //   updated_at: { type: Sequelize.DATE },
-    // },
-    //   {
-    //     initialAutoIncrement: 1001,
-    //   }
-    // );
+   
 
     // uno es a muchos con payment_methods no esta terminada
     // await queryInterface.createTable('sales', {
