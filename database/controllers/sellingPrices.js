@@ -170,12 +170,13 @@ async function findAllByPriceList(price_list_id) {
   return priceList;
 }
 
-async function update(id, net, gross, price_list_id) {
+async function update(id, net, gross, utility, price_list_id) {
   const priceList = await SellingPrices.update(
     {
       net: net,
       gross: gross,
       price_list_id: price_list_id,
+      utility: utility,
     },
     { where: { id: id } }
   )
@@ -200,6 +201,25 @@ async function destroy(id) {
   return priceList;
 }
 
+async function findTaxesBySellingPrice(sellingPriceId) {
+  const tax = await Taxes.findAll({
+    include: [
+      {
+        model: SellingPrices,
+        where: { id: sellingPriceId },
+      },
+    ],
+  })
+    .then((data) => {
+      return { code: 1, data: data };
+    })
+    .catch((err) => {
+      return { code: 0, data: err };
+    });
+
+  return tax;
+}
+
 sellingPrices.create = create;
 sellingPrices.findAll = findAll;
 sellingPrices.findOneById = findOneById;
@@ -207,5 +227,6 @@ sellingPrices.findAllByPriceList = findAllByPriceList;
 sellingPrices.update = update;
 sellingPrices.destroy = destroy;
 sellingPrices.findAllByProductAndPriceList = findAllByProductAndPriceList;
+sellingPrices.findTaxesBySellingPrice = findTaxesBySellingPrice;
 
 module.exports = sellingPrices;

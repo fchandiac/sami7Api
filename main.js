@@ -30,6 +30,15 @@ app.use(require('./routes/salePoints'))
 app.use(require('./routes/cashRegisters'))
 app.use(require('./routes/cashRegisterMovements'))
 app.use(require('./routes/paymentMethods'))
+app.use(require('./routes/sales'))
+app.use(require('./routes/saleDetails'))
+app.use(require('./routes/customerAccountMovements'))
+app.use(require('./routes/payments'))
+app.use(require('./routes/creditNotes'))
+app.use(require('./routes/purchases'))
+app.use(require('./routes/purchasesDetails'))
+app.use(require('./routes/receptions'))
+app.use(require('./routes/productCards'))
 
 
 

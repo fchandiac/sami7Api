@@ -55,8 +55,17 @@ db.Stocks = require('./models/stocks')(db.connection, DataTypes)
 db.StockMovements = require('./models/stockMovements')(db.connection, DataTypes)
 db.SalePoints = require('./models/salePoints')(db.connection, DataTypes)
 db.CashRegisters = require('./models/cashRegisters')(db.connection, DataTypes)
+db.Sales = require('./models/sales')(db.connection, DataTypes)
 db.CashRegisterMovements = require('./models/cashRegisterMovements')(db.connection, DataTypes)
 db.PaymentMethods = require('./models/paymentMethods')(db.connection, DataTypes)
+db.SaleDetails = require('./models/saleDetails')(db.connection, DataTypes)
+db.CustomerAccountMovements = require('./models/customerAccountMovements')(db.connection, DataTypes)
+db.Payments = require('./models/payments')(db.connection, DataTypes)
+db.CreditNotes = require('./models/creditNotes')(db.connection, DataTypes)
+db.Purchases = require('./models/purchases')(db.connection, DataTypes)
+db.PurchasesDetails = require('./models/purchasesDetails')(db.connection, DataTypes)
+db.Receptions = require('./models/receptions')(db.connection, DataTypes)
+db.ProductCards = require('./models/productCards')(db.connection, DataTypes)
 
 
 db.Users.belongsTo(db.Profiles)
@@ -69,6 +78,7 @@ db.Products.belongsTo(db.PurchasePrices)
 
 db.CashRegisterMovements.belongsTo(db.CashRegisters)
 db.CashRegisterMovements.belongsTo(db.PaymentMethods)
+db.CashRegisterMovements.belongsTo(db.Users)
 
 db.Products.hasMany(db.Stocks)
 db.Products.hasMany(db.SellingPrices)
@@ -79,6 +89,31 @@ db.Stocks.belongsTo(db.Storages)
 db.SalePoints.belongsTo(db.Storages)
 
 db.StockMovements.belongsTo(db.Stocks)
+
+db.Sales.belongsTo(db.Users)
+db.Sales.belongsTo(db.Customers)
+
+db.SaleDetails.belongsTo(db.Sales)
+db.SaleDetails.belongsTo(db.Products)
+
+
+db.CustomerAccountMovements.belongsTo(db.Customers)
+db.CustomerAccountMovements.belongsTo(db.Users)
+
+db.CreditNotes.belongsTo(db.Users)
+db.CreditNotes.belongsTo(db.Customers)
+
+
+db.Payments.belongsTo(db.Sales)
+db.Payments.belongsTo(db.Users)
+db.Payments.belongsTo(db.PaymentMethods)
+db.Payments.belongsTo(db.Customers)
+db.Payments.belongsTo(db.CashRegisterMovements)
+
+db.Purchases.belongsTo(db.Users)
+db.Purchases.belongsTo(db.Providers)
+
+db.ProductCards.belongsTo(db.Products)
 
 
 

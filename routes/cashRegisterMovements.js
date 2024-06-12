@@ -33,4 +33,36 @@ router.post('/cashRegisterMovements/cashAmount', async (req, res) => {
     res.json(cashRegisterMovement)
 })
 
+
+
+router.post('/cashRegisterMovements/noCashAmount', async (req, res) => {
+    const { cash_register_id } = req.body
+    const cashRegisterMovement = await cashRegisterMovements.noCashAmount(cash_register_id)
+    res.json(cashRegisterMovement)
+})
+
+
+
+router.post('/cashRegisterMovements/findAllByCashRegisterAndPaymentMethod', async (req, res) => {
+    const { cash_register_id, payment_method_id } = req.body
+    const cashRegisterMovement = await cashRegisterMovements.findAllByCashRegisterAndPaymentMethod(cash_register_id, payment_method_id)
+    res.json(cashRegisterMovement)
+})
+
+
+
+router.post('/cashRegisterMovements/findAllByCashRegisterAndType', async (req, res) => {
+    const { cash_register_id, type } = req.body
+    const cashRegisterMovement = await cashRegisterMovements.findAllByCashRegisterAndType(cash_register_id, type)
+    res.json(cashRegisterMovement)
+})
+
+// function voidById(id)
+
+router.post('/cashRegisterMovements/voidById', async (req, res) => {
+    const { id } = req.body
+    const cashRegisterMovement = await cashRegisterMovements.voidById(id)
+    res.json(cashRegisterMovement)
+})
+
 module.exports = router

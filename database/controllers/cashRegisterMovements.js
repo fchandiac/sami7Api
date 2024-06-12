@@ -18,7 +18,7 @@
 // }
 
 
-const { CashRegisterMovements, CashRegisters, SalePoints } = require('../db')
+const { CashRegisterMovements, CashRegisters, SalePoints, PaymentMethods, Users } = require('../db')
 const cashRegisterMovements = {}
 
 async function create(cash,description, type, previous_balance, debit, credit, balance, reference_id, user_id, cash_register_id, payment_method_id) {
@@ -41,6 +41,7 @@ async function create(cash,description, type, previous_balance, debit, credit, b
 async function findAllByCashRegister(cash_register_id) {
     const cashRegisterMovement = await CashRegisterMovements.findAll({
          where: { cash_register_id: cash_register_id }, 
+         include: [Users, PaymentMethods],
          order: [['createdAt', 'DESC']]
         }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
     return cashRegisterMovement
@@ -63,26 +64,72 @@ async function cashAmount(cash_register_id) {
         let cash = 0
 
         movements.forEach(movement => {
-            if (movement.type == 0) {
-                cash += movement.credit
-            } else {
-                cash -= movement.debit
-            }
+            let amount = movement.debit - movement.credit
+            cash += amount
         })
 
          return { code: 1, data: cash };
     } catch (err) {
         return { code: 0, data: err}
     }
-    
+}
 
+async function noCashAmount(cash_register_id) {
+    try {
+        const movements = await CashRegisterMovements.findAll({
+            where: { cash_register_id: cash_register_id, cash: false},
+        })
+
+        let cash = 0
+
+        movements.forEach(movement => {
+            let amount = movement.debit - movement.credit
+            cash += amount
+        })
+
+         return { code: 1, data: cash };
+    } catch (err) {
+        return { code: 0, data: err}
+    }   
 
 }
+
+async function findAllByCashRegisterAndPaymentMethod(cash_register_id, payment_method_id) {
+    const cashRegisterMovement = await CashRegisterMovements.findAll({
+         where: { cash_register_id: cash_register_id, payment_method_id: payment_method_id }, 
+         include: [Users, PaymentMethods],
+         order: [['createdAt', 'DESC']]
+        }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
+    return cashRegisterMovement
+}
+
+async function findAllByCashRegisterAndType(cash_register_id, type) {
+    const cashRegisterMovement = await CashRegisterMovements.findAll({
+         where: { cash_register_id: cash_register_id, type: type }, 
+         include: [Users, PaymentMethods],
+         order: [['createdAt', 'DESC']]
+        }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
+    return cashRegisterMovement
+}
+
+async function voidById(id) {
+    const cashRegisterMovement = await CashRegisterMovements.update({
+        nulled: true
+    }, {
+        where: { id: id }
+    }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
+    return cashRegisterMovement
+}
+
 
 
 cashRegisterMovements.create = create
 cashRegisterMovements.findAllByCashRegister = findAllByCashRegister
 cashRegisterMovements.findLastByCashRegister = findLastByCashRegister
 cashRegisterMovements.cashAmount = cashAmount
+cashRegisterMovements.noCashAmount = noCashAmount
+cashRegisterMovements.findAllByCashRegisterAndPaymentMethod = findAllByCashRegisterAndPaymentMethod
+cashRegisterMovements.findAllByCashRegisterAndType = findAllByCashRegisterAndType
+cashRegisterMovements.voidById = voidById
 
 module.exports = cashRegisterMovements

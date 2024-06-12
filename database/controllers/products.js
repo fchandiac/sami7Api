@@ -12,6 +12,8 @@ const {
 const products = {};
 const sequelize = require("sequelize");
 
+const productCards = require("./productCards");
+
 // name: DataTypes.STRING(255),
 // code: DataTypes.STRING(255),
 // description: DataTypes.STRING(800),
@@ -85,50 +87,67 @@ async function findAll() {
 }
 
 
+// async function findAllToSalePoint(price_list_id, storage_id) {
+
+//     const products = await Products.findAll({
+//       include: [
+//         { model: Subcategories },
+ 
+//         { model: PurchasePrices },
+//         {
+//           model: SellingPrices,
+//           where: { price_list_id: price_list_id }, // Filtrar precio de venta por el ID de la lista de precios
+
+//         },
+//       ],
+
+
+//     }).then((data) => {
+
+//       const products = data.map(async (product) => {
+//         const availableStock = await productCards.countAllGroupByProductStorageAndStatus(product.id, storage_id, 0);
+//         product.availableStock = availableStock;
+//         return product;
+//       })
+
+      
+
+
+//       return { code: 1, data: data };
+//     }).catch((err) => {
+//       return { code: 0, data: err };
+//     })
+
+// }
+
 async function findAllToSalePoint(price_list_id, storage_id) {
   try {
-    const products = await Products.findAll({
-      include: [
-        { model: Subcategories },
-        {
-          model: Stocks,
-          include: [{ model: Storages }],
-          where: { storage_id: storage_id}, // Filtrar stock por el ID del almacen
+      const products = await Products.findAll({
+          include: [
+              { model: Subcategories },
+              { model: PurchasePrices },
+              {
+                  model: SellingPrices,
+                  where: { price_list_id: price_list_id }, // Filtrar precio de venta por el ID de la lista de precios
+              },
+          ],
+      });
 
-        },
-        { model: PurchasePrices },
-        {
-          model: SellingPrices,
-          where: { price_list_id: price_list_id }, // Filtrar precio de venta por el ID de la lista de precios
+      const productsWithStock = await Promise.all(products.map(async (product) => {
+          const availableStock = await productCards.countAllGroupByProductStorageAndStatus(product.id, storage_id, 0);
+          product.setDataValue('availableStock', availableStock.data[0].count); // Usa setDataValue para agregar el campo virtual
+          return product;
+      }));
 
-        },
-      ],
-      //where:  // Filtrar precio de venta por el ID de la lista de precios
-
-    });
-
-
-    // const selectedProducts = products.map((product) => ({
-    //   id: product.id,
-    //   name: product.name,
-    //   code: product.code,
-    //   stockControl: product.stock_control,
-    //   ivaSubject: product.ivaSubject,
-    //   subcategoryName: product.subcategoryName,
-    //   sellingPriceId: product.sellingPriceId,
-    //   gross: product.SellingPrices[0].gross,
-    //   net: product.SellingPrices[0].net,
-    //   utility: product.SellingPrices[0].utility,
-    //   stockId: product.Stocks[0].id,
-    //   available: product.Stocks[0].available,
-    // }));
-
-    //return { code: 1, data: selectedProducts };
-    return { code: 1, data: products };
+      return { code: 1, data: productsWithStock };
   } catch (err) {
-    return { code: 0, data: err };
+      return { code: 0, data: err.message };
   }
 }
+
+
+
+
 async function findOneByIAndStorageAndPriceList(id, storage_id, price_list_id) {
   const product = await Products.findOne({
     include: [
@@ -174,7 +193,7 @@ async function findOneById(id) {
     include: [
       { model: Subcategories },
       { model: SellingPrices },
-      { model: PurchasePrices },
+      { model: PurchasePrices, include: [{ model: Taxes }]},
       { model: Stocks, include: [{ model: Storages }] },
     ],
   })
@@ -228,6 +247,22 @@ async function existByName(name) {
     return { code: 1, data: false };
   }
 }
+async function updateStockControlById(id, stock_control) {
+  const product = await Products.update(
+    {
+      stock_control: stock_control,
+    },
+    { where: { id: id } }
+  )
+    .then((data) => {
+      return { code: 1, data: data };
+    })
+    .catch((err) => {
+      return { code: 0, data: err };
+    });
+
+  return product;
+}  
 
 products.create = create;
 products.findAll = findAll;
@@ -237,5 +272,6 @@ products.existByName = existByName;
 products.findAllToSalePoint = findAllToSalePoint;
 products.findOneByIdToCart = findOneByIdToCart;
 products.findOneByIAndStorageAndPriceList = findOneByIAndStorageAndPriceList;
+products.updateStockControlById = updateStockControlById;
 
 module.exports = products;

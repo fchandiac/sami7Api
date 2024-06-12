@@ -91,4 +91,12 @@ router.post("/products/findOneByIAndStorageAndPriceList", async (req, res) => {
   res.json(product);
 })
 
+// function updateStockControlById(id, stock_control)
+
+router.post("/products/updateStockControlById", async (req, res) => {
+  const { id, stock_control } = req.body;
+  const product = await products.updateStockControlById(id, stock_control);
+  res.json(product);
+})
+
 module.exports = router;

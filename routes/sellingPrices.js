@@ -26,8 +26,8 @@ router.post('/sellingPrices/findAllByPriceList', async (req, res) => {
 })
 
 router.post('/sellingPrices/update', async (req, res) => {
-    const { id, net, gross, price_list_id } = req.body
-    const priceList = await sellingPrices.update(id, net, gross, price_list_id)
+    const { id, net, gross, utility, price_list_id } = req.body
+    const priceList = await sellingPrices.update(id, net, gross, utility, price_list_id)
     res.json(priceList)
 })
 
@@ -43,6 +43,14 @@ router.post('/sellingPrices/findAllByProductAndPriceList', async (req, res) => {
     const { product_id, price_list_id } = req.body
     const priceList = await sellingPrices.findAllByProductAndPriceList(product_id, price_list_id)
     res.json(priceList)
+})
+
+
+
+router.post('/sellingPrices/findTaxesBySellingPrice', async (req, res) => {
+    const { sellingPriceId } = req.body
+    const tax = await sellingPrices.findTaxesBySellingPrice(sellingPriceId)
+    res.json(tax)
 })
 
 module.exports = router

@@ -107,26 +107,15 @@ module.exports = {
 
       // purchase_prices
 
- 
-
       // iva_purchases
-
 
       // products
 
-    
-
       // pices_lists
 
-
-      
       //selling_prices
 
-     
-
       // tax_selling_prices
-
-  
 
       //storages
 
@@ -140,15 +129,17 @@ module.exports = {
 
       //stocks
 
-   
-
       //stock_movements
-
 
       await queryInterface.bulkInsert("payment_methods", [
         {
           name: "EFECTIVO",
           description: "Pago en Efectivo",
+          credit: false,
+        },
+        {
+          name: "CREDITO CLIENTE",
+          description: "Pago con saldo en cuenta del cliente",
           credit: false,
         },
         {
@@ -172,9 +163,6 @@ module.exports = {
           credit: true,
         },
       ]);
-
-     
-    
 
       await queryInterface.bulkInsert("sale_points", [
         {
@@ -202,8 +190,6 @@ module.exports = {
           storage_id: 1001,
         },
       ]);
-
-
     } catch (error) {
       console.error("Error durante las operaciones de bulkInsert:", error);
     }

@@ -54,7 +54,8 @@ module.exports = (sequelize, DataTypes) => {
         reference_id: DataTypes.INTEGER,
         user_id: DataTypes.INTEGER,
         cash_register_id: DataTypes.INTEGER,
-        payment_method_id: DataTypes.INTEGER
+        payment_method_id: DataTypes.INTEGER,
+        nulled: DataTypes.BOOLEAN
 
     }, {
         sequelize,

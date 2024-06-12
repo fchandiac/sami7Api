@@ -11,14 +11,16 @@ const salePoints = {}
     //   status: false,
     // };
 
-async function create(name, description, address, phone, status, storage_id) {
+async function create(name, description, address, phone, status, storage_id, commerce_name, commerce_rut) {
     const salePoint = await SalePoints.create({
         name: name,
         description: description,
         address: address,
         phone: phone,
         status: status,
-        storage_id: storage_id
+        storage_id: storage_id,
+        commerce_name: commerce_name,
+        commerce_rut: commerce_rut
     }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
     return salePoint
 }
@@ -40,14 +42,16 @@ async function findOneByName(name) {
     return salePoint
 }
 
-async function update(id, name, description, address, phone, status, storage_id) {
+async function update(id, name, description, address, phone, status, storage_id, commerce_name, commerce_rut) {
     const salePoint = await SalePoints.update({
         name: name,
         description: description,
         address: address,
         phone: phone,
         status: status,
-        storage_id: storage_id
+        storage_id: storage_id,
+        commerce_name: commerce_name,
+        commerce_rut: commerce_rut
     }, { where: { id: id } }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
 
     return salePoint
