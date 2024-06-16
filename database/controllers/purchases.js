@@ -43,8 +43,9 @@
 //   }
   
 
-const {Purchases, Users, Providers} = require('../db')
+const {Purchases, Users, Providers, PurchasesDetails} = require('../db')
 const purchases = {}
+const { Op } = require("sequelize");
 
 async function create(description, type, utility, net, tax, total, user_id, provider_id, document_type, document_id, nulled) {
     const purchase = await Purchases.create({
@@ -71,7 +72,11 @@ async function create(description, type, utility, net, tax, total, user_id, prov
   
 async function findAll(){
     const purchases = await Purchases.findAll({
-        include: Providers, Users
+        include:[
+            {model: Users},
+            {model: Providers},
+            {model: PurchasesDetails}
+        ]
     })
     .then(data => {
         return {code: 1, data: data}
@@ -83,8 +88,62 @@ async function findAll(){
 }
 
 
+async function findById(id){
+    const purchase = await
+    Purchases.findOne({
+        include: [
+            {model: Users},
+            {model: Providers},
+            {model: PurchasesDetails}
+        ],
+        where: {
+            id: id
+        }
+    })
+    .then(data => {
+        return {code: 1, data: data}
+    })
+    .catch(err => {
+        return {
+            code: 0,
+            data: err
+        }
+    }
+    )
+    return purchase
+}
+
+async function findAllBetweenDates(start, end){
+    const purchases = await Purchases.findAll({
+        include: [
+            {model: Users},
+            {model: Providers},
+            {model: PurchasesDetails}
+        ],
+        where: {
+            createdAt: {
+                [Op.between]: [start, end]
+            }
+        }
+    })
+    .then(data => {
+        return {code: 1, data: data}
+    })
+    .catch(err => {
+        return {
+            code: 0,
+            data: err
+        }
+    }
+    )
+
+    return purchases
+}
+
 
 purchases.create = create
 purchases.findAll = findAll
+purchases.findById = findById
+purchases.findAllBetweenDates = findAllBetweenDates
 
 module.exports = purchases

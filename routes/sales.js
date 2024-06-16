@@ -76,5 +76,13 @@ router.post('/sales/voidById', async (req, res) => {
     res.json(sale)
 })
 
+// updatedocumentId(id, document_id)
+
+router.post('/sales/updatedocumentId', async (req, res) => {
+    const { id, document_id } = req.body
+    const sale = await sales.updatedocumentId(id, document_id)
+    res.json(sale)
+})
+
 
 module.exports = router

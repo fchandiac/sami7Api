@@ -74,7 +74,7 @@ async function findAll() {
       },
       { model: SellingPrices },
       { model: PurchasePrices },
-      { model: Stocks, include: [{ model: Storages }] },
+   
     ],
   })
     .then((data) => {
@@ -134,8 +134,16 @@ async function findAllToSalePoint(price_list_id, storage_id) {
       });
 
       const productsWithStock = await Promise.all(products.map(async (product) => {
+          let stock = 0
           const availableStock = await productCards.countAllGroupByProductStorageAndStatus(product.id, storage_id, 0);
-          product.setDataValue('availableStock', availableStock.data[0].count); // Usa setDataValue para agregar el campo virtual
+
+          if (availableStock.data[0] == [] || availableStock.data[0] == undefined){
+            stock = 0
+          } else {
+            stock = availableStock.data[0].count
+          }
+          
+          product.setDataValue('availableStock', stock ); // Usa setDataValue para agregar el campo virtual
           return product;
       }));
 
@@ -153,7 +161,6 @@ async function findOneByIAndStorageAndPriceList(id, storage_id, price_list_id) {
     include: [
       { model: SellingPrices, where: { price_list_id: price_list_id }, include: [{ model: PriceLists }]},
       { model: PurchasePrices },
-      { model: Stocks, where: { storage_id: storage_id } },
     ],
     where: { id: id },
   })
@@ -172,7 +179,6 @@ async function findOneByIdToCart(id) {
     include: [
       { model: Subcategories },
       { model: SellingPrices },
-      { model: Stocks, include: [{ model: Storages }] },
     ],
     where: { id: id },
   })
@@ -194,7 +200,7 @@ async function findOneById(id) {
       { model: Subcategories },
       { model: SellingPrices },
       { model: PurchasePrices, include: [{ model: Taxes }]},
-      { model: Stocks, include: [{ model: Storages }] },
+
     ],
   })
     .then((data) => {

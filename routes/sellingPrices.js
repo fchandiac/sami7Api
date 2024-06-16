@@ -53,4 +53,15 @@ router.post('/sellingPrices/findTaxesBySellingPrice', async (req, res) => {
     res.json(tax)
 })
 
+//  findAllByPriceListGroupByProduct(price_list_id)
+
+router.post('/sellingPrices/findAllByPriceListGroupByProduct', async (req, res) => {
+    const { price_list_id } = req.body
+    const priceList = await sellingPrices.findAllByPriceListGroupByProduct(price_list_id)
+    res.json(priceList)
+})
+
+
+
+
 module.exports = router

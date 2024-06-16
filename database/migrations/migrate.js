@@ -358,55 +358,55 @@ module.exports = {
         initialAutoIncrement: 1001,
       }
     );
-    //stocks
-    await queryInterface.createTable(
-      "stocks",
-      {
-        id: {
-          allowNull: false,
-          autoIncrement: true,
-          primaryKey: true,
-          type: Sequelize.INTEGER,
-        },
-        total: { type: Sequelize.INTEGER, allowNull: false, defaultValue: 0 },
-        available: {
-          type: Sequelize.INTEGER,
-          allowNull: false,
-          defaultValue: 0,
-        },
-        reserve: { type: Sequelize.INTEGER, allowNull: false, defaultValue: 0 },
-        critical: {
-          type: Sequelize.INTEGER,
-          allowNull: false,
-          defaultValue: 0,
-        },
-        storage_id: {
-          allowNull: true,
-          unique: false,
-          type: Sequelize.INTEGER,
-          onDelete: "SET NULL",
-          references: {
-            model: "storages",
-            key: "id",
-          },
-        },
-        product_id: {
-          allowNull: true,
-          unique: false,
-          type: Sequelize.INTEGER,
-          onDelete: "SET NULL",
-          references: {
-            model: "products",
-            key: "id",
-          },
-        },
-        created_at: { type: Sequelize.DATE },
-        updated_at: { type: Sequelize.DATE },
-      },
-      {
-        initialAutoIncrement: 1001,
-      }
-    );
+    //stocks // se elmina stocks
+    // await queryInterface.createTable(
+    //   "stocks",
+    //   {
+    //     id: {
+    //       allowNull: false,
+    //       autoIncrement: true,
+    //       primaryKey: true,
+    //       type: Sequelize.INTEGER,
+    //     },
+    //     total: { type: Sequelize.INTEGER, allowNull: false, defaultValue: 0 },
+    //     available: {
+    //       type: Sequelize.INTEGER,
+    //       allowNull: false,
+    //       defaultValue: 0,
+    //     },
+    //     reserve: { type: Sequelize.INTEGER, allowNull: false, defaultValue: 0 },
+    //     critical: {
+    //       type: Sequelize.INTEGER,
+    //       allowNull: false,
+    //       defaultValue: 0,
+    //     },
+    //     storage_id: {
+    //       allowNull: true,
+    //       unique: false,
+    //       type: Sequelize.INTEGER,
+    //       onDelete: "SET NULL",
+    //       references: {
+    //         model: "storages",
+    //         key: "id",
+    //       },
+    //     },
+    //     product_id: {
+    //       allowNull: true,
+    //       unique: false,
+    //       type: Sequelize.INTEGER,
+    //       onDelete: "SET NULL",
+    //       references: {
+    //         model: "products",
+    //         key: "id",
+    //       },
+    //     },
+    //     created_at: { type: Sequelize.DATE },
+    //     updated_at: { type: Sequelize.DATE },
+    //   },
+    //   {
+    //     initialAutoIncrement: 1001,
+    //   }
+    // );
     //payment_methods
     await queryInterface.createTable(
       "payment_methods",
@@ -451,16 +451,6 @@ module.exports = {
           allowNull: true,
           defaultValue: 0,
         },
-        stock_id: {
-          allowNull: true,
-          unique: false,
-          type: Sequelize.INTEGER,
-          onDelete: "SET NULL",
-          references: {
-            model: "stocks",
-            key: "id",
-          },
-        },
         user_id: {
           allowNull: true,
           unique: false,
@@ -468,6 +458,26 @@ module.exports = {
           onDelete: "SET NULL",
           references: {
             model: "users",
+            key: "id",
+          },
+        },
+        product_id: {
+          allowNull: true,
+          unique: false,
+          type: Sequelize.INTEGER,
+          onDelete: "SET NULL",
+          references: {
+            model: "products",
+            key: "id",
+          },
+        },
+        storage_id: {
+          allowNull: true,
+          unique: false,
+          type: Sequelize.INTEGER,
+          onDelete: "SET NULL",
+          references: {
+            model: "storages",
             key: "id",
           },
         },
@@ -1344,6 +1354,8 @@ module.exports = {
       }
     );
 
+
+
     // const customer_account_movements = {
     //   id: null,
     //   description: "",
@@ -1401,6 +1413,85 @@ module.exports = {
         initialAutoIncrement: 1001,
       }
     );
+
+    // const paymentsProviders = {
+    //   id: null,
+    //   description: "",
+    //   type: null,
+    //   amount: 0,
+    //   balance: 0,
+    //   purchase_id: null,
+    //   user_id: null,
+    //   pay_date: null,
+    //   payment_method_id: null,
+    //   provider_id: null,
+    //   nulled: false,
+    // }
+
+    // paymentsProviders
+
+    await queryInterface.createTable('payments_providers',{
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER,
+      },
+      description: { type: Sequelize.STRING(300), allowNull: false, unique: false},
+      type: { type: Sequelize.INTEGER, allowNull: false, defaultValue: 0 },
+      amount: { type: Sequelize.INTEGER, allowNull: false, defaultValue: 0 },
+      balance: { type: Sequelize.INTEGER, allowNull: false, defaultValue: 0 },
+      purchase_id: {
+        allowNull: true,
+        unique: false,
+        type: Sequelize.INTEGER,
+        onDelete: "SET NULL",
+        references: {
+          model: "purchases",
+          key: "id",
+        },
+      },
+      user_id: {
+        allowNull: true,
+        unique: false,
+        type: Sequelize.INTEGER,
+        onDelete: "SET NULL",
+        references: {
+          model: "users",
+          key: "id",
+        },
+      },
+      pay_date: { type: Sequelize.DATE },
+      payment_method_id: {
+        allowNull: true,
+        unique: false,
+        type: Sequelize.INTEGER,
+        onDelete: "SET NULL",
+        references: {
+          model: "payment_methods",
+          key: "id",
+        },
+      },
+      provider_id: {
+        allowNull: true,
+        unique: false,
+        type: Sequelize.INTEGER,
+        onDelete: "SET NULL",
+        references: {
+          model: "providers",
+          key: "id",
+        },
+      },
+      nulled: {type: sequelize.BOOLEAN, allowNull: false, defaultValue: false},
+      created_at: { type: Sequelize.DATE },
+      updated_at: { type: Sequelize.DATE },
+    },
+      {
+        initialAutoIncrement: 1001,
+      }
+    );
+
+    // const provider_account_movements = {
 
   },
 

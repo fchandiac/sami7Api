@@ -48,4 +48,20 @@ router.get('/purchases/findAll', async (req, res) => {
     res.json(purchase)
 })
 
+//function findById(id)
+//function findAllBetweenDates(start, end)
+router.post('/purchases/findById/', async (req, res) => {
+    const { id } = req.body
+    const purchase = await purchases.findById(id)
+    res.json(purchase)
+})
+
+
+router.post('/purchases/findAllBetweenDates/', async (req, res) => {
+    const { start, end } = req.body
+    const purchase = await purchases.findAllBetweenDates(start, end)
+    res.json(purchase)
+})
+
+
 module.exports = router

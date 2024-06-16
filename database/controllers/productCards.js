@@ -41,6 +41,7 @@ const statusList = {
   2: "sold",
   3: "returned",
   4: "to receive",
+  
 };
 
 async function create(
@@ -211,6 +212,7 @@ async function findAllGroupByProduct() {
     }
 }
 
+
 async function findAllGroupByProductAvailable() {
     try {
         const productCards = await ProductCards.findAll({
@@ -253,6 +255,49 @@ async function findFirstCardByProductAndStorage(product_id, storage_id) {
     }
 }
 
+async function updateSaleId(id, sale_id){
+    try {
+        const productCard = await ProductCards.update({
+            sale_id: sale_id
+        }, {
+            where: {
+                id: id
+            }
+        });
+        return { code: 1, data: productCard };
+    } catch (err) {
+        return { code: 0, data: err.message };
+    }
+}
+
+
+async function findAllBySale(sale_id) {
+    try {
+        const productCards = await ProductCards.findAll({
+            where: {
+                sale_id: sale_id
+            }
+        });
+        return { code: 1, data: productCards };
+    } catch (err) {
+        return { code: 0, data: err.message };
+    }
+}
+//   sale_net: 0,
+//   sale_gross: 0,
+//   sale_tax: 0,
+//   utility: 0,
+//   sale_price_list_id: null,
+//   sale_id: null,
+
+async function updateSaleValues(id, sale_id, sale_net, sale_tax, sale_gross, sale_price_list_id) {
+    const productCard = await ProductCards.findByPk(id)
+   
+    return productCard
+
+
+}
+
 
 productCards.create = create;
 productCards.findAllByProduct = findAllByProduct;
@@ -264,5 +309,8 @@ productCards.updateStatus = updateStatus;
 productCards.findAllGroupByProduct = findAllGroupByProduct;
 productCards.findFirstCardByProductAndStorage = findFirstCardByProductAndStorage;
 productCards.findAllGroupByProductAvailable = findAllGroupByProductAvailable;
+productCards.updateSaleId = updateSaleId;
+productCards.findAllBySale = findAllBySale;
+productCards.updateSaleValues = updateSaleValues
 
 module.exports = productCards;

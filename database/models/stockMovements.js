@@ -18,12 +18,19 @@ module.exports = (sequelize, DataTypes) => {
   class StockMovements extends Model {}
   StockMovements.init(
     {
+      description: { type: DataTypes.STRING(255)},
       add: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 0 },
       decrement: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 0 },
       balance: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 0 },
       type: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 0 },
       reference: { type: DataTypes.INTEGER, allowNull: true, defaultValue: 0 },
-      stock_id: {
+      user_id: {
+        type: DataTypes.INTEGER,
+      },
+      product_id: {
+        type: DataTypes.INTEGER,
+      },
+      storage_id: {
         type: DataTypes.INTEGER,
       },
     },

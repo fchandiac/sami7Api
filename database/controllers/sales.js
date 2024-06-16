@@ -187,6 +187,22 @@ async function voidById(id) {
   }
 }
 
+async function updatedocumentId(id, document_id) {
+  try {
+    const sale = await Sales.update(
+      {
+        document_id: document_id,
+      },
+      {
+        where: { id: id },
+      }
+    );
+    return { code: 1, data: sale };
+  } catch (err) {
+    return { code: 0, data: err };
+  }
+}
+
 
 
 
@@ -202,5 +218,6 @@ sales.findAllBetweenDates = findAllBetweenDates;
 sales.findAllBetweenDatesByCustomer = findAllBetweenDatesByCustomer;
 sales.findAllBetweenDatesByUser = findAllBetweenDatesByUser;
 sales.voidById = voidById;
+sales.updatedocumentId = updatedocumentId;
 
 module.exports = sales;

@@ -105,19 +105,7 @@ module.exports = {
         {}
       );
 
-      // purchase_prices
 
-      // iva_purchases
-
-      // products
-
-      // pices_lists
-
-      //selling_prices
-
-      // tax_selling_prices
-
-      //storages
 
       await queryInterface.bulkInsert("storages", [
         {
@@ -194,6 +182,13 @@ module.exports = {
           phone: "",
           status: false,
           storage_id: 1001,
+        },
+      ]);
+
+      await queryInterface.bulkInsert("price_lists", [
+        {
+          name: "MINORISTA",
+          description: "lista al por menor",
         },
       ]);
     } catch (error) {

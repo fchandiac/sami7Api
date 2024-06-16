@@ -4,8 +4,6 @@ const purchasePrices = {}
 
 
 async function create(net, gross, provider_id, taxes) {
-    console.log('TAXES', taxes)
-
     try {
         const purchasePrice = await PurchasePrices.create({
             net: net,

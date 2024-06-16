@@ -1,14 +1,41 @@
 const { StockMovements, Stocks, Products, Storages } = require("../db");
 const stockMovements = {};
 
-async function create(add, decrement, balance, type,reference, stock_id) {
+ // { id: 0, key: 0, name: "compra/recepción" },
+    // { id: 1, key: 1, name: "venta" },
+    // { id: 2, key: 2, name: "devolución" },
+    //{ id: 3, key: 3, name: "ajuste" },
+   // { id: 4, key: 4, name: "consumo" },
+    // { id: 5, key: 5, name: "recepción" },
+    // { id: 6, key: 6, name: "despacho" },
+
+    // add: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 0 },
+    // decrement: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 0 },
+    // balance: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 0 },
+    // type: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 0 },
+    // reference: { type: DataTypes.INTEGER, allowNull: true, defaultValue: 0 },
+    // user_id: {
+    //   type: DataTypes.INTEGER,
+    // },
+    // product_id: {
+    //   type: DataTypes.INTEGER,
+    // },
+    // storage_id: {
+    //   type: DataTypes.INTEGER,
+    // },
+
+async function create(description, add, decrement, balance, type, reference, user_id, product_id, storage_id ) {
   const stockMovement = await StockMovements.create({
+    description: description,
     add: add,
     decrement: decrement,
     balance: balance,
     type: type,
     reference: reference,
-    stock_id: stock_id,
+    user_id: user_id,
+    product_id: product_id,
+    storage_id: storage_id,
+
   })
     .then((data) => {
       return { code: 1, data: data };
@@ -19,13 +46,22 @@ async function create(add, decrement, balance, type,reference, stock_id) {
   return stockMovement;
 }
 
-async function findAllByStock(stock_id) {
+async function findAllByProductAndStorage(product_id, storage_id) {
   const stockMovement = await StockMovements.findAll({
-    where: { stock_id: stock_id },
+    where: { product_id: product_id, storage_id: storage_id },
     include: [
-      { model: Stocks },
+      {
+        model: Products,
+        attributes: ["name"],
+        required: true,
+      },
+      {
+        model: Storages,
+        attributes: ["name"],
+        required: true,
+      },
     ],
-    order: [["created_at", "DESC"]],
+    order: [["createdAt", "DESC"]],
   })
     .then((data) => {
       return { code: 1, data: data };
@@ -36,13 +72,22 @@ async function findAllByStock(stock_id) {
   return stockMovement;
 }
 
-async function findLastByStock(stock_id) {
+async function findLastByProductAndStorage(product_id, storage_id) {
   const stockMovement = await StockMovements.findOne({
-    where: { stock_id: stock_id },
+    where: { product_id: product_id, storage_id: storage_id },
     include: [
-      { model: Stocks },
+      {
+        model: Products,
+        attributes: ["name"],
+        required: true,
+      },
+      {
+        model: Storages,
+        attributes: ["name"],
+        required: true,
+      },
     ],
-    order: [["created_at", "DESC"]],
+    order: [["createdAt", "DESC"]],
   })
     .then((data) => {
       return { code: 1, data: data };
@@ -53,22 +98,12 @@ async function findLastByStock(stock_id) {
   return stockMovement;
 }
 
-// async function findAllByStock(stock_id) {
-//   const stockMovement = await StockMovements.findAll({
 
-//   })
-//     .then((data) => {
-//       return { code: 1, data: data };
-//     })
-//     .catch((err) => {
-//       return { code: 0, data: err };
-//     });
-//   return stockMovement;
-// }
 
 stockMovements.create = create;
-stockMovements.findLastByStock = findLastByStock;
-stockMovements.findAllByStock = findAllByStock;
+stockMovements.findAllByProductAndStorage = findAllByProductAndStorage;
+stockMovements.findLastByProductAndStorage = findLastByProductAndStorage;
+
 
 module.exports = stockMovements;
 

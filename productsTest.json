@@ -1,0 +1,123 @@
+[
+	
+	{
+		"name" : "Cable de traspaso de corriente 200 amp",
+		"code" : "001",
+		"sale" : 6990,
+		"purchase" : 3899
+	},
+	{
+		"name" : "Set de conectores manguera jardin",
+		"code" : "002",
+		"sale" : 2000,
+		"purchase" : 1199
+	},
+	{
+		"name" : "terminal de batería borne",
+		"code" : "003",
+		"sale" : 3500,
+		"purchase" : 1650
+	},
+	{
+		"name" : "LIJADORA ALAMBRICA 920 W",
+		"code" : "004",
+		"sale" : 79990,
+		"purchase" : 54986
+	},
+	{
+		"name" : "Botella de agua",
+		"code" : "005",
+		"sale" : 2490,
+		"purchase" : 100
+	},
+	{
+		"name" : "Corona pequeña",
+		"code" : "006",
+		"sale" : 600,
+		"purchase" : 0
+	},
+	{
+		"name" : "Corona mediana",
+		"code" : "007",
+		"sale" : 850,
+		"purchase" : 0
+	},
+	{
+		"name" : "Corona grande",
+		"code" : "008",
+		"sale" : 1000,
+		"purchase" : 54
+	},
+	{
+		"name" : "Broche malla rachel 25 un",
+		"code" : "009",
+		"sale" : 5000,
+		"purchase" : 2290
+	},
+	{
+		"name" : "kit linga de amarre 4 pcs",
+		"code" : "010",
+		"sale" : 23990,
+		"purchase" : 9991
+	},
+	{
+		"name" : "Muñequera Manubrio Bicicleta",
+		"code" : "011",
+		"sale" : 2000,
+		"purchase" : 0
+	},
+	{
+		"name" : "aciento bici sillin ",
+		"code" : "012",
+		"sale" : 8500,
+		"purchase" : 4165
+	},
+	{
+		"name" : "Nivel de metro",
+		"code" : "013",
+		"sale" : 15990,
+		"purchase" : 10500
+	},
+	{
+		"name" : "Cadena de Perro",
+		"code" : "014",
+		"sale" : 2000,
+		"purchase" : 0
+	},
+	{
+		"name" : "Espatula plastica",
+		"code" : "015",
+		"sale" : 1000,
+		"purchase" : 0
+	},
+	{
+		"name" : "Espatula metalica de 4 pulgadas",
+		"code" : "016",
+		"sale" : 2900,
+		"purchase" : 1502
+	},
+	{
+		"name" : "gas butano doite 230 gr",
+		"code" : "017",
+		"sale" : 4990,
+		"purchase" : 3385
+	},
+	{
+		"name" : "Espatula metálica 3 pulgadas",
+		"code" : "018",
+		"sale" : 2000,
+		"purchase" : 998
+	},
+	{
+		"name" : "Nivel de aluminio de 18 pulgadas",
+		"code" : "019",
+		"sale" : 5000,
+		"purchase" : 40
+	},
+	{
+		"name" : "Rueda de llegua",
+		"code" : "020",
+		"sale" : 10000,
+		"purchase" : 780
+	}
+]

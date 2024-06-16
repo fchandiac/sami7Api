@@ -8,46 +8,6 @@ const {
 const sellingPrices = {};
 const sequelize = require("sequelize");
 
-// async function create(net, gross, provider_id, taxes) {
-//     console.log('TAXES', taxes)
-
-//     try {
-//         const purchasePrice = await PurchasePrices.create({
-//             net: net,
-//             gross: gross,
-//             provider_id: provider_id
-//         })
-
-//         await Promise.all(
-//           taxes.map(async (item) => {
-//             const tax = await Taxes.findByPk(item.id)
-//             tax.addPurchasePrice(purchasePrice)
-//           })
-//         )
-
-//         return { 'code': 1, 'data': purchasePrice }
-//     } catch (err){
-//         return { 'code': 0, 'data': err }
-//     }
-// }
-
-// async function create(net, gross, price_list_id, purchase_price_id, purchase_net, utility) {
-//     const priceList = await SellingPrices.create({
-//         net: net,
-//         gross: gross,
-//         price_list_id: price_list_id,
-//         purchase_price_id: purchase_price_id,
-//         purchase_net: purchase_net,
-//         utility: utility
-//     }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
-//     return priceList
-// }
-// gross:
-// net:
-// purchase_net:
-// utility:
-// price_list_id:
-// product_id:
 async function create(
   gross,
   net,
@@ -57,7 +17,7 @@ async function create(
   product_id,
   taxes
 ) {
-  console.log("TAXES", taxes);
+
 
   try {
     const newSellingPrice = await SellingPrices.create({
@@ -170,6 +130,32 @@ async function findAllByPriceList(price_list_id) {
   return priceList;
 }
 
+async function findAllByPriceListGroupByProduct(price_list_id) {
+  const priceList = await SellingPrices.findAll({
+    attributes: [
+      "product_id",
+      "price_list_id",
+    ],
+    where: { price_list_id: price_list_id },
+    include: [
+      {
+          model: Products,
+          attributes: ['name'],
+          required: true
+      }
+  ],
+    group: ["product_id"],
+  })
+    .then((data) => {
+      return { code: 1, data: data };
+    })
+    .catch((err) => {
+      return { code: 0, data: err };
+    });
+  return priceList;
+
+}
+
 async function update(id, net, gross, utility, price_list_id) {
   const priceList = await SellingPrices.update(
     {
@@ -228,5 +214,6 @@ sellingPrices.update = update;
 sellingPrices.destroy = destroy;
 sellingPrices.findAllByProductAndPriceList = findAllByProductAndPriceList;
 sellingPrices.findTaxesBySellingPrice = findTaxesBySellingPrice;
+sellingPrices.findAllByPriceListGroupByProduct = findAllByPriceListGroupByProduct;
 
 module.exports = sellingPrices;
