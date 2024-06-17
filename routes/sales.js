@@ -84,5 +84,13 @@ router.post('/sales/updatedocumentId', async (req, res) => {
     res.json(sale)
 })
 
+//function updateutility(id, utility)
+
+router.post('/sales/updateutility', async (req, res) => {
+    const { id, utility } = req.body
+    const sale = await sales.updateutility(id, utility)
+    res.json(sale)
+})
+
 
 module.exports = router

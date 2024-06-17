@@ -67,6 +67,8 @@ async function create(description, type, utility, net, tax, total, user_id, prov
     .catch(err => {
         return {code: 0, data: err}
     })
+
+    
     return purchase
 }
   

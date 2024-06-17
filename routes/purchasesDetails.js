@@ -35,7 +35,7 @@ const router = express.Router()
 const purchasesDetails = require('../database/controllers/purchasesDetails')
 
 router.post('/purchasesDetails/create', async (req, res) => {
-    const { quanty, price, utility, net, tax, total, purchase_id, product_id } = req.body
+    const { quanty, price, utility, net, tax, total, purchase_id, product_id} = req.body
     const purchaseDetail = await purchasesDetails.create(quanty, price, utility, net, tax, total, purchase_id, product_id)
     res.json(purchaseDetail)
 })

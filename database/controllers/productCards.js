@@ -291,12 +291,66 @@ async function findAllBySale(sale_id) {
 //   sale_id: null,
 
 async function updateSaleValues(id, sale_id, sale_net, sale_tax, sale_gross, sale_price_list_id) {
-    const productCard = await ProductCards.findByPk(id)
+    const productCard = await ProductCards.update({
+        sale_id: sale_id,
+        sale_net: sale_net,
+        sale_tax: sale_tax,
+        sale_gross: sale_gross,
+        sale_price_list_id: sale_price_list_id
+    }, {
+        where: {
+            id: id
+        }
+    }).then(data => {
+        return { code: 1, data: data }
+    }).catch(err => {
+        return { code: 0, data: err }
+    })
+
    
     return productCard
 
 
 }
+
+async function findAllBySaleAndProduct(sale_id, product_id) {
+  const productCard = await ProductCards.findAll({
+    where: {
+      sale_id: sale_id,
+      product_id: product_id
+    }
+  })
+    .then((data) => {
+      return { code: 1, data: data };
+    })
+    .catch((err) => {
+      return { code: 0, data: err };
+    });
+  return productCard;
+}
+
+// findAllBySaleAndProduct(sale_id, product_id)
+// updateSaleDetail(id, sale_detail_id)
+
+async function updateSaleDetail(id, sale_detail_id){
+  const productCard = await ProductCards.update({
+    sale_detail_id: sale_detail_id
+  }, {
+    where: {
+      id: id
+    }
+  }).then(data => {
+    return { code: 1, data: data }
+  }).catch(err => {
+    return { code: 0, data: err }
+  })
+
+  return productCard
+
+}
+
+
+
 
 
 productCards.create = create;
@@ -312,5 +366,7 @@ productCards.findAllGroupByProductAvailable = findAllGroupByProductAvailable;
 productCards.updateSaleId = updateSaleId;
 productCards.findAllBySale = findAllBySale;
 productCards.updateSaleValues = updateSaleValues
+productCards.findAllBySaleAndProduct = findAllBySaleAndProduct;
+productCards.updateSaleDetail = updateSaleDetail;
 
 module.exports = productCards;

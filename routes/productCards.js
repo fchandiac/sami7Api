@@ -235,5 +235,22 @@ router.post('/productCards/updateSaleValues', async (req, res) => {
     res.json(productCard)
 })
 
+// findAllBySaleAndProduct(sale_id, product_id)
+
+router.post('/productCards/findAllBySaleAndProduct', async (req, res) => {
+    const { sale_id, product_id } = req.body
+    const productCard = await productCards.findAllBySaleAndProduct(sale_id, product_id)
+    res.json(productCard)
+})
+
+
+// updateSaleDetail(id, sale_detail_id)
+
+router.post('/productCards/updateSaleDetail', async (req, res) => {
+    const { id, sale_detail_id } = req.body
+    const productCard = await productCards.updateSaleDetail(id, sale_detail_id)
+    res.json(productCard)
+})
+
 module.exports = router
 
