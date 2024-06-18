@@ -1,0 +1,3874 @@
+[
+	{
+		"rut" : "77.564.928-3",
+		"name" : "AGRICOLA PATACON SPA",
+		"activity" : "CRIA DE GANADO BOVINO PARA LA PRODUCCION DE CARNE O COMO GANADO REPROD",
+		"district" : 130,
+		"city" : 89,
+		"address" : "Lote 1 La Palma"
+	},
+	{
+		"rut" : "77.144.943-3",
+		"name" : "DISTRIBUIDORA DON LUCHO LIMITADA",
+		"activity" : "VENTA AL POR MAYOR DE BEBIDAS ALCOHOLICAS Y NO ALCOHOLICAS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "anibal pinto 115A"
+	},
+	{
+		"rut" : "4.499.575-1",
+		"name" : "CARLOS ANTONIO ROJO ZUNIGA",
+		"activity" : "TRANSPORTE DE CARGA POR CARRETERA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "ANIBAL PINTO 55"
+	},
+	{
+		"rut" : "8.686.971-3",
+		"name" : "MARIA NURIA TAPIA RETAMAL",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "ANIBAL PINTO 98"
+	},
+	{
+		"rut" : "76.359.626-5",
+		"name" : "comercial diez y moreno ltda.",
+		"activity" : "venta de partes y accesorios para vehiculos",
+		"district" : 141,
+		"city" : 93,
+		"address" : "anibal pinto 70"
+	},
+	{
+		"rut" : "12.360.346-k",
+		"name" : "PATRICIO FERNANDO PRADENA VALLEJOS",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 85,
+		"address" : "romeral parcela 73 S/N"
+	},
+	{
+		"rut" : "77.620.324-6",
+		"name" : "ORIZONTE SOLAR SPA",
+		"activity" : "ALQUILER DE OTROS TIPOS DE MAQUINARIAS Y EQUIPOS SIN OPERARIO N.C.P.",
+		"district" : 83,
+		"city" : 63,
+		"address" : "pasaje isla negra 1238"
+	},
+	{
+		"rut" : "6.159.045-5",
+		"name" : "Fidel antonio salas valdebenito",
+		"activity" : "agricola",
+		"district" : 142,
+		"city" : 93,
+		"address" : "parcela 42 mantul"
+	},
+	{
+		"rut" : "77.130.409-5",
+		"name" : "CANAAN CONTRUCCIONES SPA",
+		"activity" : "FABRICACION DE PRODUCTOS METALICOS PARA USO ESTRUCTURAL",
+		"district" : 116,
+		"city" : 83,
+		"address" : "11 oriente 217 talca"
+	},
+	{
+		"rut" : "76.945.663-5",
+		"name" : "FORTALEZA  ASESORÍAS GESTIÓN EN SEGURIDAD PRIVADA SPA",
+		"activity" : "INSTALACIONES DE GASFITERIA, CALEFACCION Y AIRE ACONDICIONADO",
+		"district" : 324,
+		"city" : 176,
+		"address" : "carlos vasquez martines n7375"
+	},
+	{
+		"rut" : "5.538.583-1",
+		"name" : "CARLOS ANTONIO CARRASCO CARRASCO",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : ""
+	},
+	{
+		"rut" : "76.445.764-1",
+		"name" : "CONSTR SAN SEBASTIAN SPA",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO NO RESIDENCIAL",
+		"district" : 0,
+		"city" : 0,
+		"address" : ""
+	},
+	{
+		"rut" : "13.842.199-6",
+		"name" : "JUAN PABLO MORALES MORALES",
+		"activity" : "OTRAS INSTALACIONES PARA OBRAS DE CONSTRUCCION",
+		"district" : 141,
+		"city" : 93,
+		"address" : "Anibal Pinto 279"
+	},
+	{
+		"rut" : "16.845.331-0",
+		"name" : "VANESSA ELIANA CASTILLO FERNANDEZ",
+		"activity" : "TERMINACION Y ACABADO DE EDIFICIOS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "pasaje A nº 14"
+	},
+	{
+		"rut" : "77.746.125-7",
+		"name" : "OPTICA REBECO",
+		"activity" : "OPTICA",
+		"district" : 141,
+		"city" : 0,
+		"address" : "ANIBAL PINTO 900 LOCAL 1"
+	},
+	{
+		"rut" : "76.894.427-k",
+		"name" : "OZONO CLIMA LIMITADA",
+		"activity" : "REPARACION DE OTRO TIPO DE MAQUINARIA Y EQUIPOS INDUSTRIALES N.C.P.",
+		"district" : 295,
+		"city" : 176,
+		"address" : "serrano 73 of 1013"
+	},
+	{
+		"rut" : "76.359.830-6",
+		"name" : "FOREST CENTER SPA",
+		"activity" : "EXTRACCION DE MADERA",
+		"district" : 184,
+		"city" : 107,
+		"address" : "av.ohiggins 3630 "
+	},
+	{
+		"rut" : "10.140.224-K",
+		"name" : "JAIME LORENZO VALDES LEIVA",
+		"activity" : "HOBRAS MENORES",
+		"district" : 331,
+		"city" : 176,
+		"address" : "SANTA ROZA PC LAS VEGAS Nº2"
+	},
+	{
+		"rut" : "77.325.138-k",
+		"name" : "CÉSPEDES Y BODEVIN ELECTRICIDAD SPA",
+		"activity" : "FABRICACION DE COMPONENTES Y TABLEROS ELECTRONICOS",
+		"district" : 142,
+		"city" : 85,
+		"address" : "ruta L 666 km 7 hijuela B lote 6"
+	},
+	{
+		"rut" : "15.826.111-1",
+		"name" : "LUIS ALFREDO VALDES ESPINOZA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 93,
+		"address" : "union san jose"
+	},
+	{
+		"rut" : "89.489.700-7",
+		"name" : "OLIVOS S.P.A",
+		"activity" : "FABRICACION DE PLASTICOS Y CAUCHO SINTETICO EN FORMAS PRIMARIAS",
+		"district" : 97,
+		"city" : 74,
+		"address" : " ladron de guevara 1225 rengo"
+	},
+	{
+		"rut" : "17.091.481-3",
+		"name" : "ESTEBAN ANTONIO SEPULVEDA ALBORNOZ",
+		"activity" : "CULTIVO DE HORTALIZAS Y MELONES",
+		"district" : 141,
+		"city" : 93,
+		"address" : "parcela 17 lote 5 san miguel"
+	},
+	{
+		"rut" : "77.755.736-k",
+		"name" : "VENTA DE PARTES, PIEZAS Y ACCESORIOS PARA VEHÍCULOS AUTOMOTORES MANUEL",
+		"activity" : "VENTA DE PARTES, PIEZAS Y ACCESORIOS PARA VEHICULOS AUTOMOTORES",
+		"district" : 0,
+		"city" : 0,
+		"address" : ""
+	},
+	{
+		"rut" : "77.224.625-0",
+		"name" : "TRANSPORTE Y TURISMO CAMINO A EMAÚS SPA",
+		"activity" : "OTRAS ACTIVIDADES DE TRANSPORTE URBANO Y SUBURBANO DE PASAJEROS POR VI",
+		"district" : 333,
+		"city" : 176,
+		"address" : "GOLFO TRINIDAD 19614"
+	},
+	{
+		"rut" : "6.450.049-k",
+		"name" : "LUIS ALBERTO ESPINOZA SEPULVEDA",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 0,
+		"city" : 0,
+		"address" : ""
+	},
+	{
+		"rut" : "76.673.732-3",
+		"name" : "OBRAS MENORES EN CONSTRUCION CIVIL NICOLAS NATANAEL VILLARROEL BRAVO E",
+		"activity" : "REPARACION DE OTRO TIPO DE MAQUINARIA Y EQUIPOS INDUSTRIALES N.C.P.",
+		"district" : 51,
+		"city" : 31,
+		"address" : "viana 915"
+	},
+	{
+		"rut" : "77.067.939-7",
+		"name" : "Centro Ceramico Jose Guzman Neira E.I.R.L.",
+		"activity" : "Venta al por mayor de articulos de ferreteria",
+		"district" : 141,
+		"city" : 93,
+		"address" : "Igualdad Sur 1270"
+	},
+	{
+		"rut" : "8.090.006-6",
+		"name" : "VICTOR BERNARDO MARIHUAL ROMERO",
+		"activity" : "CULTIVO DE FRUTAS DE PEPITA Y DE HUESO",
+		"district" : 207,
+		"city" : 137,
+		"address" : "comunidad ignacio cheuquel hijuela 2-j lautaro"
+	},
+	{
+		"rut" : "12.966.924-1",
+		"name" : "CESAR DEL TRANSITO GONZALEZ CAMPOS",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "hijuela 1 fuerte viejo "
+	},
+	{
+		"rut" : "18.286.300-9",
+		"name" : "MATIAS FERNANDO FUENTEALBA MUNOZ",
+		"activity" : "INSTALACIONES ELECTRICAS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "villa independencia pasaje c #71"
+	},
+	{
+		"rut" : "6.731.865-k",
+		"name" : "JAIME ANTONIO SOTO MARTINEZ",
+		"activity" : "ACTIVIDADES DE HOTELES",
+		"district" : 141,
+		"city" : 93,
+		"address" : "calle dieciocho #140"
+	},
+	{
+		"rut" : "77.142.687-5",
+		"name" : "PULSO LED SPA",
+		"activity" : "OTRAS ACTIVIDADES DE VENTA AL POR MENOR EN COMERCIOS NO ESPECIALIZADOS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "calle 3"
+	},
+	{
+		"rut" : "76.683.379-9",
+		"name" : "GASTRONOMICA TRES ESTEROS SPA",
+		"activity" : "ACTIVIDADES DE RESTAURANTES Y DE SERVICIO MOVIL DE COMIDAS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "calle 18 nº81 b"
+	},
+	{
+		"rut" : "12.545.811-4",
+		"name" : "DAVID SALOMON MASIAS RODRIGUEZ",
+		"activity" : "TERMINACION Y ACABADO DE EDIFICIOS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "BELLAVISTA INDEPENDENCIA Nº70"
+	},
+	{
+		"rut" : "16.822.404-4",
+		"name" : "FELIPE DEL TRANSITO CHANDIA CASTILLO",
+		"activity" : "OTRAS ACTIVIDADES DE SERVICIOS PERSONALES N.C.P.",
+		"district" : 141,
+		"city" : 93,
+		"address" : "Anibal Pinto 4055"
+	},
+	{
+		"rut" : "20.078.118-k",
+		"name" : "bryan leiva",
+		"activity" : "construccion",
+		"district" : 184,
+		"city" : 107,
+		"address" : "villa los naranjos pje las haciendas #763"
+	},
+	{
+		"rut" : "14.023.634-9",
+		"name" : "MARIA DE LOS ANGELES IBARRA SOTO",
+		"activity" : "VENTA AL POR MENOR DE CARTERAS, MALETAS Y OTROS ACCESORIOS DE VIAJE EN",
+		"district" : 141,
+		"city" : 93,
+		"address" : "sin numero"
+	},
+	{
+		"rut" : "77.433.827-6",
+		"name" : "OBRAS Y MANTENIMIENTOS SPA",
+		"activity" : "INSTALACION DE MAQUINARIA Y EQUIPOS INDUSTRIALES",
+		"district" : 116,
+		"city" : 83,
+		"address" : "22 NORTE B3106"
+	},
+	{
+		"rut" : "8.017.966-9",
+		"name" : "CARLOS ANTONIO ALVAREZ MORALES",
+		"activity" : "ELABORACION DE PRODUCTOS DE PANADERIA Y PASTELERIA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "POBLACIONM INES ARAGAY CALLE ESTADIO 390"
+	},
+	{
+		"rut" : "13.374.196-8",
+		"name" : "ALEXIS ANTONIO FUENTES MORALES",
+		"activity" : "CULTIVO DE MAIZ",
+		"district" : 142,
+		"city" : 85,
+		"address" : "hijuela san juan ,cardo verde sin numero"
+	},
+	{
+		"rut" : "4.591.779-7",
+		"name" : "MARIA HORTENSIA SALAZAR BRAVO",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "anibal pinto #147"
+	},
+	{
+		"rut" : "18.560.153-6",
+		"name" : "HERMINIO ALEJANDRO MARTINEZ PARADA",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO RESIDENCIAL",
+		"district" : 141,
+		"city" : 93,
+		"address" : "pob. las brisas calle israel urrutia 1201"
+	},
+	{
+		"rut" : "76.178.864-7",
+		"name" : "AGRICOLA ORIANA HERNANDEZ ESPINOZA EIRL",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "fundo la esperanza, parral"
+	},
+	{
+		"rut" : "16.578.147-3",
+		"name" : "CRISTIAN ANDRES MORALES MEZA",
+		"activity" : "PREPARACION DEL TERRENO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "pob. valles de parral callen 3 #926"
+	},
+	{
+		"rut" : "16.462.813-2",
+		"name" : "Carlos Fuentes Ruiz",
+		"activity" : "vecino",
+		"district" : 141,
+		"city" : 93,
+		"address" : "villa san pedro calle alberto ngatica #715"
+	},
+	{
+		"rut" : "65.295.600-9",
+		"name" : "MANRIQUEZ Y MUNOZ SPA",
+		"activity" : "FABRICACION DE MAQUINARIA AGROPECUARIA Y FORESTAL",
+		"district" : 132,
+		"city" : 90,
+		"address" : "teniente berguño #1355"
+	},
+	{
+		"rut" : "9.175.640-4",
+		"name" : "JORGE GUSTAVO NORAMBUENA RETAMAL",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "curipeumo, san miguel parcela 7"
+	},
+	{
+		"rut" : "10.416.033-6",
+		"name" : "BORIS OMAR MUNOZ FLORES",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 85,
+		"address" : "fundo los galpones el bonito sn numero"
+	},
+	{
+		"rut" : "7.279.655-1",
+		"name" : "ROLANDO ATILIO ORTEGA NINO",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "hijuela 1 parcela 25, san lorenzo"
+	},
+	{
+		"rut" : "11.768.552-7",
+		"name" : "ELMO IGNACIO INOSTROZA LOYOLA",
+		"activity" : "VENTA AL POR MAYOR DE OTROS TIPOS DE MAQUINARIA Y EQUIPO N.C.P.",
+		"district" : 141,
+		"city" : 93,
+		"address" : "patricio 630 "
+	},
+	{
+		"rut" : "6.676.427-3",
+		"name" : "MARIA DEL PILAR PINEDA ARIAS",
+		"activity" : "CULTIVO DE HORTALIZAS Y MELONES",
+		"district" : 126,
+		"city" : 88,
+		"address" : "parcela santa clara lote 4 "
+	},
+	{
+		"rut" : "76.745.141-5",
+		"name" : "SOCIEDAD AGRICOLA Y ESTRUCTURA METALICA DYM SPA ",
+		"activity" : "ESTRUCTURA METALICA",
+		"district" : 142,
+		"city" : 85,
+		"address" : "ROMERAL SUR PARCELA 94 RETIRO"
+	},
+	{
+		"rut" : "78.878.310-8",
+		"name" : "VIBRADOS EL MAITEN LIMITADA",
+		"activity" : "FABRICACION DE OTROS PRODUCTOS MINERALES NO METALICOS N.C.P.",
+		"district" : 141,
+		"city" : 93,
+		"address" : "urrutia #722"
+	},
+	{
+		"rut" : "77.466.910-8",
+		"name" : "INGENIERIA CARO Y CARO LIMITADA",
+		"activity" : "VENTA AL POR MAYOR NO ESPECIALIZADA",
+		"district" : 295,
+		"city" : 176,
+		"address" : "valentin letelier #1373 701 santiago"
+	},
+	{
+		"rut" : "8.349.892-7",
+		"name" : "SERGIO ARTURO MORALES AGURTO",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 290,
+		"city" : 93,
+		"address" : "PARCELA 4 LOTE 2 PORVENIR"
+	},
+	{
+		"rut" : "76.438.606-k",
+		"name" : "SOCIEDAD COMERCIAL RACALEPA LIMITADA",
+		"activity" : "OTRAS INSTALACIONES PARA OBRAS DE CONSTRUCCION",
+		"district" : 141,
+		"city" : 93,
+		"address" : "delicias sur #138"
+	},
+	{
+		"rut" : "76.178.265-7",
+		"name" : "MANTENCION MAULE",
+		"activity" : "TERMINACION Y ACABADO EDIFICIOS",
+		"district" : 116,
+		"city" : 83,
+		"address" : "14 NORTE "
+	},
+	{
+		"rut" : "77.353.421-7",
+		"name" : "ALMA EN MOVIMIENTO RESPONSABILIDAD LIMITADA",
+		"activity" : "OTROS TIPOS DE ENSEÑANZA N.C.P.",
+		"district" : 308,
+		"city" : 176,
+		"address" : "los militares 5620 ofi 905"
+	},
+	{
+		"rut" : "13.004.737-8",
+		"name" : "WILSON JOEL BRAVO BARRERA",
+		"activity" : "CULTIVO DE OTRAS PLANTAS PERENNES",
+		"district" : 324,
+		"city" : 176,
+		"address" : "ingeniero bulge 728"
+	},
+	{
+		"rut" : "11.788.414-7",
+		"name" : "JUAN LUIS CASTILLO TAPIA",
+		"activity" : "CULTIVOS FORRAJEROS EN PRADERAS MEJORADAS O SEMBRADAS; CULTIVOS SUPLEM",
+		"district" : 142,
+		"city" : 85,
+		"address" : "acceso sur parcela 2 el membrillo retiro"
+	},
+	{
+		"rut" : "77.066.273-7",
+		"name" : "ASCENCIO MOLINA SPA",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "calle villa pilar 2 n 1055"
+	},
+	{
+		"rut" : "78.039.660-1",
+		"name" : "AGRICOLA Y FORESTAL LOS ALAMOS SPA",
+		"activity" : "CULTIVO DE UVA PARA MESA",
+		"district" : 142,
+		"city" : 85,
+		"address" : "fundo san ignacio comuna de retiro sin numero "
+	},
+	{
+		"rut" : "76.329.531-1",
+		"name" : "AGRICOLA AGROVITAL LIMITADA",
+		"activity" : "CULTIVO DE FRUTAS DE PEPITA Y DE HUESO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "fundo monte leona S/N"
+	},
+	{
+		"rut" : "99.537.640-7",
+		"name" : "TRIPAN S.A.",
+		"activity" : "SERVICIOS  FORESTALES",
+		"district" : 197,
+		"city" : 106,
+		"address" : "PARCELA 2 LOS TILOS 2B SAN NICOLAS"
+	},
+	{
+		"rut" : "9.852.991-8",
+		"name" : "JUAN ROBERTO ESCOBAR SALDIA",
+		"activity" : "AGRICOLA",
+		"district" : 142,
+		"city" : 85,
+		"address" : "SANTA REBECA, RETIRO"
+	},
+	{
+		"rut" : "77.772.764-8",
+		"name" : "SOCIEDAD GASTRONÓMICA EL PASILLO SPA",
+		"activity" : "ACTIVIDADES DE RESTAURANTES Y DE SERVICIO MOVIL DE COMIDAS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "ignacio carrera pinto #315, parral"
+	},
+	{
+		"rut" : "77.031.306-6",
+		"name" : "CONTRATISTA ISMAEL ALBORNOZ ESPARZA E.I.R.L.",
+		"activity" : "OTRAS ACTIVIDADES ESPECIALIZADAS DE CONSTRUCCION",
+		"district" : 142,
+		"city" : 85,
+		"address" : "ruta l -751. km 5.8 "
+	},
+	{
+		"rut" : "76.136.230-5",
+		"name" : "SOC DE TRANSPORTES Y AGRICOLA ESPINAZA RIVERA LIMITADA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 85,
+		"address" : "libertad 722 "
+	},
+	{
+		"rut" : "9.271.365-2",
+		"name" : "JOSE PREVISTO ESCOBAR SALDIA",
+		"activity" : "CRIA DE GANADO BOVINO PARA LA PRODUCCION DE CARNE O COMO GANADO REPROD",
+		"district" : 141,
+		"city" : 85,
+		"address" : "ANIBAL PINTO 102"
+	},
+	{
+		"rut" : "7.038.084-6",
+		"name" : "MARIA MARGARITA GONZALEZ GONZALEZ",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 85,
+		"address" : "NOGALES DE TORCA"
+	},
+	{
+		"rut" : "76.709.703-4",
+		"name" : "VICTOR HUGO FURET PEÑA PUBLICIDAD SERIGRAFICA E.I.R.L.",
+		"activity" : "ACTIVIDADES DE SERVICIOS RELACIONADAS CON LA IMPRESION",
+		"district" : 303,
+		"city" : 176,
+		"address" : "chile españa #7961"
+	},
+	{
+		"rut" : "77.004.251-8",
+		"name" : "VIDRIOS Y ALUMINIOS TEGUALDA IRENE RIOS INOSTROZA E.I.R.L.",
+		"activity" : "FABRICACION DE OTROS PRODUCTOS ELABORADOS DE METAL N.C.P.",
+		"district" : 141,
+		"city" : 93,
+		"address" : "Patricio Blanco #90"
+	},
+	{
+		"rut" : "76.166.579-0",
+		"name" : "SOCIEDAD AGRICOLA ANCLA LIMITADA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "Parral S/N"
+	},
+	{
+		"rut" : "15.943.005-7",
+		"name" : "KAREN ALICIA LOBOS SANCHEZ",
+		"activity" : "FABRICACION DE ARTICULOS DE HORMIGON, CEMENTO Y YESO",
+		"district" : 142,
+		"city" : 85,
+		"address" : "piguchen s/n "
+	},
+	{
+		"rut" : "12.184.522-9",
+		"name" : "HERALDO RONALD BERNACHEA MONSALVE",
+		"activity" : "APICULTURA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "remulcao lote 15 la capilla"
+	},
+	{
+		"rut" : "76.720.349-7",
+		"name" : "ADER SOLAR SPA",
+		"activity" : "GENERACION DE ENERGIA ELECTRICA EN OTRAS CENTRALES N.C.P.",
+		"district" : 295,
+		"city" : 178,
+		"address" : "los tullerias #1006, esmeralda"
+	},
+	{
+		"rut" : "12.360.521-7",
+		"name" : "MIGUEL ANTONIO MUNOZ VALENZUELA",
+		"activity" : "CORRETAJE AL POR MAYOR DE PRODUCTOS AGRICOLAS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "victoria #525"
+	},
+	{
+		"rut" : "77.404.693-3",
+		"name" : "P+I SPA",
+		"activity" : "REPARACION DE EQUIPO ELECTRICO (EXCEPTO REPARACION DE EQUIPO Y ENSERES",
+		"district" : 308,
+		"city" : 176,
+		"address" : "apoquindo 6410of 605ps 6 las condes"
+	},
+	{
+		"rut" : "77.012.472-7",
+		"name" : "SOLUCIONES FRUTICOLAS OCTAVIO SALAZAR MARTINEZ SPA",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 221,
+		"city" : 143,
+		"address" : "CAUPOLICAN 722 ANGOL"
+	},
+	{
+		"rut" : "79.664.840-6",
+		"name" : "SOC AGRICOLA VALLE HERMOSO LIMITADA",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 85,
+		"address" : "FUNDO  VALLE HERMOSO S/N"
+	},
+	{
+		"rut" : "76.926.617-8",
+		"name" : "COMERCIALIZADORA Y REPUESTOS ALAMEDA SPA",
+		"activity" : "VENTA DE PARTES, PIEZAS Y ACCESORIOS PARA VEHICULOS AUTOMOTORES",
+		"district" : 141,
+		"city" : 85,
+		"address" : "delicia norte n615 c"
+	},
+	{
+		"rut" : "20.339.219-2",
+		"name" : "JOSE FRANCO FLORES SEGURA",
+		"activity" : "SERVICIOS DE PUBLICIDAD",
+		"district" : 327,
+		"city" : 176,
+		"address" : "ELISA CORREA #364 PUENTE ALTO, SANTIAGO"
+	},
+	{
+		"rut" : "13.207.928-5",
+		"name" : "RAMON ANTONIO FUENTES ACUNA",
+		"activity" : "REPARACION DE MAQUINARIA AGROPECUARIA Y FORESTAL",
+		"district" : 141,
+		"city" : 93,
+		"address" : "balmaceda 394"
+	},
+	{
+		"rut" : "77.577.685-4",
+		"name" : "PANADERÍA PEDRO PALMA E.I.R.L.",
+		"activity" : "ELABORACION DE PRODUCTOS DE PANADERIA Y PASTELERIA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "av dos sur nº 497"
+	},
+	{
+		"rut" : "77.380.626-8",
+		"name" : "TRANSPORTES LASTRA SPA",
+		"activity" : "TRANSPORTE DE CARGA POR CARRETERA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "av dos sur lote 3 "
+	},
+	{
+		"rut" : "11.607.157-6",
+		"name" : "MARIA CAROLINA VASQUEZ DIAZ",
+		"activity" : "ACTIVIDADES DE RESIDENCIALES PARA ESTUDIANTES Y TRABAJADORES",
+		"district" : 333,
+		"city" : 176,
+		"address" : "el barrancon 8820"
+	},
+	{
+		"rut" : "77.065.078-k",
+		"name" : "A Y M INVERSIONES LIMITADA",
+		"activity" : "VENTA AL POR MAYOR DE ARTICULOS ELECTRICOS Y ELECTRONICOS PARA EL HOGA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "los molinos s/n"
+	},
+	{
+		"rut" : "16.827.744-k",
+		"name" : "Cristofher andres badilla almendra",
+		"activity" : "agricola",
+		"district" : 141,
+		"city" : 93,
+		"address" : "villa doña pilar 2n calle 2 #1254"
+	},
+	{
+		"rut" : "77.226.306-6",
+		"name" : "SERVICIOS DE INGENIERÍA LEÓN LIMITADA",
+		"activity" : "EMPRESAS DE SERVICIOS DE INGENIERIA Y ACTIVIDADES CONEXAS DE CONSULTOR",
+		"district" : 318,
+		"city" : 176,
+		"address" : "Raul marin #457, Pudahuel"
+	},
+	{
+		"rut" : "9.876.283-3",
+		"name" : "ALEX MARCELO GONZALEZ FUENTES",
+		"activity" : "REPARACION DE MAQUINARIA PARA PRODUCIR TEXTILES, PRENDAS DE VESTIR, AR",
+		"district" : 141,
+		"city" : 93,
+		"address" : "portal alameda pje 6 #348"
+	},
+	{
+		"rut" : "77.131.882-7",
+		"name" : "GO ON ZONA LIMITADA",
+		"activity" : "SERVICIO DE LAVADO DE VEHICULOS AUTOMOTORES",
+		"district" : 141,
+		"city" : 93,
+		"address" : "anibal pinto 165"
+	},
+	{
+		"rut" : "77.471.896-6",
+		"name" : "CONTRATISTA JONATAN GUILLERMO DÍAZ RAMOS E.I.R.L.",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO RESIDENCIAL",
+		"district" : 51,
+		"city" : 31,
+		"address" : "avenida gomez carreño #4743"
+	},
+	{
+		"rut" : "12.966.288-3",
+		"name" : "Patricio Valverde Gonzalez",
+		"activity" : "+569-84320427",
+		"district" : 141,
+		"city" : 93,
+		"address" : "Villa las carmelitas Calle 4 #1018 (Sector Buenos Aires)"
+	},
+	{
+		"rut" : "76.043.923-1",
+		"name" : "ASESORIAS Y SERVICIOS INTEGRALES SAN LUIS SPA",
+		"activity" : "SERVICIOS DE SEGURIDAD PRIVADA PRESTADOS POR EMPRESAS",
+		"district" : 318,
+		"city" : 176,
+		"address" : "radial el golf nº11640 enea"
+	},
+	{
+		"rut" : "77.772.951-9",
+		"name" : "agricona el nogal spa",
+		"activity" : "agricola ",
+		"district" : 141,
+		"city" : 85,
+		"address" : "san lorenso parcela 16 "
+	},
+	{
+		"rut" : "10.684.442-9",
+		"name" : "FABIAN ANTONIO JIMENEZ PARADA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "nogal de torca parcela 39"
+	},
+	{
+		"rut" : "76.612.425-9",
+		"name" : "TALABARTERIA MOVIL Y  VENTAS  A PEDIDO PEDRO PABLO VASQUEZ BRIONES E.I",
+		"activity" : "VENTA AL POR MENOR DE CARTERAS, MALETAS Y OTROS ACCESORIOS DE VIAJE EN",
+		"district" : 141,
+		"city" : 85,
+		"address" : "calle dos poniente pje interior nº592"
+	},
+	{
+		"rut" : "76.011.880-k",
+		"name" : "SOC AGRICOLA SANTA MARIA LIMITADA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "la higuiera s/n"
+	},
+	{
+		"rut" : "76.866.211-8",
+		"name" : "CONSTRUCTORA LUIS FRANCISCO ESPINOZA MAIBE SPA",
+		"activity" : "CONSTRUCCION DE PROYECTOS DE SERVICIO PUBLICO",
+		"district" : 146,
+		"city" : 96,
+		"address" : "ejercito #326 Concepcion"
+	},
+	{
+		"rut" : "11.177.153-7",
+		"name" : "AGUSTIN ERNESTO RAMOS NAVARRETE",
+		"activity" : "CULTIVO DE FRUTOS OLEAGINOSOS (INCLUYE EL CULTIVO DE ACEITUNAS)",
+		"district" : 141,
+		"city" : 93,
+		"address" : "igualdad norte #153"
+	},
+	{
+		"rut" : "76.399.092-3",
+		"name" : "BERNARDO MONDIGLIO INGENIERIA Y CONSTRUCCION S.P.A.",
+		"activity" : "CONSTRUCCION DE OTRAS OBRAS DE INGENIERIA CIVIL",
+		"district" : 317,
+		"city" : 176,
+		"address" : "barros borgoño 711105 providencia"
+	},
+	{
+		"rut" : "76.366.345-0",
+		"name" : "SOCIEDAD SINTER ENERGY SPA",
+		"activity" : "REPARACION DE OTRO TIPO DE MAQUINARIA Y EQUIPOS INDUSTRIALES N.C.P.",
+		"district" : 146,
+		"city" : 96,
+		"address" : "villa alemana #214"
+	},
+	{
+		"rut" : "12.111.557-3",
+		"name" : "FABIAN ANTONIO QUEZADA ALVAREZ",
+		"activity" : "CULTIVO DE POROTOS",
+		"district" : 290,
+		"city" : 93,
+		"address" : "parcela 37 porvenir"
+	},
+	{
+		"rut" : "6.608.311-k",
+		"name" : "JUAN SEBASTIAN GONZALEZ CAMPOS",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "patricio blanco #12"
+	},
+	{
+		"rut" : "12.197.398-7",
+		"name" : "LUIS FERNANDO FUENTEALBA VILLAGRA",
+		"activity" : "FABRICACION DE PRODUCTOS METALICOS PARA USO ESTRUCTURAL",
+		"district" : 138,
+		"city" : 93,
+		"address" : "pobl. viña del mar 3 poniente #120"
+	},
+	{
+		"rut" : "20.682.920-6",
+		"name" : "ROXANA XIMENA VALDES MOYA",
+		"activity" : "REPARACION DE OTRO TIPO DE MAQUINARIA Y EQUIPOS INDUSTRIALES N.C.P.",
+		"district" : 138,
+		"city" : 93,
+		"address" : "MARIO MUJICA 169"
+	},
+	{
+		"rut" : "76.748.537-9",
+		"name" : "GREEN EQUIPMENT LIMITADA",
+		"activity" : "SILVICULTURA Y OTRAS ACTIVIDADES FORESTALES (EXCEPTO EXPLOTACION DE VI",
+		"district" : 153,
+		"city" : 96,
+		"address" : "camino a coronel km 10 #5580"
+	},
+	{
+		"rut" : "76.476.023-9",
+		"name" : "C Y G INVERSIONES SPA",
+		"activity" : "CAPTACION, TRATAMIENTO Y DISTRIBUCION DE AGUA",
+		"district" : 116,
+		"city" : 83,
+		"address" : "30 oriente s/numero"
+	},
+	{
+		"rut" : "11.334.494-6",
+		"name" : "sebastian luis guzman gutierres",
+		"activity" : "agricola",
+		"district" : 141,
+		"city" : 93,
+		"address" : "lote 2 parcela 26 yiyahue"
+	},
+	{
+		"rut" : "9.539.137-0",
+		"name" : "MARIANO ANTONIO CASTILLO CHANDIA",
+		"activity" : "CULTIVO DE FRUTAS DE PEPITA Y DE HUESO",
+		"district" : 142,
+		"city" : 93,
+		"address" : "parcela 30 las camelias lote 1"
+	},
+	{
+		"rut" : "77.209.093-5",
+		"name" : "REMACON SPA",
+		"activity" : "ALQUILER DE OTROS TIPOS DE MAQUINARIAS Y EQUIPOS SIN OPERARIO N.C.P.",
+		"district" : 184,
+		"city" : 107,
+		"address" : "barbosa #1103"
+	},
+	{
+		"rut" : "7.160.078-5",
+		"name" : "PATRICIO ARISTIDES MELENDEZ ARTEAGA",
+		"activity" : "FABRICACION DE PRODUCTOS PRIMARIOS DE ALUMINIO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "anibal pinto #270"
+	},
+	{
+		"rut" : "9.246.993-k",
+		"name" : "JOSE OSVALDO POBLETE GONZALEZ",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 93,
+		"address" : "cardo verde, los maitenes, retiro"
+	},
+	{
+		"rut" : "77.447.069-7",
+		"name" : "comercial y servicios las garzas limitada",
+		"activity" : "estacion de servicio",
+		"district" : 128,
+		"city" : 88,
+		"address" : "abdon fuentealba s/n lote 4"
+	},
+	{
+		"rut" : "13.793.894-4",
+		"name" : "RAUL ANTONIO ORTIZ BELMAR",
+		"activity" : "CULTIVO DE PRODUCTOS AGRICOLAS EN COMBINACION CON LA CRIA DE ANIMALES",
+		"district" : 187,
+		"city" : 128,
+		"address" : "flor de ñiquen"
+	},
+	{
+		"rut" : "76.274.025-7",
+		"name" : "AGRICOLA DON EDUARDO LIMITADA",
+		"activity" : "CULTIVO DE FRUTAS DE PEPITA Y DE HUESO",
+		"district" : 46,
+		"city" : 29,
+		"address" : "fundo la rotunda km 2 s/num casa blanca"
+	},
+	{
+		"rut" : "76.260.804-9",
+		"name" : "AGRICOLA Y GANADERA JOSE MAXIMILIANO SOLORZA VERGARA EMPRESA INDIVIDUA",
+		"activity" : "CULTIVOS FORRAJEROS EN PRADERAS MEJORADAS O SEMBRADAS; CULTIVOS SUPLEM",
+		"district" : 187,
+		"city" : 128,
+		"address" : "san vicente lote 2"
+	},
+	{
+		"rut" : "76.805.781-8",
+		"name" : "MAESTRANZA E INGENIERIA CVP SPA",
+		"activity" : "CONSTRUCCION DE OTRAS OBRAS DE INGENIERIA CIVIL",
+		"district" : 306,
+		"city" : 176,
+		"address" : "los paltos #2346, la pintana"
+	},
+	{
+		"rut" : "7.482.856-6",
+		"name" : "JUAN RAMON CASTILLO MEZA",
+		"activity" : "MANTENIMIENTO Y REPARACION DE VEHICULOS AUTOMOTORES",
+		"district" : 141,
+		"city" : 93,
+		"address" : "1 sur #560"
+	},
+	{
+		"rut" : "10.398.355-k",
+		"name" : "JORGE ALBERTO MENA GONZALEZ",
+		"activity" : "INDUSTRIAS BASICAS DE HIERRO Y ACERO",
+		"district" : 138,
+		"city" : 93,
+		"address" : "avenida buenos aires"
+	},
+	{
+		"rut" : "17.717.785-7",
+		"name" : "AGUSTIN ORLANDO HURTADO ALBORNOZ",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "parcela 4 lote 3 curipeumo"
+	},
+	{
+		"rut" : "76.955.147-6",
+		"name" : "ALUMINIO Y VIDRIOS DANIEL  ARZOLA  E.I.R.L.",
+		"activity" : "OTRAS INSTALACIONES PARA OBRAS DE CONSTRUCCION",
+		"district" : 333,
+		"city" : 176,
+		"address" : "roque esteban 1327"
+	},
+	{
+		"rut" : "76.634.479-8",
+		"name" : "CLIMATIZACIONES URRUTIA Y URRUTIA LIMITADA",
+		"activity" : "INSTALACIONES ELECTRICAS",
+		"district" : 327,
+		"city" : 176,
+		"address" : "las violetas #3233"
+	},
+	{
+		"rut" : "77.537.391-1",
+		"name" : "SERVICIOS AGRICOLAS EBERTIN BRIONES ESPINOZA E.I.R.L.",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 142,
+		"city" : 93,
+		"address" : "los nabos s/n retiro"
+	},
+	{
+		"rut" : "11.334.501-2",
+		"name" : "MISALDO ANTONIO RAMOS MORENO",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "perquilauquen unicaven S/N"
+	},
+	{
+		"rut" : "19.853.670-9",
+		"name" : "JUAN MAXIMO PALMA PARRA",
+		"activity" : "FABRICACION DE MUEBLES PRINCIPALMENTE DE MADERA",
+		"district" : 99,
+		"city" : 76,
+		"address" : "el llano pueblo del indio S/n"
+	},
+	{
+		"rut" : "77.423.112-9",
+		"name" : "INVERSIONES LOS MOLINOS LIMITADA",
+		"activity" : "VENTA AL POR MENOR DE OTROS PRODUCTOS EN COMERCIOS ESPECIALIZADOS N.C.",
+		"district" : 141,
+		"city" : 93,
+		"address" : "anibal pinto #20"
+	},
+	{
+		"rut" : "86.435.900-0",
+		"name" : "ESPECIALIDADES ASFALTICAS BITUMIX SUR SPA",
+		"activity" : "FABRICACION DE OTROS PRODUCTOS MINERALES NO METALICOS N.C.P.",
+		"district" : 146,
+		"city" : 96,
+		"address" : "CAMINO ANTIGUO A BULNES #3320, PALOMARES"
+	},
+	{
+		"rut" : "77.061.898-3",
+		"name" : "SERVICIOS ELECTRICOS GUILLERMINA ARAVENA DURAN E.I.R.L.",
+		"activity" : "CONSTRUCCION DE OTRAS OBRAS DE INGENIERIA CIVIL",
+		"district" : 141,
+		"city" : 93,
+		"address" : "san martin"
+	},
+	{
+		"rut" : "76.182.095-8",
+		"name" : "PC CONSTRUCCION LIMITADA",
+		"activity" : "OTRAS INSTALACIONES PARA OBRAS DE CONSTRUCCION",
+		"district" : 295,
+		"city" : 176,
+		"address" : "waldo silva #2287"
+	},
+	{
+		"rut" : "11.566.518-9",
+		"name" : "GUSTAVO DEL CARMEN HERNANDEZ ESPINOZA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 85,
+		"address" : "PARCELA 102 LOS ROBLES"
+	},
+	{
+		"rut" : "76.307.701-2",
+		"name" : "SOCIEDAD AGRICOLA QUITRALCO SPA",
+		"activity" : "CULTIVO DE MAIZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "fundo santa rosa s/n"
+	},
+	{
+		"rut" : "15.134.162-4",
+		"name" : "DIEGO ALEXIS CAMPOS FREDES",
+		"activity" : "OTRAS INSTALACIONES PARA OBRAS DE CONSTRUCCION",
+		"district" : 116,
+		"city" : 83,
+		"address" : "287 sur #1017"
+	},
+	{
+		"rut" : "8.830.433-0",
+		"name" : "MIGUEL ANTONIO NAVARRETE ALBORNOZ",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "la selva sin numero"
+	},
+	{
+		"rut" : "5.845.070-7",
+		"name" : "SERGIO OROSMEL MAUREIRA MATUS",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "pablo neruda 148"
+	},
+	{
+		"rut" : "77.046.166-9",
+		"name" : "PLANT&FRUIT SPA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "lote b hj 2 parcela 25 yiyahue parral"
+	},
+	{
+		"rut" : "77.282.154-9",
+		"name" : "MACROVISION 7 SPA",
+		"activity" : "ACTIVIDADES DE SERVICIOS VINCULADAS AL TRANSPORTE TERRESTRE N.C.P.",
+		"district" : 138,
+		"city" : 85,
+		"address" : "leon bustos #897"
+	},
+	{
+		"rut" : "77.392.008-7",
+		"name" : "SERVICIO AUTOMOTRIZ JAIMECAR SPA",
+		"activity" : "PREPARACION DEL TERRENO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "san alejo km 30 sin numero"
+	},
+	{
+		"rut" : "77.755.904-4",
+		"name" : "SERVICIOS DE MAQUINARIAS CONCHA LIMITADA",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "predio cerrillos quinchamavida "
+	},
+	{
+		"rut" : "9.057.375-6",
+		"name" : "jose antonio valverde valenzuela",
+		"activity" : "contratista",
+		"district" : 141,
+		"city" : 93,
+		"address" : "mario mujica #830"
+	},
+	{
+		"rut" : "8.189.613-5",
+		"name" : "GABRIEL OCTAVIO HERNANDEZ MUNOZ",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "delicia sur nº139"
+	},
+	{
+		"rut" : "76.784.047-0",
+		"name" : "SITMA TELEMETRIA SPA",
+		"activity" : "FABRICACION DE COMPONENTES Y TABLEROS ELECTRONICOS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "villa los trigales #1373"
+	},
+	{
+		"rut" : "16.462.281-9",
+		"name" : "RAMON ORLANDO MANRIQUEZ YANEZ",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "monteflor, parral"
+	},
+	{
+		"rut" : "13.109.179-6",
+		"name" : "angelica jimenes vergara",
+		"activity" : "almacen y botilleria",
+		"district" : 53,
+		"city" : 46,
+		"address" : "villa aires de cordillera pje. hermanos carrera #2000 calle larga los andes"
+	},
+	{
+		"rut" : "76.640.752-8",
+		"name" : "LUCIANO ANTONIO MENDEZ HERNANDEZ SOLUCIONES INDUSTRIALES E.I.R.L.",
+		"activity" : "FABRICACION DE OTROS PRODUCTOS ELABORADOS DE METAL N.C.P.",
+		"district" : 316,
+		"city" : 176,
+		"address" : "pasaje camino el principe 2100 villa esperanza peñalolen"
+	},
+	{
+		"rut" : "77.276.497-9",
+		"name" : "KARMIKA SPA",
+		"activity" : "VENTA AL POR MAYOR DE COMPUTADORES, EQUIPO PERIFERICO Y PROGRAMAS INFO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "ANIBAL PINTO 405"
+	},
+	{
+		"rut" : "16.827.749-0",
+		"name" : "valentin hernadez espinoza ",
+		"activity" : "agricola ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "delicia sur 139"
+	},
+	{
+		"rut" : "76.936.969-4",
+		"name" : "COMERCIAL CORRALTAB SPA",
+		"activity" : "VENTA AL POR MAYOR DE PRODUCTOS TEXTILES, PRENDAS DE VESTIR Y CALZADO",
+		"district" : 126,
+		"city" : 88,
+		"address" : "victoria 709"
+	},
+	{
+		"rut" : "77.282.474-2",
+		"name" : "transportes martinez spa",
+		"activity" : "transporte",
+		"district" : 138,
+		"city" : 85,
+		"address" : "camino a yerbas buenas st 8 linares"
+	},
+	{
+		"rut" : "14.282.992-4",
+		"name" : "JOSE MANUEL MONTECINO PINA",
+		"activity" : "CULTIVO DE FRUTAS DE PEPITA Y DE HUESO",
+		"district" : 142,
+		"city" : 93,
+		"address" : "parcela 18 los robles "
+	},
+	{
+		"rut" : "9.689.601-8",
+		"name" : "HECTOR RAMON BAHAMONDES SOTO",
+		"activity" : "OTRAS ACTIVIDADES DE SERVICIOS PERSONALES N.C.P.",
+		"district" : 141,
+		"city" : 93,
+		"address" : "poblacion carlos paulsen pje 1 casa #3"
+	},
+	{
+		"rut" : "77.571.091-8",
+		"name" : "JS SPA",
+		"activity" : "TERMINACIONES Y ACABDOS DE ESDIFICIOS",
+		"district" : 179,
+		"city" : 106,
+		"address" : "ARAUCO #1156"
+	},
+	{
+		"rut" : "76.420.144-2",
+		"name" : "INVERSIONES Y ASESORIAS MINERAS QUEBRADA BRAVA LIMITADA",
+		"activity" : "CONSTRUCCION DE CARRETERAS Y LINEAS DE FERROCARRIL",
+		"district" : 308,
+		"city" : 176,
+		"address" : "san sebastian 2750 of 902 edif san sebastian, las condes"
+	},
+	{
+		"rut" : "13.620.855-1",
+		"name" : "PABLO ALEJANDRO VALDEBENITO CABRERA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 93,
+		"address" : "parcela 20, san nicolas, retiro"
+	},
+	{
+		"rut" : "77.585.620-3",
+		"name" : "SOC AGRICOLA SAN ALBERTO LIMITADA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "san alberto hijuela 2 "
+	},
+	{
+		"rut" : "76.684.402-2",
+		"name" : "COMERCIALIZADORA SANTA AMALIA LIMITADA",
+		"activity" : "CULTIVO DE PRODUCTOS AGRICOLAS EN COMBINACION CON LA CRIA DE ANIMALES",
+		"district" : 141,
+		"city" : 93,
+		"address" : "igualdad #1291, parral"
+	},
+	{
+		"rut" : "76.828.138-6",
+		"name" : "CONSTRUCTORA R.C.A SPA",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO RESIDENCIAL",
+		"district" : 141,
+		"city" : 93,
+		"address" : "dieciocho #t450"
+	},
+	{
+		"rut" : "77.090.827-2",
+		"name" : "HOSTERÍA LA LUNA SPA",
+		"activity" : "VENTA AL POR MENOR DE ALIMENTOS EN COMERCIOS ESPECIALIZADOS (ALMACENES",
+		"district" : 141,
+		"city" : 93,
+		"address" : "sector bullileo lote n°1, parral"
+	},
+	{
+		"rut" : "96.546.520-0",
+		"name" : "WELLFORD CHILE SPA",
+		"activity" : "VENTA AL POR MAYOR DE MAQUINARIA, EQUIPO Y MATERIALES AGROPECUARIOS",
+		"district" : 333,
+		"city" : 176,
+		"address" : "lo infante #1571, san bernardo"
+	},
+	{
+		"rut" : "76.477.259-8",
+		"name" : "INGENIERIA Y CONSTRUCCION Z Y F SPA",
+		"activity" : "INSTALACIONES ELECTRICAS",
+		"district" : 312,
+		"city" : 176,
+		"address" : "las dalias #3163, macul"
+	},
+	{
+		"rut" : "9.850.585-7",
+		"name" : "CARLOS ERNESTO GONZALEZ SEPULVEDA",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "parcela 23 la fortuna"
+	},
+	{
+		"rut" : "11.733.706-5",
+		"name" : "CRISTHIAN DIRK BLAU MORLANS",
+		"activity" : "SERVICIOS DE EXTINCION Y PREVENCION DE INCENDIOS FORESTALES",
+		"district" : 142,
+		"city" : 93,
+		"address" : "hijuela 3 sector romeral sur, retiro"
+	},
+	{
+		"rut" : "77.156.669-3",
+		"name" : "DESARMADURÍA Y GRÚAS CRISÓSTOMO SPA",
+		"activity" : "VENTA DE PARTES, PIEZAS Y ACCESORIOS PARA VEHICULOS AUTOMOTORES",
+		"district" : 141,
+		"city" : 93,
+		"address" : "unicaven sin numero, parral"
+	},
+	{
+		"rut" : "77.454.297-3",
+		"name" : "CONSTRUCCIONES B. PEZOA. SPA",
+		"activity" : "TERMINACION Y ACABADO DE EDIFICIOS",
+		"district" : 132,
+		"city" : 84,
+		"address" : "villa marcellesa pje notredame #802, molina"
+	},
+	{
+		"rut" : "3.799.864-8",
+		"name" : "ISRAEL VILLANUEVA SOLIS",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 190,
+		"city" : 106,
+		"address" : "predio quebrada de manuel s/n°"
+	},
+	{
+		"rut" : "11.856.784-6",
+		"name" : "CARLOS NOLBERTO MARDONES ORTEGA",
+		"activity" : "TRANSPORTE DE CARGA POR CARRETERA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "pob. bullileo pasaje 4 #403"
+	},
+	{
+		"rut" : "8.037.799-1",
+		"name" : "CARLOS ALBERTO MARTINEZ NAVARRO",
+		"activity" : "TERMINACION Y ACABADO DE EDIFICIOS",
+		"district" : 313,
+		"city" : 176,
+		"address" : "pje quinta vergara 1033"
+	},
+	{
+		"rut" : "77.252.176-6",
+		"name" : "HECTOR MARIO LUNA CAMPOS  OTRAS ACTIVIDADES ESPECIALIZADAS DE CONSTRUC",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO RESIDENCIAL",
+		"district" : 141,
+		"city" : 93,
+		"address" : "camino a cauquenes s/numero"
+	},
+	{
+		"rut" : "76.039.872-1",
+		"name" : "SOCIEDAD AVICOLA EVITA LIMITADA",
+		"activity" : "CRIA DE AVES DE CORRAL PARA LA PRODUCCION DE HUEVOS",
+		"district" : 180,
+		"city" : 123,
+		"address" : "san pedro de larqui s/numero oriente bulnes "
+	},
+	{
+		"rut" : "10.900.665-3",
+		"name" : "LUIS FERNANDO PARADA LARA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 194,
+		"city" : 128,
+		"address" : "diego portales #867, san carlos"
+	},
+	{
+		"rut" : "77.258.130-0",
+		"name" : "AGRICOLA Y GANADERA SANTA NORA LIMITADA",
+		"activity" : "agricola",
+		"district" : 187,
+		"city" : 128,
+		"address" : "colliguay lote a 2, ñiquen"
+	},
+	{
+		"rut" : "76.187.550-7",
+		"name" : "MAURICIO VERDUGO PARADA INGENIERIA INDUSTRIAL CONSTRUCCION Y SERVICIOS",
+		"activity" : "CONSTRUCCION DE CARRETERAS Y LINEAS DE FERROCARRIL",
+		"district" : 179,
+		"city" : 106,
+		"address" : "BRASIL #635, CHILLAN"
+	},
+	{
+		"rut" : "77.027.391-9",
+		"name" : "HIGIENE Y SEGURIDAD INDUSTRIAL ECOVAR LIMITADA",
+		"activity" : "Servicio y arriendo de maquinaria",
+		"district" : 141,
+		"city" : 93,
+		"address" : "pablo neruda #60"
+	},
+	{
+		"rut" : "11.566.511-1",
+		"name" : "ELEODORO ANTONIO VASQUEZ MORAGA",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 142,
+		"city" : 85,
+		"address" : "lote 6 b hacienda retiro s/n"
+	},
+	{
+		"rut" : "8.616.815-4",
+		"name" : "ALBERTO LEONARDO ORTEGA RUIZ",
+		"activity" : "CULTIVO DE FRUTAS DE PEPITA Y DE HUESO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "villa cordillera 2 pje e casa 30"
+	},
+	{
+		"rut" : "76.537.684-k",
+		"name" : "ACADEMIA DE DISCIPLINAS FISICAS FACTOR FITNESS LIMITADA",
+		"activity" : "VENTA AL POR MENOR DE OTROS ARTICULOS Y EQUIPOS DE DEPORTE N.C.P.",
+		"district" : 141,
+		"city" : 93,
+		"address" : "anibal pinto #236"
+	},
+	{
+		"rut" : "76.764.530-9",
+		"name" : "constructora y servicios machado",
+		"activity" : "construccion",
+		"district" : 141,
+		"city" : 93,
+		"address" : "urrutia 460"
+	},
+	{
+		"rut" : "76.609.091-5",
+		"name" : "CEM INGENIERÍA Y CONSTRUCCIÓN SPA",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO RESIDENCIAL",
+		"district" : 116,
+		"city" : 83,
+		"address" : "3 sur #951, Talca"
+	},
+	{
+		"rut" : "77.243.619-k",
+		"name" : "VIDA VERDE SPA",
+		"activity" : "SILVICULTURA Y OTRAS ACTIVIDADES FORESTALES (EXCEPTO EXPLOTACION DE VI",
+		"district" : 148,
+		"city" : 96,
+		"address" : "los radales #2228, chiguayante, concepcion "
+	},
+	{
+		"rut" : "76.977.385-1",
+		"name" : "SOCIEDAD DE INVERSIONES BALÚ SPA",
+		"activity" : "ACTIVIDADES DE HOTELES",
+		"district" : 141,
+		"city" : 93,
+		"address" : "ruta l-151 camino a bullileo km 2.5"
+	},
+	{
+		"rut" : "5.360.948-1",
+		"name" : "JAIME ANTONIO BENAVIDES FUENTES",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "francisco bermal 330"
+	},
+	{
+		"rut" : "77.720.973-6",
+		"name" : "SERVICIOS AGRICOLA DOMINGO ROMERO LEIVA E.I.R.L.",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 194,
+		"city" : 128,
+		"address" : "calle malaga s/nº, san carlos"
+	},
+	{
+		"rut" : "8.475.005-0",
+		"name" : "LUIS ALFREDO GARRIDO GARRIDO",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "parcela 5 sitio 3 las hortencias"
+	},
+	{
+		"rut" : "76.601.368-6",
+		"name" : "MC INGENIERÍA SPA",
+		"activity" : "ACTIVIDADES DE CONSULTORIA DE GESTION",
+		"district" : 200,
+		"city" : 130,
+		"address" : "AVDA. OLIMPIA ED. 21720 DPTO. 604 COND. PARQUE OLIMPIA TEMUCO"
+	},
+	{
+		"rut" : "77.741.436-4",
+		"name" : "AGRICOLA LOS ACACIOS SPA",
+		"activity" : "COMPRA, VENTA Y ALQUILER (EXCEPTO AMOBLADOS) DE INMUEBLES",
+		"district" : 308,
+		"city" : 176,
+		"address" : "AV VITACURA 2939 OF 1201"
+	},
+	{
+		"rut" : "13.375.844-5",
+		"name" : "victor briones rodriguez",
+		"activity" : "corretaje y venta de productos agricola por mayor",
+		"district" : 141,
+		"city" : 93,
+		"address" : "paicavi 614 villa don matia "
+	},
+	{
+		"rut" : "12.144.176-4",
+		"name" : "REINALDO ANTONIO BUSTAMANTE IGLESIAS",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 142,
+		"city" : 93,
+		"address" : "UNION SAN JOSE CAMINO A TALHUEN SIN NUMERO"
+	},
+	{
+		"rut" : "77.407.036-2",
+		"name" : "constructora lemacs",
+		"activity" : "constructora de obras",
+		"district" : 121,
+		"city" : 83,
+		"address" : "parcela 57 lote 1"
+	},
+	{
+		"rut" : "13.577.538-k",
+		"name" : "RODRIGO ANDRES FUENTES TAPIA",
+		"activity" : "OTRAS ACTIVIDADES DE SERVICIOS DE APOYO A LAS EMPRESAS N.C.P.",
+		"district" : 141,
+		"city" : 93,
+		"address" : "san marti nª 719"
+	},
+	{
+		"rut" : "76.714.138-6",
+		"name" : "CONSTRUCTORA JUAN SALAS E HIJOS SPA",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO RESIDENCIAL",
+		"district" : 143,
+		"city" : 94,
+		"address" : "CALLE MARIANO LA TORRE #034 HUERTA DE MAULE"
+	},
+	{
+		"rut" : "76.430.595-7",
+		"name" : "SOCIEDAD MEDICA LOOR BARREIRO LIMITADA",
+		"activity" : "ALQUILER DE BIENES INMUEBLES AMOBLADOS O CON EQUIPOS Y MAQUINARIAS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "ARTURO PRAT 287"
+	},
+	{
+		"rut" : "76.546.007-7",
+		"name" : "ALLENDES Y FARIAS SERVICIOS AUTOMOTRICES LIMITADA",
+		"activity" : "MANTENIMIENTO Y REPARACION DE VEHICULOS AUTOMOTORES",
+		"district" : 319,
+		"city" : 176,
+		"address" : "fontanarosa poniente #893, quilicura"
+	},
+	{
+		"rut" : "10.833.911-k",
+		"name" : "ESTEBAN EDUARDO GONZALEZ GONZALEZ",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "sector el salto, hijuela 3 lote 5a"
+	},
+	{
+		"rut" : "5.590.192-9",
+		"name" : "GERALDINA MIREYA DEL CARMEN VASQUEZ TAPIA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 93,
+		"address" : "ajial s/numero"
+	},
+	{
+		"rut" : "77.821.706-6",
+		"name" : "AGROINTEGRA MONTAJES CHILE LIMITADA",
+		"activity" : "CONSTRUCCION DE OTRAS OBRAS DE INGENIERIA CIVIL",
+		"district" : 179,
+		"city" : 106,
+		"address" : "flores millan #1582, Chillan"
+	},
+	{
+		"rut" : "15.447.787-k",
+		"name" : "CLAUDIO ANTONIO HERNANDEZ DURAN",
+		"activity" : "OTRAS ACTIVIDADES ESPECIALIZADAS DE CONSTRUCCION",
+		"district" : 333,
+		"city" : 176,
+		"address" : "superintendente eduardo hasbun #15084"
+	},
+	{
+		"rut" : "11.649.609-7",
+		"name" : "LUIS ARMANDO CARO GUERRERO",
+		"activity" : "REPARACION DE OTRO TIPO DE MAQUINARIA Y EQUIPOS INDUSTRIALES N.C.P.",
+		"district" : 313,
+		"city" : 176,
+		"address" : "parque lo gallo #5454"
+	},
+	{
+		"rut" : "6.468.963-0",
+		"name" : "SILVANO ENRIQUE GONZALEZ RETAMALES",
+		"activity" : "OTRAS ACTIVIDADES DE TRANSPORTE DE PASAJEROS POR VIA TERRESTRE N.C.P.",
+		"district" : 344,
+		"city" : 176,
+		"address" : "avenida jaime guzman #425"
+	},
+	{
+		"rut" : "77.720.293-6",
+		"name" : "FUNDACION SALUD VISUAL GV SPA",
+		"activity" : "VENTA AL POR MENOR DE ARTICULOS OPTICOS EN COMERCIOS ESPECIALIZADOS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "diecicho #780"
+	},
+	{
+		"rut" : "76.785.573-7",
+		"name" : "VALDIVIA REFRIGERACIÓN LIMITADA",
+		"activity" : "VENTA AL POR MAYOR DE FRUTAS Y VERDURAS",
+		"district" : 303,
+		"city" : 176,
+		"address" : "AV LO ESPEJO 0695"
+	},
+	{
+		"rut" : "18.877.607-8",
+		"name" : "francisco merino",
+		"activity" : "mecanica",
+		"district" : 141,
+		"city" : 93,
+		"address" : "1 sur 62"
+	},
+	{
+		"rut" : "7.052.294-2",
+		"name" : "ENRIQUE FEDERICO GARDEWEG PEEDE",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "fundo la florida parral"
+	},
+	{
+		"rut" : "78.654.420-3",
+		"name" : "TRANSPORTES MAQUINARIAS Y ARIDOS SPA",
+		"activity" : "EXTRACCION DE PIEDRA, ARENA Y ARCILLA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "DELICIAS SUR #850"
+	},
+	{
+		"rut" : "5.774.733-1",
+		"name" : "ADRIAN DEL CARMEN ZUNIGA GONZALEZ",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 85,
+		"address" : "sector cura cura"
+	},
+	{
+		"rut" : "76.874.250-2",
+		"name" : "SOCIEDAD COMERCIAL NUEVA BAVIERA LIMITADA",
+		"activity" : "ACTIVIDADES DE RESTAURANTES Y DE SERVICIO MOVIL DE COMIDAS",
+		"district" : 142,
+		"city" : 93,
+		"address" : "PANAMERICANA SUR KM 333"
+	},
+	{
+		"rut" : "18.877.948-4",
+		"name" : "ESTEBAN ANDRES RETAMAL ORTEGA",
+		"activity" : "OTRAS INSTALACIONES PARA OBRAS DE CONSTRUCCION",
+		"district" : 141,
+		"city" : 93,
+		"address" : "el castaño, lote 2, digua"
+	},
+	{
+		"rut" : "12.966.304-9",
+		"name" : "ALBERTO ANTONIO CONTRERAS RAMIREZ",
+		"activity" : "VENTA DE PARTES, PIEZAS Y ACCESORIOS PARA VEHICULOS AUTOMOTORES",
+		"district" : 141,
+		"city" : 93,
+		"address" : "villa pilar 2 calle 3 #1162"
+	},
+	{
+		"rut" : "77.306.729-5",
+		"name" : "CONSTRUCTORA VADAGI SPA",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO RESIDENCIAL",
+		"district" : 132,
+		"city" : 84,
+		"address" : "villa doctor urtado pje 8 nº 1155"
+	},
+	{
+		"rut" : "12.584.198-8",
+		"name" : "PABLO ANDRES ABAZOLO LETELIER",
+		"activity" : "VENTA AL POR MENOR DE ALIMENTO Y ACCESORIOS PARA MASCOTAS EN COMERCIOS",
+		"district" : 142,
+		"city" : 93,
+		"address" : "ajial #56, retiro"
+	},
+	{
+		"rut" : "5.279.659-8",
+		"name" : "ELIANA TORIBIA PINO CARRASCO",
+		"activity" : "FABRICACION DE MOTORES, GENERADORES Y TRANSFORMADORES ELECTRICOS, APAR",
+		"district" : 141,
+		"city" : 93,
+		"address" : "unicaven, perquilauquen, parral"
+	},
+	{
+		"rut" : "11.458.796-6",
+		"name" : "DAVID NOLBERTO LEIVA HERNANDEZ",
+		"activity" : "FABRICACION DE PRODUCTOS METALICOS PARA USO ESTRUCTURAL",
+		"district" : 141,
+		"city" : 93,
+		"address" : "pob. ines aragay #355"
+	},
+	{
+		"rut" : "77.274.380-7",
+		"name" : "SERVICIOS E INGENIERIA GEOSAT LIMITADA",
+		"activity" : "EXTRACCION DE MADERA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "camino parral cauquenes km 7.3 s/n"
+	},
+	{
+		"rut" : "77.181.277-5",
+		"name" : "G.A.S.P SPA",
+		"activity" : "INSTALACIONES ELECTRICAS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "2 sur #70"
+	},
+	{
+		"rut" : "76.783.096-3",
+		"name" : "AGRICOLA VILLASECA LIMITADA",
+		"activity" : "CULTIVO DE FRUTAS DE PEPITA Y DE HUESO",
+		"district" : 142,
+		"city" : 85,
+		"address" : "hijuela las casas lote a-13"
+	},
+	{
+		"rut" : "77.110.653-6",
+		"name" : "GEOTOP SYA TOPOGRAFÍA Y MAQUINARIA LIMITADA",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "arturo prat #1297"
+	},
+	{
+		"rut" : "77.807.038-3",
+		"name" : "CHILE GO SPA",
+		"activity" : "FABRICACION DE ROPA DE TRABAJO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "parcela numero 20 hijuelan 1 villa baviera"
+	},
+	{
+		"rut" : "77.009.484-4",
+		"name" : "Sociedad Agricola Arasid ltda.",
+		"activity" : "agricola",
+		"district" : 126,
+		"city" : 88,
+		"address" : "san ignacio de hijuelas 1B lote cauquenes"
+	},
+	{
+		"rut" : "6.799.790-5",
+		"name" : "SERGIO DE LA CRUZ URRA GUTIERREZ",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "matucana  n°970"
+	},
+	{
+		"rut" : "12.185.303-5",
+		"name" : "JUAN ALBERTO FLORES OPAZO",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "villa pilar 1 calle chile cas n°62"
+	},
+	{
+		"rut" : "18.286.126-k",
+		"name" : "PEDRO ANTONIO MOYA QUEZADA",
+		"activity" : "CULTIVO DE FRUTAS DE PEPITA Y DE HUESO",
+		"district" : 142,
+		"city" : 85,
+		"address" : "parcela 11 lote 4 santa delfina"
+	},
+	{
+		"rut" : "77.840.278-5",
+		"name" : "PRESTADORA DE SERVICIOS ANCRUZ SPA",
+		"activity" : "AGRICOLA",
+		"district" : 116,
+		"city" : 83,
+		"address" : "1 SUR 690"
+	},
+	{
+		"rut" : "9.535.180-8",
+		"name" : "ROBERTO ANTONIO FUENTES IGLESIAS",
+		"activity" : "TRANSPORTE DE CARGA POR CARRETERA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "villa santa luisa san pablo s/n"
+	},
+	{
+		"rut" : "77.080.535-k",
+		"name" : "CAMILO FELIPE ARAVENA SALVO, SERVICIOS EN INFORMATICA, E.I.R.L.",
+		"activity" : "INSTALACIONES DE GASFITERIA, CALEFACCION Y AIRE ACONDICIONADO",
+		"district" : 141,
+		"city" : 85,
+		"address" : "santiago urrutia 768"
+	},
+	{
+		"rut" : "77.377.038-7",
+		"name" : "CONSTRUCTORA Y COMERCIAL ROBERTO IGNACIO IBARRA MUÑOZ E.I.R.L.",
+		"activity" : "TERMINACION Y ACABADO DE EDIFICIOS",
+		"district" : 327,
+		"city" : 176,
+		"address" : "el charango #01384"
+	},
+	{
+		"rut" : "76.417.616-2",
+		"name" : "SERKLIMA GRUPO TECNICO LIMITADA",
+		"activity" : "REPARACION DE OTRO TIPO DE MAQUINARIA Y EQUIPOS INDUSTRIALES N.C.P.",
+		"district" : 116,
+		"city" : 83,
+		"address" : "35 oriente #3435"
+	},
+	{
+		"rut" : "10.905.885-8",
+		"name" : "JORGE MIGUEL VALDES CASTILLO",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "los molinos, camino al ajial"
+	},
+	{
+		"rut" : "77.864.532-7",
+		"name" : "AGRICOLA SUR SPA",
+		"activity" : "APOYO A LA AGRICULTURA",
+		"district" : 317,
+		"city" : 176,
+		"address" : "AV. PROVIDENCIA #1650 OF 505"
+	},
+	{
+		"rut" : "76.217.532-0",
+		"name" : "INVERSIONES SAN ALFONSO LIMITADA",
+		"activity" : "AGRICOLA",
+		"district" : 61,
+		"city" : 29,
+		"address" : "LT B 4 FDO SAN ALFONOSO ZAPALLAR"
+	},
+	{
+		"rut" : "6.216.891-9",
+		"name" : "VICTOR BADILLA BERNALES",
+		"activity" : "AGRICOLA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "HIJUELA TERCERA, FUNDO LIBERTAD"
+	},
+	{
+		"rut" : "15.381.833-9",
+		"name" : "DIEGO HUMBERTO DEL RIO TORO",
+		"activity" : "CULTIVO DE HORTALIZAS Y MELONES",
+		"district" : 142,
+		"city" : 85,
+		"address" : "FUNDO CUÑAO,HIJUELA 1 LOTE 3"
+	},
+	{
+		"rut" : "76.197.758-k",
+		"name" : "SOCIEDAD COMERCIAL E INMOBILIARIA BUENOS AIRES LIMITADA",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO RESIDENCIAL",
+		"district" : 141,
+		"city" : 93,
+		"address" : "AV. BUENOS AIRES #627"
+	},
+	{
+		"rut" : "13.789.484-k",
+		"name" : "RODRIGO ANTONIO CONTRERAS GATICA",
+		"activity" : "CULTIVO DE AVENA",
+		"district" : 142,
+		"city" : 93,
+		"address" : "el membrillo s/n, Retiro"
+	},
+	{
+		"rut" : "77.500.924-1",
+		"name" : "HL MANTENCIONES Y CONSTRUCCIONES SPA",
+		"activity" : "OBRAS MENORES",
+		"district" : 327,
+		"city" : 176,
+		"address" : "PASAJE ARAGONES 3 PONIENTE 1050 LOS CONQUISTADORES PUENTE ALTO"
+	},
+	{
+		"rut" : "77.804.664-4",
+		"name" : "SOCIEDAD MEDICA KINE Y TRAUMA MAULE LIMITADA",
+		"activity" : "CENTROS MEDICOS PRIVADOS (ESTABLECIMIENTOS DE ATENCION AMBULATORIA)",
+		"district" : 141,
+		"city" : 93,
+		"address" : "dieciocho #860"
+	},
+	{
+		"rut" : "17.332.057-4",
+		"name" : "JUAN FRANCISCO ALBORNOZ HERNANDEZ",
+		"activity" : "CONSTRUCCION DE OTRAS OBRAS DE INGENIERIA CIVIL",
+		"district" : 141,
+		"city" : 85,
+		"address" : "las carmelita pje 2 N 1041"
+	},
+	{
+		"rut" : "77.253.919-3",
+		"name" : "B FINDER SPA",
+		"activity" : "ASESORIAS EN MARKETING DIGITAL",
+		"district" : 308,
+		"city" : 176,
+		"address" : "MANQUEHUE SUR #520 OF 205, LAS CONDES, SANTIAGO"
+	},
+	{
+		"rut" : "96.528.630-6",
+		"name" : "EMPRESA DE CONSTRUCCIONES Y SONDAJES S A",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO RESIDENCIAL",
+		"district" : 116,
+		"city" : 83,
+		"address" : "13 1/2 norte #1621. talca"
+	},
+	{
+		"rut" : "10.153.559-2",
+		"name" : "JAIME ANDRES JERIA JERIA",
+		"activity" : "CULTIVO DE POROTOS",
+		"district" : 142,
+		"city" : 93,
+		"address" : "camino a santa teresa parcela n° 5, Retiro"
+	},
+	{
+		"rut" : "76.211.840-8",
+		"name" : "HENFRA DIVISION DE SERVICIOS MECANICOS LIMITADA",
+		"activity" : "VENTA AL POR MENOR DE VEHICULOS AUTOMOTORES NUEVOS O USADOS (INCLUYE C",
+		"district" : 333,
+		"city" : 176,
+		"address" : "portales oriente #1873"
+	},
+	{
+		"rut" : "16.827.753-9",
+		"name" : "JUAN MANUEL NAVARRO ORMENO",
+		"activity" : "OTRAS ACTIVIDADES ESPECIALIZADAS DE CONSTRUCCION",
+		"district" : 141,
+		"city" : 93,
+		"address" : "delicias norte #329"
+	},
+	{
+		"rut" : "12.886.970-0",
+		"name" : "DAVID VLADIMIR MUNOZ CONTRERAS",
+		"activity" : "TRANSPORTES",
+		"district" : 315,
+		"city" : 176,
+		"address" : "AV CERRILLOS #4030"
+	},
+	{
+		"rut" : "14.394.208-2",
+		"name" : "JUAN REINALDO ROJAS GONZALEZ",
+		"activity" : "CULTIVO DE OTRAS PLANTAS PERENNES",
+		"district" : 192,
+		"city" : 127,
+		"address" : "JJPEREZ #301, QUIRIHUE"
+	},
+	{
+		"rut" : "5.885.915-k",
+		"name" : "jose bastias",
+		"activity" : "agricola ",
+		"district" : 142,
+		"city" : 85,
+		"address" : "rincon ajial n/n "
+	},
+	{
+		"rut" : "4.542.929-6",
+		"name" : "JORGE FERNANDO URRUTIA DEL RIO",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "fundo huechuquito"
+	},
+	{
+		"rut" : "76.019.963-k",
+		"name" : "MORPH2O LATINOAMERICA LIMITADA",
+		"activity" : "VENTA AL POR MAYOR DE MAQUINARIA, EQUIPO Y MATERIALES AGROPECUARIOS",
+		"district" : 334,
+		"city" : 176,
+		"address" : "longitudinal sur 215, buin"
+	},
+	{
+		"rut" : "8.814.302-7",
+		"name" : "CARLOS ANTONIO SEPULVEDA MUÑOZ",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "parcela 24, torca"
+	},
+	{
+		"rut" : "77.103.105-6",
+		"name" : "TRANSPORTES EL AJIAL SPA",
+		"activity" : "TRANSPORTE DE CARGA POR CARRETERA",
+		"district" : 142,
+		"city" : 85,
+		"address" : "parcela 16, el ajial"
+	},
+	{
+		"rut" : "77.101.694-4",
+		"name" : "SANTA CRISTINA SPA",
+		"activity" : "CULTIVO DE FRUTAS DE PEPITA Y DE HUESO",
+		"district" : 342,
+		"city" : 189,
+		"address" : "ruta g-40 #1446, Talagante"
+	},
+	{
+		"rut" : "13.842.219-4",
+		"name" : "MARCELO OCTAVIO HERNANDEZ ESPINOZA",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "VILLA PABLO NERUDA, 4 SUR #655, PARRAL"
+	},
+	{
+		"rut" : "76.055.173-2",
+		"name" : "CONSTRUCTORA RODRIGO ANDRES MORA LUEIZA E.I.R.L.",
+		"activity" : "INSTALACIONES DE GASFITERIA, CALEFACCION Y AIRE ACONDICIONADO",
+		"district" : 129,
+		"city" : 84,
+		"address" : "Villota #60, curico"
+	},
+	{
+		"rut" : "12.544.792-9",
+		"name" : "FRANCISCO ADOLFO LOPEZ SOTO",
+		"activity" : "INSTALACIONES DE GASFITERIA, CALEFACCION Y AIRE ACONDICIONADO",
+		"district" : 313,
+		"city" : 176,
+		"address" : "LA GALAXIA #2551, MAIPU"
+	},
+	{
+		"rut" : "7.158.400-3",
+		"name" : "IGNACIO JESUS ARAVENA MAUREIRA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 93,
+		"address" : "parcela 27 sector mantul, retiro"
+	},
+	{
+		"rut" : "25.321.977-7",
+		"name" : "MILTON PATRICIO FARINANGO VINUEZA",
+		"activity" : "VENTA AL POR MENOR DE PRENDAS Y ACCESORIOS DE VESTIR EN COMERCIOS ESPE",
+		"district" : 141,
+		"city" : 93,
+		"address" : "ANIBAL PINTO #425"
+	},
+	{
+		"rut" : "8.440.366-0",
+		"name" : "PABLO ANTONIO VALVERDE INOSTROZA",
+		"activity" : "OTRAS ACTIVIDADES DE SERVICIOS PERSONALES N.C.P.",
+		"district" : 141,
+		"city" : 93,
+		"address" : "SAN MARTIN ·#1085, PARRAL"
+	},
+	{
+		"rut" : "12.185.462-7",
+		"name" : "CLAUDIA PABLINA MARTINEZ CONTRERAS",
+		"activity" : "CULTIVO DE FRUTAS DE PEPITA Y DE HUESO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "URRUTIA #1094"
+	},
+	{
+		"rut" : "15.157.939-6",
+		"name" : "JUAN GONZALO VASQUEZ TAPIA",
+		"activity" : "CULTIVO DE PRODUCTOS AGRICOLAS EN COMBINACION CON LA CRIA DE ANIMALES",
+		"district" : 142,
+		"city" : 93,
+		"address" : "LAS CAMELIAS S/N PARCELA 26 LOTE 4"
+	},
+	{
+		"rut" : "76.005.321-K",
+		"name" : "EMPRESA CONSTRUCTORA SANTA LAURA LIMITADA",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO RESIDENCIAL",
+		"district" : 116,
+		"city" : 83,
+		"address" : "11 1/2 NORTE 1 PONIENTE 44 VILLA PIDUCO"
+	},
+	{
+		"rut" : "15.157.614-1",
+		"name" : "CARLOS FELIPE ORTEGA MAUREIRA",
+		"activity" : "TRANSPORTE DE CARGA POR CARRETERA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "buenos aire 688"
+	},
+	{
+		"rut" : "76.274.550-k",
+		"name" : "SOCIEDAD AGRICOLA Y GANADERA PUQUELAHUE LIMITADA",
+		"activity" : "CULTIVO DE OTROS CEREALES (EXCEPTO TRIGO, MAIZ, AVENA Y CEBADA)",
+		"district" : 140,
+		"city" : 85,
+		"address" : "parcela 52 "
+	},
+	{
+		"rut" : "77.792.674-8",
+		"name" : "servicios acfa parral spa",
+		"activity" : "instalaciones de gasfiteria ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "pje 5 3  el conquistador 2 "
+	},
+	{
+		"rut" : "76.149.039-7",
+		"name" : "SOCIEDAD E INMOBILIARIA PRAVI LTDA",
+		"activity" : "INMOBILIRIA ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "DIECICHO 1251"
+	},
+	{
+		"rut" : "76.980.048-4",
+		"name" : "KURUFEN SPA",
+		"activity" : "REPARACION DE OTRO TIPO DE MAQUINARIA Y EQUIPOS INDUSTRIALES N.C.P.",
+		"district" : 313,
+		"city" : 176,
+		"address" : "euripides 2831"
+	},
+	{
+		"rut" : "13.374.250-6",
+		"name" : "GABRIEL ANTONIO VALLEJOS VALVERDE",
+		"activity" : "CULTIVO DE FRUTAS DE PEPITA Y DE HUESO",
+		"district" : 142,
+		"city" : 85,
+		"address" : "parcela 80 lote 10 romeral"
+	},
+	{
+		"rut" : "76.586.674-k",
+		"name" : "TECNOLOGÍA JS SPA",
+		"activity" : "INSTALACIONES ELECTRICAS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "POB. BULLILEO PJE. 4 #427, PARRAL"
+	},
+	{
+		"rut" : "77.119.485-0",
+		"name" : "INGENIERIA Y CONSTRUCCION FABIAN ANTONIO IBANEZ RIOS E.I.R.L.",
+		"activity" : "FABRICACION DE OTROS PRODUCTOS ELABORADOS DE METAL N.C.P.",
+		"district" : 141,
+		"city" : 93,
+		"address" : "patricio blanco #90"
+	},
+	{
+		"rut" : "11.225.338-6",
+		"name" : "NANCY DE LAS MERCEDES ESPINACE RUIZ",
+		"activity" : "FABRICACION DE OTROS PRODUCTOS DE CAUCHO",
+		"district" : 300,
+		"city" : 176,
+		"address" : "german yungue #4015"
+	},
+	{
+		"rut" : "12.158.003-9",
+		"name" : "MARCIA LORENA HERNANDEZ FLORES",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "parcela 1, la gloria, parral"
+	},
+	{
+		"rut" : "77.052.751-1",
+		"name" : "GENUS SPORT CHILE SPA",
+		"activity" : "MANTENIMIENTO Y REPARACION DE VEHICULOS AUTOMOTORES",
+		"district" : 141,
+		"city" : 93,
+		"address" : "hij quinta o el pera"
+	},
+	{
+		"rut" : "11.566.373-9",
+		"name" : "ZENEL ANTONIO TAPIA AGURTO",
+		"activity" : "CONSTRUCCION DE CARRETERAS Y LINEAS DE FERROCARRIL",
+		"district" : 141,
+		"city" : 93,
+		"address" : "dos sur 0368 arrau mendez"
+	},
+	{
+		"rut" : "11.111.111-1",
+		"name" : "Sin Cliente",
+		"activity" : "No aplica",
+		"district" : 141,
+		"city" : 93,
+		"address" : "Parral"
+	},
+	{
+		"rut" : "15.500.461-4",
+		"name" : "VICTOR MANUEL HENRIQUEZ MEZA",
+		"activity" : "PREPARACION E HILATURA DE FIBRAS TEXTILES",
+		"district" : 141,
+		"city" : 85,
+		"address" : "POBLACION BULLILEO CALLE GUILLERMO SOLAR 53"
+	},
+	{
+		"rut" : "77.051.396-0",
+		"name" : "SOCIEDAD INDUSTRIAL P&R SPA",
+		"activity" : "FABRICACION DE OTROS PRODUCTOS ELABORADOS DE METAL N.C.P.",
+		"district" : 300,
+		"city" : 176,
+		"address" : "RECREO 539"
+	},
+	{
+		"rut" : "11.288.765-2",
+		"name" : "HERNAN PATRICIO INOSTROZA FERNANDEZ",
+		"activity" : "CULTIVO DE HORTALIZAS Y MELONES",
+		"district" : 142,
+		"city" : 85,
+		"address" : "parcela 32, la granja, Retiro"
+	},
+	{
+		"rut" : "12.093.463-5",
+		"name" : "JORGE ENRIQUE AVILA JORQUERA",
+		"activity" : "CULTIVO DE FRUTAS DE PEPITA Y DE HUESO",
+		"district" : 142,
+		"city" : 85,
+		"address" : "los robles parcela 29, retiro"
+	},
+	{
+		"rut" : "77.007.424-k",
+		"name" : "GASCAL CHILE SPA",
+		"activity" : "INSTALACIONES DE GASFITERIA, CALEFACCION Y AIRE ACONDICIONADO",
+		"district" : 327,
+		"city" : 176,
+		"address" : "pasaje liguria oriente #1499"
+	},
+	{
+		"rut" : "6.486.364-9",
+		"name" : "MARIA JIMENA DEL CARMEN GONZALEZ MUNOZ",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "ignacio carrera pinto #331"
+	},
+	{
+		"rut" : "77.198.012-0",
+		"name" : "FENIX CONSTRUCCIONES SPA",
+		"activity" : "CONSTRUCCION DE OTRAS OBRAS DE INGENIERIA CIVIL",
+		"district" : 301,
+		"city" : 176,
+		"address" : "Cantares n°5888"
+	},
+	{
+		"rut" : "77.322.683-0",
+		"name" : "I.E. CONSTRUCTORA SPA",
+		"activity" : "DEMOLICION",
+		"district" : 295,
+		"city" : 176,
+		"address" : "MONJITAS 550 DPTO 519"
+	},
+	{
+		"rut" : "77.307.161-6",
+		"name" : "COMERCIALIZADORA NAVARRO Y NAVARRO SPA",
+		"activity" : "VENTA AL POR MAYOR DE OTROS ENSERES DOMESTICOS N.C.P.",
+		"district" : 141,
+		"city" : 93,
+		"address" : "DELICIAS NORTE #329"
+	},
+	{
+		"rut" : "76.817.712-0",
+		"name" : "AGRICOLA NATALY VILLENA CORDOVA E.I.R.L.",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 85,
+		"address" : "cura cura H-4 "
+	},
+	{
+		"rut" : "78.386.350-2",
+		"name" : "CONSTRUCTORA TAFCA SPA",
+		"activity" : "EXTRACCION DE PIEDRA, ARENA Y ARCILLA",
+		"district" : 83,
+		"city" : 63,
+		"address" : "diego de almagro #1799"
+	},
+	{
+		"rut" : "76.643.091-0",
+		"name" : "OBRAS DE INGIENERIA",
+		"activity" : "CONSTRUCCION",
+		"district" : 146,
+		"city" : 96,
+		"address" : "DIEGO DE ORO 382, CHILLANCITO"
+	},
+	{
+		"rut" : "77.879.855-7",
+		"name" : "GALPÓN DEL DISEÑO VADIANJU SPA",
+		"activity" : "FABRICACION DE MUEBLES PRINCIPALMENTE DE MADERA",
+		"district" : 335,
+		"city" : 176,
+		"address" : "condominio sta. Daniela Lt15"
+	},
+	{
+		"rut" : "77.308.112-3",
+		"name" : "CONSTRUCCION L.C. LIMITADA",
+		"activity" : "INSTALACION DE MAQUINARIA Y EQUIPOS INDUSTRIALES",
+		"district" : 141,
+		"city" : 93,
+		"address" : "Urrutia n°699"
+	},
+	{
+		"rut" : "12.892.991-6",
+		"name" : "ALEJANDRA DEL CARMEN SEPULVEDA VILLAGRA",
+		"activity" : "OTRAS ACTIVIDADES ESPECIALIZADAS DE CONSTRUCCION",
+		"district" : 312,
+		"city" : 176,
+		"address" : "DOCTOR AMADOR NEGHME #4201, MACUL"
+	},
+	{
+		"rut" : "76.692.948-6",
+		"name" : "SNOW AND SUN SPA",
+		"activity" : "CONSTRUCCION DE OTRAS OBRAS DE INGENIERIA CIVIL",
+		"district" : 308,
+		"city" : 176,
+		"address" : "AV NUEVA TAJAMAR 481 OFI 503"
+	},
+	{
+		"rut" : "76.379.456-3",
+		"name" : "PRESTADORA DE SERVICIOS INTEGRALES RAMON ENRIQUE TORRES URRUTIA E.I.R.",
+		"activity" : "OTROS SERVICIOS DE APOYO A LA SILVICULTURA N.C.P.",
+		"district" : 141,
+		"city" : 93,
+		"address" : "dieciocho #1096"
+	},
+	{
+		"rut" : "77.320.362-8",
+		"name" : "MAQUINARIAS LONTUE SPA",
+		"activity" : "ALQUILER DE MAQUINARIA Y EQUIPO AGROPECUARIO, FORESTAL, DE CONSTRUCCIO",
+		"district" : 317,
+		"city" : 176,
+		"address" : "guardia vieja n°255 of 1601"
+	},
+	{
+		"rut" : "77.555.840-7",
+		"name" : "COMERCIALIZADORA AGRICOLA Y FORESTAL PINARES LIMITADA",
+		"activity" : "OTROS SERVICIOS DE APOYO A LA SILVICULTURA N.C.P.",
+		"district" : 146,
+		"city" : 96,
+		"address" : "plaza españa #514 of 305A "
+	},
+	{
+		"rut" : "77.753.658-3",
+		"name" : "DISTRIBUIDORA CASA MIA MANUEL ALFONSO ORMEÑO PARADA E.I.R.L.",
+		"activity" : "ELABORACION DE PRODUCTOS DE PANADERIA Y PASTELERIA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "dieciocho x buin, parral"
+	},
+	{
+		"rut" : "11.335.080-6",
+		"name" : "GLORIA ELENA VILLALOBOS ZUNIGA",
+		"activity" : "CULTIVO DE SEMILLAS DE MARAVILLA (GIRASOL)",
+		"district" : 141,
+		"city" : 93,
+		"address" : "igualdad sur, fundo santa delia"
+	},
+	{
+		"rut" : "5.935.122-2",
+		"name" : "DAVID CONCHA",
+		"activity" : "SERVICIO TECNICO Y VENTA DE REPUESTOS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "ANIBAL PINTO #170"
+	},
+	{
+		"rut" : "76.258.505-7",
+		"name" : "GEMS NDT SPA",
+		"activity" : "OTRAS ACTIVIDADES DE SERVICIOS DE APOYO A LAS EMPRESAS N.C.P.",
+		"district" : 304,
+		"city" : 176,
+		"address" : "ROJAS MAGALLANES #416, LA FLORIDA"
+	},
+	{
+		"rut" : "77.413.611-8",
+		"name" : "constructora roberto muños",
+		"activity" : "construccion de edificio en altura ",
+		"district" : 138,
+		"city" : 85,
+		"address" : "e german murguez 0922 hto meza rojas linares"
+	},
+	{
+		"rut" : "12.185.380-9",
+		"name" : "CARLOS ENRIQUE CONCHA CONCHA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 85,
+		"address" : "PARCELA 13 CURAPEUMO PARRAL"
+	},
+	{
+		"rut" : "10.464.113-K",
+		"name" : "LEONARDO VALENTIN CEPEDA CAMPUSANO",
+		"activity" : "TERMINACION Y ACABADO DE EDIFICIOS",
+		"district" : 300,
+		"city" : 176,
+		"address" : "CONDE DEL MAULE 4175 OF 2013"
+	},
+	{
+		"rut" : "77.858.564-2",
+		"name" : "SEGURIDAD E INGENIERÍA VW SPA",
+		"activity" : "OTRAS ACTIVIDADES DE TRANSPORTE URBANO Y SUBURBANO DE PASAJEROS POR VI",
+		"district" : 155,
+		"city" : 96,
+		"address" : "chacabuco 352"
+	},
+	{
+		"rut" : "79.606.540-0",
+		"name" : "MOLINO ARROCERO FARPAL  SPA",
+		"activity" : "ACTIVIDADES POSCOSECHA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "RUTA 5 SUR KM 338"
+	},
+	{
+		"rut" : "8.630.339-6",
+		"name" : "PROFILIO ANTONIO MORA NAVARRO",
+		"activity" : "CULTIVO DE POROTOS",
+		"district" : 142,
+		"city" : 93,
+		"address" : "la union de los robles"
+	},
+	{
+		"rut" : "19.575.531-0",
+		"name" : "BASTIAN BENJAMIN PARADA ASCENCIO",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 142,
+		"city" : 85,
+		"address" : "parcela 26, santa delfina"
+	},
+	{
+		"rut" : "5.558.455-9",
+		"name" : "BENTURA DEL ROSARIO PEREIRA BARRIENTOS",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "parcela 15 racimo de oro, perquilauquen"
+	},
+	{
+		"rut" : "76.669.180-3",
+		"name" : "INVERSIONES BUSTOS MORGADO SPA",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO RESIDENCIAL",
+		"district" : 317,
+		"city" : 176,
+		"address" : "amapolas 1290 of 1007, providencia"
+	},
+	{
+		"rut" : "8.697.749-4",
+		"name" : "MANUEL EUDORO DE LAS MERCEDES LEIVA GONZALEZ",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "tarapaca #63"
+	},
+	{
+		"rut" : "11.567.041-7",
+		"name" : "JIMENA PAOLA FUENTES BUENO",
+		"activity" : "TRANSPORTE DE CARGA POR CARRETERA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "villa pablo neruda pje licanray #49"
+	},
+	{
+		"rut" : "59.291.940-0",
+		"name" : "PUENTES Y CALZADAS INFRAESTRUCTURAS SLU",
+		"activity" : "CONSTRUCCION ",
+		"district" : 308,
+		"city" : 176,
+		"address" : "VITACURA 2969 OF 301"
+	},
+	{
+		"rut" : "77.137.260-0",
+		"name" : "propext ltda ",
+		"activity" : "ingeneria y contruccion",
+		"district" : 155,
+		"city" : 97,
+		"address" : "san carlos 666 santa leonor"
+	},
+	{
+		"rut" : "8.328.184-7",
+		"name" : "PEDRO PASCUAL ROJAS ALBORNOZ",
+		"activity" : "CULTIVO DE FRUTAS DE PEPITA Y DE HUESO",
+		"district" : 142,
+		"city" : 93,
+		"address" : "ajial valdivieso s/numero parcela 38, retiro"
+	},
+	{
+		"rut" : "77.891.447-6",
+		"name" : "CF INTEGRALES SPA",
+		"activity" : "CONSTRUCCION",
+		"district" : 141,
+		"city" : 93,
+		"address" : "PASAJE 7 LT 9 1159 VALLES DE PARRAL III, PARRAL"
+	},
+	{
+		"rut" : "6.272.548-6",
+		"name" : "GLORIA DEL CARMEN VASQUEZ YANEZ",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "pobl. jose miguel carrera, pasaje el suce, casa 35"
+	},
+	{
+		"rut" : "9.279.797-k",
+		"name" : "FRANCISCA DOMITILA ALBARADO ROSALES",
+		"activity" : "REPARACION DE MAQUINARIA AGROPECUARIA Y FORESTAL",
+		"district" : 335,
+		"city" : 176,
+		"address" : "lonquen norte paradero 10 sitio 9"
+	},
+	{
+		"rut" : "77.124.232-4",
+		"name" : "ZYC CONSTRUCCION Y MONTAJE SPA",
+		"activity" : "INSTALACION ELECTRICA",
+		"district" : 138,
+		"city" : 85,
+		"address" : "ERRAZURIS #51"
+	},
+	{
+		"rut" : "9.304.588-2",
+		"name" : "ELADIO VILLEGAS ULE",
+		"activity" : "AGRICOLA",
+		"district" : 254,
+		"city" : 167,
+		"address" : "CAULIN BAJO S/N"
+	},
+	{
+		"rut" : "77.433.159-k",
+		"name" : "AGROAVELLANO SPA",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 120,
+		"city" : 83,
+		"address" : "las vegas s/n"
+	},
+	{
+		"rut" : "12.966.383-9",
+		"name" : "GONZALO ANTONIO VILLAGRA ORTEGA",
+		"activity" : "TERMINACION Y ACABADO DE EDIFICIOS",
+		"district" : 303,
+		"city" : 176,
+		"address" : "san luis #7150, las cisterna"
+	},
+	{
+		"rut" : "76.867.102-8",
+		"name" : "ODC CONSTRUCCION Y PUBLICIDAD SPA",
+		"activity" : "CONSTRUCCION Y PUBLICIDAD",
+		"district" : 138,
+		"city" : 85,
+		"address" : "YERBAS BUENAS #1013, LINARES"
+	},
+	{
+		"rut" : "5.340.148-1",
+		"name" : "AGUSTIN VEGA ALARCON",
+		"activity" : "AGRICOLA Y MADERERIA",
+		"district" : 128,
+		"city" : 88,
+		"address" : "PELLUHUE SIN NUMERO"
+	},
+	{
+		"rut" : "19.990.812-k",
+		"name" : "ROBERTO JOAN ALONSO FUENTES GUTIERREZ",
+		"activity" : "TRANSPORTE DE CARGA POR CARRETERA",
+		"district" : 141,
+		"city" : 85,
+		"address" : "villa santa luisa s/n"
+	},
+	{
+		"rut" : "80.562.300-4",
+		"name" : "SOCIEDAD PANADERIA SELECTA SPA",
+		"activity" : "PANADERIA",
+		"district" : 141,
+		"city" : 85,
+		"address" : "ANIBAL PINTO 169"
+	},
+	{
+		"rut" : "76.297.862-8",
+		"name" : "RIO FRIO SERVICE SPA",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 323,
+		"city" : 176,
+		"address" : "SANTA ELENA #2362 OF 302"
+	},
+	{
+		"rut" : "76.574.649-3",
+		"name" : "LA GLORIA S.A",
+		"activity" : "GENERACION DE ENERGIA ELECTRICA EN OTRAS CENTRALES N.C.P.",
+		"district" : 308,
+		"city" : 176,
+		"address" : "av andres bello 2777 of 2302 edificio de la industria"
+	},
+	{
+		"rut" : "77.411.923-k",
+		"name" : "PRISMA SPA",
+		"activity" : "OTRAS ACTIVIDADES DE IMPRESION",
+		"district" : 141,
+		"city" : 93,
+		"address" : "ANIBAL PINTO #985"
+	},
+	{
+		"rut" : "14.438.984-0",
+		"name" : "DAVID ADRIAN CHANDIA FERNANDEZ",
+		"activity" : "OTRAS INDUSTRIAS MANUFACTURERAS N.C.P.",
+		"district" : 305,
+		"city" : 176,
+		"address" : "Calle O 6532 Villa Brasil"
+	},
+	{
+		"rut" : "77.846.456-k",
+		"name" : "SERVICIOS DE REFRIGERACIÓN Y ELECTRICIDAD NAVARRO Y VALENZUELA LIMITAD",
+		"activity" : "INSTALACIONES ELECTRICAS",
+		"district" : 142,
+		"city" : 85,
+		"address" : "LA TOMA LTB-2, RETIRO"
+	},
+	{
+		"rut" : "9.393.632-9",
+		"name" : "DIONISIO ANTONIO VALDEZ CONCHA",
+		"activity" : "TERMINACION Y ACABADO DE EDIFICIOS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "sector jose miguel carrera parcela 64 hijuela 3B"
+	},
+	{
+		"rut" : "14.261.798-6",
+		"name" : "ROBERTO ANDRES RABELO SILVA",
+		"activity" : "REPARACION DE EQUIPO ELECTRICO (EXCEPTO REPARACION DE EQUIPO Y ENSERES",
+		"district" : 319,
+		"city" : 176,
+		"address" : "el acornoque #1586, quilicura"
+	},
+	{
+		"rut" : "16.462.765-9",
+		"name" : "omar ceroni castillo",
+		"activity" : "agricola",
+		"district" : 141,
+		"city" : 93,
+		"address" : "quinta alegre lote a s/n "
+	},
+	{
+		"rut" : "8.628.678-5",
+		"name" : "FRANCISCO JAVIER AGURTO SALAZAR",
+		"activity" : "TRANSPORTE DE CARGA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "AV. PATRICIO BLANCO #912"
+	},
+	{
+		"rut" : "77.264.799-9",
+		"name" : "AGROSERVICIOS VERMAQ LIMITADA",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 123,
+		"city" : 83,
+		"address" : "LA CHISPA S/N, RIO CLARO"
+	},
+	{
+		"rut" : "77.493.252-6",
+		"name" : "TRANSPORTES MORENO SPA",
+		"activity" : "TRANSPORTE DE CARGA POR CARRETERA",
+		"district" : 117,
+		"city" : 86,
+		"address" : "los lirios #743 dpto 101"
+	},
+	{
+		"rut" : "11.788.463-5",
+		"name" : "JOSE RAMIRO VALDES HERNANDEZ",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 93,
+		"address" : "union san jose s/n"
+	},
+	{
+		"rut" : "76.554.555-2",
+		"name" : "SERVICIOS INDUSTRIALES R&R LIMITADA",
+		"activity" : "FABRICACION DE PRODUCTOS METALICOS PARA USO ESTRUCTURAL",
+		"district" : 180,
+		"city" : 123,
+		"address" : "serrano #370, bulnes"
+	},
+	{
+		"rut" : "76.023.769-8",
+		"name" : "SOCIEDAD FRUTICOLA HUERTOS LA MARAVILLA LIMITADA",
+		"activity" : "CULTIVO DE FRUTAS DE PEPITA Y DE HUESO",
+		"district" : 142,
+		"city" : 93,
+		"address" : "FUNDO LA MARAVILLA RETIRO"
+	},
+	{
+		"rut" : "9.931.663-2",
+		"name" : "GLADIS DEL CARMEN CASTILLO ARIAS",
+		"activity" : "FABRICACION DE OTROS PRODUCTOS TEXTILES N.C.P.",
+		"district" : 324,
+		"city" : 176,
+		"address" : "chiloe 5847"
+	},
+	{
+		"rut" : "77.875.091-0",
+		"name" : "nuevo progreso spa",
+		"activity" : "agricola",
+		"district" : 116,
+		"city" : 83,
+		"address" : "una sur 690 ofi 815"
+	},
+	{
+		"rut" : "76.295.747-7",
+		"name" : "SOCIEDAD COMERCIAL Y CONSTRUCTORA ARTECHEO LIMITADA",
+		"activity" : "RECUPERACION Y RECICLAMIENTO DE OTROS DESPERDICIOS Y DESECHOS N.C.P.",
+		"district" : 141,
+		"city" : 93,
+		"address" : "PASAJE D 350 L"
+	},
+	{
+		"rut" : "11.675.811-3",
+		"name" : "JAIME RICARDO CARRIEL ROJAS",
+		"activity" : "VENTA AL POR MENOR DE OTROS ARTICULOS DE SEGUNDA MANO EN COMERCIOS N.C",
+		"district" : 116,
+		"city" : 83,
+		"address" : "18 sur con 30 oriente"
+	},
+	{
+		"rut" : "77.121.824-5",
+		"name" : "AUDIT & INNOVATION CONSULTING SPA",
+		"activity" : "VENTA AL POR MENOR DE COMPUTADORES, EQUIPO PERIFERICO, PROGRAMAS INFOR",
+		"district" : 116,
+		"city" : 83,
+		"address" : "1 oriente #556"
+	},
+	{
+		"rut" : "10.416.168-5",
+		"name" : "GUIDO ANTONIO FUENTES CANCINO",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 85,
+		"address" : "PARTE PARCELA NUMERO 38 SITIO NUMERO 3, LA UNION DE LOS ROBLES"
+	},
+	{
+		"rut" : "77.876.624-8",
+		"name" : "SOCIEDAD RG LANDAETA LIMITADA",
+		"activity" : "ACTIVIDADES DE RESTAURANTES Y DE SERVICIO MOVIL DE COMIDAS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "anibal pinto #165A"
+	},
+	{
+		"rut" : "77.034.704-1",
+		"name" : "SERVICIOS FUNERARIOS MI SALVADOR SPA",
+		"activity" : "SERVICIOS FUNERARIOS",
+		"district" : 313,
+		"city" : 176,
+		"address" : "avenida de la victoria #2055, maipu"
+	},
+	{
+		"rut" : "77.376.127-2",
+		"name" : "SOCIEDAD FORESTAL Y SERVICIOS LOS OLIVOS SPA",
+		"activity" : "OTROS SERVICIOS DE APOYO A LA SILVICULTURA N.C.P.",
+		"district" : 183,
+		"city" : 106,
+		"address" : "lt12 las orquideas #46"
+	},
+	{
+		"rut" : "77.192.117-5",
+		"name" : "SOCIEDAD CONSTRUCTORA LUMART LIMITADA",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO RESIDENCIAL",
+		"district" : 141,
+		"city" : 93,
+		"address" : "calle 18 #640 of 12"
+	},
+	{
+		"rut" : "77.356.417-5",
+		"name" : "LISERMAQ H.C. SPA",
+		"activity" : "CONSTRUCCION",
+		"district" : 138,
+		"city" : 85,
+		"address" : "GERMAN MOURGUES 0993 MEZA ROJAS 0993"
+	},
+	{
+		"rut" : "77.235.052-K",
+		"name" : "SERVICENTRO COMTAL LIMITADA",
+		"activity" : "VENTA AL POR MAYOR DE COMBUSTIBLES SOLIDOS, LIQUIDOS Y GASEOSOS Y PROD",
+		"district" : 141,
+		"city" : 93,
+		"address" : "PATRICIO BLANCO #450"
+	},
+	{
+		"rut" : "12.966.655-2",
+		"name" : "CRISTIAN GONZALO RAMOS MORENO",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "perquilauquen, unicaven "
+	},
+	{
+		"rut" : "12.359.793-1",
+		"name" : "ANA DEL CARMEN FLORES OPAZO",
+		"activity" : "TRANSPORTE DE CARGA POR CARRETERA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "AV. SANTIAGO URRUTIA #359"
+	},
+	{
+		"rut" : "77.713.618-6",
+		"name" : "COMERCIAL MC SPA",
+		"activity" : "VENTA AL POR MAYOR DE MADERA EN BRUTO Y PRODUCTOS PRIMARIOS DE LA ELAB",
+		"district" : 141,
+		"city" : 93,
+		"address" : "REMULCAO LOTE 4"
+	},
+	{
+		"rut" : "76.158.821-4",
+		"name" : "CONSTRUCTORA CBC",
+		"activity" : "CONSTRUCCION",
+		"district" : 141,
+		"city" : 93,
+		"address" : "IGUALDAD SUR S/N"
+	},
+	{
+		"rut" : "8.362.692-5",
+		"name" : "ELSA DEL CARMEN CASTILLO FUENTES",
+		"activity" : "VENTA AL POR MENOR DE ARTICULOS DE FERRETERIA Y MATERIALES DE CONSTRUC",
+		"district" : 141,
+		"city" : 93,
+		"address" : "DELICIAS NORTE 615"
+	},
+	{
+		"rut" : "12.154.935-2",
+		"name" : "JUAN FRANCISCO AGURTO ABEJARES",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "TALQUITA PARCELA 14"
+	},
+	{
+		"rut" : "76.446.522-9",
+		"name" : "SERVICIOS ELECTRICOS PRIMARIOS SPA",
+		"activity" : "INSTALACIONES ELECTRICAS",
+		"district" : 319,
+		"city" : 176,
+		"address" : "CAUPOLICAN #9476"
+	},
+	{
+		"rut" : "77.172.971-1",
+		"name" : "OBRAS CIVILES Y SERVICIOS SANITARIOS SPA",
+		"activity" : "CONSTRUCCION DE OTRAS OBRAS DE INGENIERIA CIVIL",
+		"district" : 182,
+		"city" : 96,
+		"address" : "manuel matta n° 591"
+	},
+	{
+		"rut" : "77.917.092-6",
+		"name" : "desarmaduria jose javier crisostomo roa e.i.r.l",
+		"activity" : "venta de partes, piezas y accesorios para vehiculos automotores",
+		"district" : 141,
+		"city" : 93,
+		"address" : "valles racimos de oro parcela 8 lote 1f"
+	},
+	{
+		"rut" : "8.550.414-2",
+		"name" : "LUIS MIGUEL FUENTES VASQUEZ",
+		"activity" : "VENTA AL POR MENOR DE GAS LICUADO EN BOMBONAS (CILINDROS) EN COMERCIOS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "avenida 2 sur #153"
+	},
+	{
+		"rut" : "76.175.083-6",
+		"name" : "LAGOS CARPAS SPA",
+		"activity" : "ALQUILER DE OTROS EFECTOS PERSONALES Y ENSERES DOMESTICOS (INCLUYE MOB",
+		"district" : 334,
+		"city" : 176,
+		"address" : "camino al cerrillo ·#1951, linderos"
+	},
+	{
+		"rut" : "18.877.446-6",
+		"name" : "DIEGO SEGUNDO VIELMA MUNOZ",
+		"activity" : "VENTA AL POR MENOR DE ARTICULOS DE FERRETERIA Y MATERIALES DE CONSTRUC",
+		"district" : 141,
+		"city" : 93,
+		"address" : "delicias sur 380"
+	},
+	{
+		"rut" : "76.078.112-6",
+		"name" : "FRUTICOLA OLMUE SPA",
+		"activity" : "ELABORACION Y CONSERVACION DE FRUTAS, LEGUMBRES Y HORTALIZAS",
+		"district" : 179,
+		"city" : 106,
+		"address" : "CAMINO PARQUE LANTAÑO 100"
+	},
+	{
+		"rut" : "13.841.766-2",
+		"name" : "ESTEBAN ENRIQUE ORTEGA ESCOBAR",
+		"activity" : "CULTIVO DE FRUTOS OLEAGINOSOS (INCLUYE EL CULTIVO DE ACEITUNAS)",
+		"district" : 142,
+		"city" : 85,
+		"address" : "carmen oriente sn"
+	},
+	{
+		"rut" : "77.514.108-5",
+		"name" : "DY ESTRUCTURAS SPA",
+		"activity" : "TERMINACION Y ACABADO DE EDIFICIOS",
+		"district" : 140,
+		"city" : 92,
+		"address" : "las motas, longavi s/numero"
+	},
+	{
+		"rut" : "76.855.775-6",
+		"name" : "PANADERIA Y PASTELERIA DON PABLO SPA",
+		"activity" : "ELABORACION DE PRODUCTOS LACTEOS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "anibal pinto # 209"
+	},
+	{
+		"rut" : "8.257.310-0",
+		"name" : "Recicladora Camila",
+		"activity" : "recicladora",
+		"district" : 141,
+		"city" : 93,
+		"address" : "delicias sur 726"
+	},
+	{
+		"rut" : "6.359.278-1",
+		"name" : "francisco sepulveda vasquez",
+		"activity" : "agricola",
+		"district" : 141,
+		"city" : 93,
+		"address" : "fuerte viejo s/n"
+	},
+	{
+		"rut" : "78.919.020-8",
+		"name" : "SOC AGRICOLA SAN LUIS LTDA ",
+		"activity" : "AGRICOLA ",
+		"district" : 141,
+		"city" : 85,
+		"address" : "KILOMETRO 3 CAMINO SANTA DELIA SECTOR PERQUILAUQUEN"
+	},
+	{
+		"rut" : "9.419.060-6",
+		"name" : "OCLIDE ANTONIO SEPULVEDA GONZALEZ",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "FUERTE VIEJO SN"
+	},
+	{
+		"rut" : "17.091.328-0",
+		"name" : "ALVARO LEONARDO LOPEZ CASTILLO",
+		"activity" : "VENTA DE PARTES, PIEZAS Y ACCESORIOS PARA VEHICULOS AUTOMOTORES",
+		"district" : 141,
+		"city" : 93,
+		"address" : "delicias sur #830"
+	},
+	{
+		"rut" : "9.135.505-1",
+		"name" : "JORGE GILBERTO ROJAS VEGA",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA\t",
+		"district" : 141,
+		"city" : 93,
+		"address" : "parcela el salto sin numero"
+	},
+	{
+		"rut" : "77.106.147-8",
+		"name" : "SERVICIOS AGRICOLAS MARISEL ESPINAZA OÑATE E.I.R.L.",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 142,
+		"city" : 85,
+		"address" : "Predio san pedro, paso hondo "
+	},
+	{
+		"rut" : "76.245.788-1",
+		"name" : "sociedad gutierrez e hijo ltda",
+		"activity" : "terminacion y acabdo edificio",
+		"district" : 141,
+		"city" : 93,
+		"address" : "2 sur 1275"
+	},
+	{
+		"rut" : "76.064.609-1",
+		"name" : "HECTOR HERNAN ROJAS CARREÑO SERVICIOS INTEGRALES E.I.R.L.",
+		"activity" : "REPARACION DE EQUIPO ELECTRICO (EXCEPTO REPARACION DE EQUIPO Y ENSERES",
+		"district" : 116,
+		"city" : 83,
+		"address" : "16 oriente #819"
+	},
+	{
+		"rut" : "77.479.227-9",
+		"name" : "AGRICOLA, GANADERA Y FORESTAL EVOC LIMITADA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 93,
+		"address" : "el carmen, curipeumo 0 campanacura retiro"
+	},
+	{
+		"rut" : "76.756.596-8",
+		"name" : "ANDRES BALLADARES FIGUEROA, E.I.R.L.",
+		"activity" : "INSTALACIONES ELECTRICAS",
+		"district" : 316,
+		"city" : 176,
+		"address" : "Av. Oriental #6195C "
+	},
+	{
+		"rut" : "78.081.230-3",
+		"name" : "BARROS Y BARROS LTDA",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 334,
+		"city" : 176,
+		"address" : "argentina #342 poblacion reingifo, buin"
+	},
+	{
+		"rut" : "12.186.111-9",
+		"name" : "CLAUDIA CECILIA FUENTES INOSTROZA",
+		"activity" : "CULTIVO DE FRUTAS DE PEPITA Y DE HUESO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "hijuela 5 y 6, sector cerro los castillos"
+	},
+	{
+		"rut" : "77.100.569-1",
+		"name" : "aravena vasquez ingeneria y construccion",
+		"activity" : "construccion",
+		"district" : 141,
+		"city" : 93,
+		"address" : "diagonal matucana s/n"
+	},
+	{
+		"rut" : "76.536.187-7",
+		"name" : "PRESTACIÓN DE SERVICIOS AGRÍCOLA JAVIER ANDRES ROJAS YAÑEZ E.I.R.L.",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 123,
+		"city" : 83,
+		"address" : "pob. don matias, el bellote 17, rio claro"
+	},
+	{
+		"rut" : "76.155.730-0",
+		"name" : "CONSTRUCTORA GASEV LIMITADA",
+		"activity" : "FABRICACION DE PRODUCTOS METALICOS PARA USO ESTRUCTURAL",
+		"district" : 102,
+		"city" : 63,
+		"address" : "PULIN LT 83"
+	},
+	{
+		"rut" : "2.304.200-2",
+		"name" : "JOSE JOAQUIN PABLO FERNANDO GARCIA HUIDOBRO ERRAZURIZ",
+		"activity" : "CULTIVO DE REMOLACHA AZUCARERA",
+		"district" : 142,
+		"city" : 93,
+		"address" : "fundo santa rosa, retiro"
+	},
+	{
+		"rut" : "13.126.772-K",
+		"name" : "DAVID DEL CARMEN SALINAS MORALES",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 187,
+		"city" : 128,
+		"address" : "LOTE NUMERO 2, SAN JOSE"
+	},
+	{
+		"rut" : "17.987.438-5",
+		"name" : "JUAN ANTONIO LARA MUNOZ",
+		"activity" : "FABRICACION DE PRODUCTOS METALICOS PARA USO ESTRUCTURAL",
+		"district" : 141,
+		"city" : 93,
+		"address" : "EL SALTO, HIJUELA 3 LT 3 B2"
+	},
+	{
+		"rut" : "77.543.674-3",
+		"name" : "COMERCIAL CORDILLERA LIMITADA",
+		"activity" : "OTRAS ACTIVIDADES DE VENTA AL POR MENOR EN COMERCIOS NO ESPECIALIZADOS",
+		"district" : 142,
+		"city" : 85,
+		"address" : "ERRAZURIZ 1 SANTA AMELIA"
+	},
+	{
+		"rut" : "17.090.831-7",
+		"name" : "WILSON ATADEO RETAMAL VEGA",
+		"activity" : "CONTRATISTA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "EL SALTO"
+	},
+	{
+		"rut" : "9.925.339-8",
+		"name" : "LUCIANO HERIBERTO BELMAR LUENGO",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 183,
+		"city" : 125,
+		"address" : "SECTOR TAQUIPEN SIN NUMERO"
+	},
+	{
+		"rut" : "10.479.259-6",
+		"name" : "JUAN ANTONIO ESPINOZA MONROY",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 85,
+		"address" : "PARCELA BUENA VISTA SECTOR PASONDO S/N"
+	},
+	{
+		"rut" : "77.217.379-2",
+		"name" : "MAQUINARIAS SEBASTIAN HERNANDEZ JARA E.I.R.L.",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "HIJUELA 1 B LOS CARDOS NORTE"
+	},
+	{
+		"rut" : "76.270.071-9",
+		"name" : "SOCIEDAD AGRICOLA FORESTAL Y GANADERA COLCHAMAULE LIMITADA",
+		"activity" : "CULTIVO DE PLANTAS DE FIBRA",
+		"district" : 142,
+		"city" : 85,
+		"address" : "parcela n°10 maitenes"
+	},
+	{
+		"rut" : "77.436.439-0",
+		"name" : "CELEC MAULE SPA",
+		"activity" : "OTRAS INSTALACIONES PARA OBRAS DE CONSTRUCCION",
+		"district" : 141,
+		"city" : 93,
+		"address" : "PJE 9 N 50 POBLACION IZRAEL 3"
+	},
+	{
+		"rut" : "76.703.817-8",
+		"name" : "INVERSIONES MEGATERRENOS SPA",
+		"activity" : "ACTIVIDADES INMOBILIARIAS REALIZADAS A CAMBIO DE UNA RETRIBUCION O POR",
+		"district" : 308,
+		"city" : 176,
+		"address" : "badajoz 100 of 1014 piso 10"
+	},
+	{
+		"rut" : "77.740.266-8",
+		"name" : "RC SERVICIOS SPA",
+		"activity" : "OTRAS INSTALACIONES PARA OBRAS DE CONSTRUCCION",
+		"district" : 141,
+		"city" : 93,
+		"address" : "Villa Don Matias pje. 3 #164"
+	},
+	{
+		"rut" : "77.893.404-3",
+		"name" : "COMERCIALIZADORA Y SERVICIOS SAN DIEGO SPA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "sin numero, parral"
+	},
+	{
+		"rut" : "76.008.662-2",
+		"name" : "SOCIEDAD COMERCIAL E INVERSIONES INAFRUT LIMITADA",
+		"activity" : "CORRETAJE AL POR MAYOR DE PRODUCTOS AGRICOLAS",
+		"district" : 108,
+		"city" : 79,
+		"address" : "garcias y dueñas 27B"
+	},
+	{
+		"rut" : "12.185.894-0",
+		"name" : "CLAUDIO ANTONIO MUNOZ TAPIA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 85,
+		"address" : "callejon los copihues, santa delfina"
+	},
+	{
+		"rut" : "77.800.074-1",
+		"name" : "INGENIERIA Y CONSTRUCCION MANUEL ENRIQUE PARADA CERDA  E.I.R.L.",
+		"activity" : "CONSTRUCCION DE OTRAS OBRAS DE INGENIERIA CIVIL",
+		"district" : 141,
+		"city" : 93,
+		"address" : "IGUALDAD "
+	},
+	{
+		"rut" : "77.589.155-6",
+		"name" : "AGROTIERRA ST SPA",
+		"activity" : "CULTIVO DE PRODUCTOS AGRICOLAS EN COMBINACION CON LA CRIA DE ANIMALES\t",
+		"district" : 142,
+		"city" : 93,
+		"address" : "ex fundo membrillo s/n"
+	},
+	{
+		"rut" : "76.890.442-1",
+		"name" : "CASA DE LA PAZ SPA",
+		"activity" : "OTRAS ACTIVIDADES DE SERVICIOS DE APOYO A LAS EMPRESAS N.C.P.",
+		"district" : 320,
+		"city" : 176,
+		"address" : "CONTANTINO 477"
+	},
+	{
+		"rut" : "12.206.846-3",
+		"name" : "IRIS MAGDALENA SOTO LARA",
+		"activity" : "FABRICACION DE OTROS PRODUCTOS ELABORADOS DE METAL N.C.P.",
+		"district" : 141,
+		"city" : 93,
+		"address" : "AV. BUENOS AIRES 635"
+	},
+	{
+		"rut" : "82.158.300-4",
+		"name" : "soc agricola san ignacio ltda ",
+		"activity" : "agricola ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "anibal pinto 680 "
+	},
+	{
+		"rut" : "16.807.862-5",
+		"name" : "MIGUEL ANGEL TRABOL SANHUEZA",
+		"activity" : "INSTALACIONES ELECTRICAS",
+		"district" : 304,
+		"city" : 176,
+		"address" : "PASEO LOS OLIVOS 370"
+	},
+	{
+		"rut" : "7.761.453-2",
+		"name" : "LEONARDO SEBASTIAN BARRIOS AMIGO",
+		"activity" : "OTRAS ACTIVIDADES DE VENTA AL POR MENOR EN COMERCIOS NO ESPECIALIZADOS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "ANIBAL PINTO #1007"
+	},
+	{
+		"rut" : "12.086.096-8",
+		"name" : "JULIO CESAR ACEVEDO SANDOVAL",
+		"activity" : "INSTALACIONES DE GASFITERIA, CALEFACCION Y AIRE ACONDICIONADO",
+		"district" : 116,
+		"city" : 83,
+		"address" : "25 1/2 NORTE C #3526"
+	},
+	{
+		"rut" : "77.230.587-7",
+		"name" : "agro control chile spa",
+		"activity" : "agricola",
+		"district" : 141,
+		"city" : 93,
+		"address" : "curipeumo hijuela 8a"
+	},
+	{
+		"rut" : "77.661.474-2",
+		"name" : "EMPRESA CONSTRUCTORA VFT SPA",
+		"activity" : "CONSTRUCCION DE OTRAS OBRAS DE INGENIERIA CIVIL",
+		"district" : 138,
+		"city" : 85,
+		"address" : "alcalde dagoberto jofre #764"
+	},
+	{
+		"rut" : "16.827.575-7",
+		"name" : "RICHARD ALEXANDER PEDRERO PINO",
+		"activity" : "FABRICACION DE PRODUCTOS METALICOS PARA USO ESTRUCTURAL\t",
+		"district" : 142,
+		"city" : 85,
+		"address" : "villa don matias pasaje 14 #875"
+	},
+	{
+		"rut" : "4.566.229-2",
+		"name" : "RAMON AURELIO VASQUEZ FUENTES",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 93,
+		"address" : "union los robles "
+	},
+	{
+		"rut" : "11.769.263-9",
+		"name" : "DAVID ELMO CASTILLO RETAMAL",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "cuyomillaco s/n"
+	},
+	{
+		"rut" : "17.987.766-k",
+		"name" : "MARIA PIA ZUNIGA CARRENO",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "escuela n°2 torca"
+	},
+	{
+		"rut" : "77.262.124-8",
+		"name" : "L&C INGENIERIA Y CONSTRUCCION SPA",
+		"activity" : "CONSTRUCCION DE OTRAS OBRAS DE INGENIERIA CIVIL",
+		"district" : 146,
+		"city" : 96,
+		"address" : "Av. Valle Blanco #75 DP 803 ED Vista lomas "
+	},
+	{
+		"rut" : "13.577.464-2",
+		"name" : "LEOPOLDO ANDRES VIDAL SEPULVEDA",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO RESIDENCIAL",
+		"district" : 141,
+		"city" : 93,
+		"address" : "Portal Alameda pasaje 3 #119"
+	},
+	{
+		"rut" : "17.787.880-4",
+		"name" : "CARLOS DAVID MENDEZ CID",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "URRUTIA #531"
+	},
+	{
+		"rut" : "9.540.009-4",
+		"name" : "LUIS ENRIQUE CISTERNAS CONCHA",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "Predio Santa Elvira, sector cuyumillaco"
+	},
+	{
+		"rut" : "77.299.456-7",
+		"name" : "CONSTRUCCIONES LEYTON Y LEYTON SPA",
+		"activity" : "FABRICACION DE PRODUCTOS METALICOS PARA USO ESTRUCTURAL",
+		"district" : 141,
+		"city" : 93,
+		"address" : "DELICIAS SUR #611"
+	},
+	{
+		"rut" : "8.231.405-9",
+		"name" : "NICASIO GERARDO ALARCON COLOMA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "parcela 23, palma rosa"
+	},
+	{
+		"rut" : "77.692.102-5",
+		"name" : "SERVICIOS LOPEZ C Y J SPA",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA\t",
+		"district" : 183,
+		"city" : 106,
+		"address" : "coihueco callejo zapata #1414"
+	},
+	{
+		"rut" : "76.910.871-8",
+		"name" : "CONSTRUCTORA RIGOR SPA",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO RESIDENCIAL",
+		"district" : 314,
+		"city" : 176,
+		"address" : "Jorge monckeberg #636"
+	},
+	{
+		"rut" : "77.161.628-3",
+		"name" : "CONSULAGRO L & S SPA",
+		"activity" : "ACTIVIDADES DE CONSULTORIA DE GESTION",
+		"district" : 141,
+		"city" : 85,
+		"address" : "santiago urrutia 140"
+	},
+	{
+		"rut" : "77.099.058-0",
+		"name" : "aridos bc limitada",
+		"activity" : "aridos",
+		"district" : 139,
+		"city" : 85,
+		"address" : "pc 87 pp panimavida 87 colbun"
+	},
+	{
+		"rut" : "76.276.817-8",
+		"name" : "AGRICOLA GANADERA Y FORESTAL SOTO RETAMAL LIMITADA",
+		"activity" : "CULTIVO DE OTROS FRUTOS Y NUECES DE ARBOLES Y ARBUSTOS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "MONTE Manzano lote 2 pantanillo"
+	},
+	{
+		"rut" : "10.630.085-2",
+		"name" : "ANA MARIA DEL CARMEN HERNANDEZ SALVO",
+		"activity" : "ACTIVIDADES DE OTRAS ASOCIACIONES N.C.P.\t",
+		"district" : 142,
+		"city" : 93,
+		"address" : "poblacion padre fernando, calle rene gonzales, las camelias"
+	},
+	{
+		"rut" : "76.505.984-4",
+		"name" : "mercar ltda ",
+		"activity" : "servicio AUTOMOTRI",
+		"district" : 141,
+		"city" : 93,
+		"address" : "IGUALDA 255"
+	},
+	{
+		"rut" : "4.541.027-7",
+		"name" : "HUGO ANTONIO ORTEGA SAN MARTIN",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "una sur 1001"
+	},
+	{
+		"rut" : "15.783.862-8",
+		"name" : "SEBASTIAN ANDRES IBANEZ VIDAL",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 93,
+		"address" : "fundo quripeumo"
+	},
+	{
+		"rut" : "6.631.193-7",
+		"name" : "HECTOR HERNAN BUSTAMANTE MELLA",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "sector unicaven "
+	},
+	{
+		"rut" : "65.591.610-5",
+		"name" : "CENTRO DE DESARROLLO SOCIAL Y CULTURAL DAME UNA MANO",
+		"activity" : "CENTRO DE DESARROLLO SOCIAL ",
+		"district" : 142,
+		"city" : 85,
+		"address" : "villaseca s/n"
+	},
+	{
+		"rut" : "16.463.056-0",
+		"name" : "RODOLFO ANDRES FLORES MAUREIRA",
+		"activity" : "TERMINACION Y ACABADO DE EDIFICIOS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "pablo neruda 580"
+	},
+	{
+		"rut" : "77.775.997-3",
+		"name" : "HV INGENIERIA SPA",
+		"activity" : "INSTALACION ELECTRICA",
+		"district" : 185,
+		"city" : 106,
+		"address" : "EL CASTAÑO LOTE 2"
+	},
+	{
+		"rut" : "77.753.153-0",
+		"name" : "GUILLERMO CÉSPEDES ASESORÍAS Y OBRAS MENORES SPA",
+		"activity" : "EVACUACION Y TRATAMIENTO DE AGUAS SERVIDAS",
+		"district" : 118,
+		"city" : 83,
+		"address" : "los olivos lote 1 lote 2"
+	},
+	{
+		"rut" : "77.196.969-0",
+		"name" : "AGROFROZEN SPA",
+		"activity" : "ELABORACION Y CONSERVACION DE FRUTAS, LEGUMBRES Y HORTALIZAS",
+		"district" : 142,
+		"city" : 85,
+		"address" : "ajial lote 3a "
+	},
+	{
+		"rut" : "7.096.543-7",
+		"name" : "JOSE RAMON ANTONIO NOVOA HURTADO",
+		"activity" : "CULTIVO DE TRIGO\t",
+		"district" : 127,
+		"city" : 88,
+		"address" : "punchema sin numero fundo san jose"
+	},
+	{
+		"rut" : "77.833.267-1",
+		"name" : "AGRICOLA ALEJANDRO TOLOZA GAJARDO E.I.R.L.",
+		"activity" : "CULTIVO DE PRODUCTOS AGRICOLAS EN COMBINACION CON LA CRIA DE ANIMALES",
+		"district" : 141,
+		"city" : 93,
+		"address" : "san lorenzo, parcela numero 19"
+	},
+	{
+		"rut" : "77.766.565-0",
+		"name" : "huerto maule spa",
+		"activity" : "agricola",
+		"district" : 142,
+		"city" : 85,
+		"address" : "curipeumo s/n"
+	},
+	{
+		"rut" : "77.056.971-0",
+		"name" : "FF HORMIGONES SPA",
+		"activity" : "OTRAS INSTALACIONES PARA OBRAS DE CONSTRUCCION",
+		"district" : 317,
+		"city" : 176,
+		"address" : "avda providencia 1208 1603"
+	},
+	{
+		"rut" : "16.463.377-2",
+		"name" : "JEREMIAS ENRIQUE FALCON ORTIZ",
+		"activity" : "ACTIVIDADES DE APOYO A LA AGRICULTURA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "LOS CORRALES PARCELA 18"
+	},
+	{
+		"rut" : "16.120.133-2",
+		"name" : "JUAN ANTONIO ORTEGA FUENTES",
+		"activity" : "ACTIVIDADES DE RESTAURANTES Y DE SERVICIO MOVIL DE COMIDAS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "ohiggins #801"
+	},
+	{
+		"rut" : "8.569.182-1",
+		"name" : "AGUSTIN ORLANDO HURTADO SEPULVEDA",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "quripeumo, san miguel"
+	},
+	{
+		"rut" : "14.536.149-4",
+		"name" : "FELICIANO DE LA CRUZ SEPULVEDA SAN MARTIN",
+		"activity" : "CULTIVO DE TRIGO\t",
+		"district" : 141,
+		"city" : 93,
+		"address" : "HIJUELA NUMERO 2 TORQUE"
+	},
+	{
+		"rut" : "76.983.770-1",
+		"name" : "SOCIEDAD SOTO Y CAMPOS LIMITADA",
+		"activity" : "INSTALACIONES ELECTRICAS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "villa el sol calle 1 casa 1251"
+	},
+	{
+		"rut" : "10.117.809-9",
+		"name" : "NELSON ANTONIO HERNANDEZ VILLEGAS",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "fundo el retiro"
+	},
+	{
+		"rut" : "15.162.620-3",
+		"name" : "CARLOS FELIPE SAN MARTIN MOLINA",
+		"activity" : "OTRAS ACTIVIDADES DE SERVICIOS PERSONALES N.C.P.",
+		"district" : 141,
+		"city" : 93,
+		"address" : "sn pARRAL"
+	},
+	{
+		"rut" : "77.237.912-9",
+		"name" : "GEOCHILE SERVICIOS DE ASESORIA Y CONSULTORIA EN INGENIERIA SPA",
+		"activity" : "CONSTRUCCION DE PROYECTOS DE SERVICIO PUBLICO",
+		"district" : 313,
+		"city" : 176,
+		"address" : "madre selva 16920"
+	},
+	{
+		"rut" : "76.779.238-7",
+		"name" : "comercial alta cumbres",
+		"activity" : "construccion ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "don matias 134"
+	},
+	{
+		"rut" : "12.374.868-9",
+		"name" : "MARCELA FLOR VASQUEZ NAVARRO",
+		"activity" : "CULTIVO DE HORTALIZAS Y MELONES",
+		"district" : 142,
+		"city" : 93,
+		"address" : "union los robles"
+	},
+	{
+		"rut" : "76.702.432-0",
+		"name" : "LABORATORIO CLINICO HECMA LIMITADA",
+		"activity" : "CENTROS MEDICOS PRIVADOS (ESTABLECIMIENTOS DE ATENCION AMBULATORIA)",
+		"district" : 141,
+		"city" : 93,
+		"address" : "anibal pinto 170"
+	},
+	{
+		"rut" : "76.915.624-0",
+		"name" : "leonera spa",
+		"activity" : "agricola",
+		"district" : 142,
+		"city" : 85,
+		"address" : "previo durando sector el vonito"
+	},
+	{
+		"rut" : "76.139.293-k",
+		"name" : "SOCIEDAD AGRICOLA Y COMERCIAL SANTO TOMAS LIMITADA",
+		"activity" : "CULTIVOS FORRAJEROS EN PRADERAS MEJORADAS O SEMBRADAS; CULTIVOS SUPLEM",
+		"district" : 142,
+		"city" : 93,
+		"address" : "hijuela segunda sin numero, sector santo tomas"
+	},
+	{
+		"rut" : "76.500.028-9",
+		"name" : "SERVICIOS EN TELECOMUNICACIONES INTERSUR LIMITADA",
+		"activity" : "VENTA AL POR MENOR DE COMPUTADORES, EQUIPO PERIFERICO, PROGRAMAS INFOR",
+		"district" : 142,
+		"city" : 85,
+		"address" : "calle 7 lote 7"
+	},
+	{
+		"rut" : "77.218.354-2",
+		"name" : "D¨METAL RECICLAJE SPA",
+		"activity" : "FABRICACION DE PRODUCTOS METALICOS PARA USO ESTRUCTURAL",
+		"district" : 143,
+		"city" : 94,
+		"address" : "chorillos sur s/n "
+	},
+	{
+		"rut" : "77.738.596-8",
+		"name" : "TREGUA SPA",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO RESIDENCIAL",
+		"district" : 128,
+		"city" : 88,
+		"address" : "sin numero"
+	},
+	{
+		"rut" : "76.497.234-1",
+		"name" : "FULLEN INTERNATIONAL CHILE SPA",
+		"activity" : "REPARACION DE OTRO TIPO DE MAQUINARIA Y EQUIPOS INDUSTRIALES N.C.P.",
+		"district" : 318,
+		"city" : 176,
+		"address" : "AMERICO VESPUCIO 1276"
+	},
+	{
+		"rut" : "77.431.024-K",
+		"name" : "C   Y   D    INGENIERIA ELECTROMECANICA LIMITADA",
+		"activity" : "FABRICACION DE PRODUCTOS METALICOS PARA USO ESTRUCTURAL",
+		"district" : 142,
+		"city" : 93,
+		"address" : "VILLA SAN FRANCISCO S10"
+	},
+	{
+		"rut" : "4.243.989-4",
+		"name" : "DAGOBERTO NEIRA PACHECO",
+		"activity" : "CULTIVO DE FRUTAS DE PEPITA Y DE HUESO",
+		"district" : 142,
+		"city" : 85,
+		"address" : "parcela 115, santa isbel de los robles"
+	},
+	{
+		"rut" : "9.179.094-7",
+		"name" : "MARIA ELENA RAMOS MORA",
+		"activity" : "CULTIVO DE PRODUCTOS AGRICOLAS EN COMBINACION CON LA CRIA DE ANIMALES",
+		"district" : 141,
+		"city" : 93,
+		"address" : "Anibal pinto 144"
+	},
+	{
+		"rut" : "77.015.604-1",
+		"name" : "ORMEÑO CASA MIA SPA",
+		"activity" : "ELABORACION DE PRODUCTOS DE PANADERIA Y PASTELERIA\t",
+		"district" : 141,
+		"city" : 93,
+		"address" : "buin 398"
+	},
+	{
+		"rut" : "83.429.800-7",
+		"name" : "HORMISUR INEIN S A",
+		"activity" : "FABRICACION DE OTROS PRODUCTOS MINERALES NO METALICOS N.C.P.",
+		"district" : 141,
+		"city" : 93,
+		"address" : "camino a bullileo sin numero"
+	},
+	{
+		"rut" : "77.720.828-4",
+		"name" : "CONSTUCTORA VALLEJOS Y PARRA LIMITADA",
+		"activity" : "INSTALACIONES DE GASFITERIA, CALEFACCION Y AIRE ACONDICIONADO\t",
+		"district" : 141,
+		"city" : 93,
+		"address" : "CALLE 2 845 VILLA EL SOL"
+	},
+	{
+		"rut" : "77.105.148-0",
+		"name" : "COMERCIAL NAKAYAMA SPA",
+		"activity" : "VENTA AL POR MAYOR DE VEHICULOS AUTOMOTORES\t",
+		"district" : 141,
+		"city" : 93,
+		"address" : "RUTA 5 SUR KM 1043"
+	},
+	{
+		"rut" : "11.458.889-k",
+		"name" : "JERONIMO DE LA CRUZ GONZALEZ RETAMAL",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 85,
+		"address" : "el bonito 4 esquinas sin numero"
+	},
+	{
+		"rut" : "8.190.607-6",
+		"name" : "VIOLETA DEL CARMEN NAVARRO RETAMAL",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "parcela 8 la selva"
+	},
+	{
+		"rut" : "6.561.875-3",
+		"name" : "NELSON ANTONIO HERNANDEZ RODRIGUEZ",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "cullumiyaco"
+	},
+	{
+		"rut" : "76.428.798-3",
+		"name" : "SOCIEDAD COMERCIAL VASQUEZ HERMANOS LIMITADA",
+		"activity" : "FORJA, PRENSADO, ESTAMPADO Y LAMINADO DE METALES; PULVIMETALURGIA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "igualdad sur numero 3"
+	},
+	{
+		"rut" : "18.361.990-k",
+		"name" : "MANUEL JESUS URRA HERNANDEZ",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "matuca 790"
+	},
+	{
+		"rut" : "76.573.485-1",
+		"name" : "PRODUCTORA MAULE SPA",
+		"activity" : "ACTIVIDADES DE SERVICIOS RELACIONADAS CON LA IMPRESION",
+		"district" : 116,
+		"city" : 83,
+		"address" : "19 norte A 3042"
+	},
+	{
+		"rut" : "77.414.872-8",
+		"name" : "INNOVATECH SPA",
+		"activity" : "OTRAS ACTIVIDADES DE TELECOMUNICACIONES N.C.P.\t",
+		"district" : 330,
+		"city" : 176,
+		"address" : "av chamisero 16360 - 117 terralta de chamiser"
+	},
+	{
+		"rut" : "19.128.240-k",
+		"name" : "ESTEBAN ANDRES JOEL HENRIQUEZ LARENA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 93,
+		"address" : "parcela 5 lote 2b, las camelias"
+	},
+	{
+		"rut" : "77.598.894-0",
+		"name" : "maquinaria agricola roberto valdes",
+		"activity" : "agricola",
+		"district" : 304,
+		"city" : 176,
+		"address" : "calle 3  n 10157"
+	},
+	{
+		"rut" : "14.389.816-4",
+		"name" : "RICARDO ANTONIO LOPEZ MONDACA",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "CALLE 18 #155"
+	},
+	{
+		"rut" : "12.186.312-k",
+		"name" : "JUAN OLEGARIO MORA AGUILERA",
+		"activity" : "CRIA DE AVES DE CORRAL PARA LA PRODUCCION DE HUEVOS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "parcela 33 san eugenio, perquilauquen "
+	},
+	{
+		"rut" : "76.739.581-7",
+		"name" : "AGRICOLA KEULE SPA",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "fuerte viejo"
+	},
+	{
+		"rut" : "77.931.706-4",
+		"name" : "EVOSOL ENERGIA SPA",
+		"activity" : "INSTALACIONES ELECTRICAS",
+		"district" : 317,
+		"city" : 176,
+		"address" : "guardia vieja 202 of 902"
+	},
+	{
+		"rut" : "76.732.054-K",
+		"name" : "AISLANTES PARRAL",
+		"activity" : "INDUSTRIA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "KM 338"
+	},
+	{
+		"rut" : "77.830.572-0",
+		"name" : "CONSTRUCTORA LARCO SPA",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO RESIDENCIAL",
+		"district" : 179,
+		"city" : 106,
+		"address" : "AVENIDA COLLIN 976"
+	},
+	{
+		"rut" : "77.019.996-4",
+		"name" : "CONSTRUCTORA JJ&D LIMITADA",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO RESIDENCIAL",
+		"district" : 295,
+		"city" : 177,
+		"address" : "pje las gaviotas nº 857"
+	},
+	{
+		"rut" : "13.615.810-4",
+		"name" : "EDUARDO PATRICIO CASTILLO PARADA",
+		"activity" : "TRANSPORTE DE CARGA POR CARRETERA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "BOSQUE 1004"
+	},
+	{
+		"rut" : "76.506.194-6",
+		"name" : "MFC LASTRA ALVAREZ SPA",
+		"activity" : "INSTALACIONES ELECTRICAS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "URRUTIA 1197"
+	},
+	{
+		"rut" : "4.103.554-4",
+		"name" : "VERONICA DEL CARMEN PACHECO VERA",
+		"activity" : "ACTIVIDADES DE CAMPING Y DE PARQUES PARA CASAS RODANTES",
+		"district" : 141,
+		"city" : 93,
+		"address" : "camino a la montaña km 33, bullileo "
+	},
+	{
+		"rut" : "10.440.516-9",
+		"name" : "JUAN ENRIQUE GUZMAN GUTIERREZ",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "parcela 27 yiyahue"
+	},
+	{
+		"rut" : "7.867.977-8",
+		"name" : "JULIO ALBERTO CORTINES FIGUEROA",
+		"activity" : "VENTA AL POR MENOR DE CARTERAS, MALETAS Y OTROS ACCESORIOS DE VIAJE EN\t",
+		"district" : 141,
+		"city" : 93,
+		"address" : "anibal pinto 108"
+	},
+	{
+		"rut" : "7.567.701-4",
+		"name" : "GREGORIO ENRIQUE FUENTEALBA MUNOZ",
+		"activity" : "TRANSPORTE DE CARGA POR CARRETERA\t",
+		"district" : 141,
+		"city" : 93,
+		"address" : "ohiggins 635"
+	},
+	{
+		"rut" : "9.446.830-2",
+		"name" : "EDUARDO ANTONIO MAUREIRA NORAMBUENA",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 142,
+		"city" : 85,
+		"address" : "paso hondo, buena vista"
+	},
+	{
+		"rut" : "17.062.163-8",
+		"name" : "ALONSO MATIAS ZUNIGA CARRENO",
+		"activity" : "CULTIVO DE ARROZ",
+		"district" : 141,
+		"city" : 93,
+		"address" : "hijuela 2 lucumilla"
+	},
+	{
+		"rut" : "13.208.241-3",
+		"name" : "VICTOR ENRIQUE MONROY FUENTES",
+		"activity" : "CONSTRUCCION DE PROYECTOS DE SERVICIO PUBLICO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "balmaceda #25, poblacion corvi"
+	},
+	{
+		"rut" : "77.738.722-7",
+		"name" : "CONSTRUCTORA EL ARRAYÁN SPA",
+		"activity" : "CONSTRUCCION DE EDIFICIOS PARA USO RESIDENCIAL\t",
+		"district" : 141,
+		"city" : 93,
+		"address" : "fundo el salto parcela 20"
+	},
+	{
+		"rut" : "77.274.916-3",
+		"name" : "SOLUCIONES ELECTRICAS INTEGRALES SPA",
+		"activity" : "FABRICACION DE COMPONENTES Y TABLEROS ELECTRONICOS",
+		"district" : 295,
+		"city" : 176,
+		"address" : "san francisco #1641"
+	},
+	{
+		"rut" : "77.278.330-2",
+		"name" : "SOCIEDAD MINERA INDUSTRIAL E INMOBILIARIA SPA",
+		"activity" : "INGENIERIA",
+		"district" : 320,
+		"city" : 176,
+		"address" : "MENDOZA 1762"
+	},
+	{
+		"rut" : "10.227.298-6",
+		"name" : "elvia gutierrez ferrada ",
+		"activity" : "ferreteria",
+		"district" : 141,
+		"city" : 85,
+		"address" : "calle 18 n° 202 a"
+	},
+	{
+		"rut" : "77.011.887-5",
+		"name" : "GRUPO STI S.A.",
+		"activity" : "INSTALACIONES ELECTRICAS",
+		"district" : 346,
+		"city" : 176,
+		"address" : "CAMINO MILIPILLA 2259"
+	}
+]

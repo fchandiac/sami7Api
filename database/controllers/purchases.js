@@ -126,7 +126,8 @@ async function findAllBetweenDates(start, end){
             createdAt: {
                 [Op.between]: [start, end]
             }
-        }
+        },
+        order: [['createdAt', 'DESC']]
     })
     .then(data => {
         return {code: 1, data: data}
