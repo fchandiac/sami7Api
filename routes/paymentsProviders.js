@@ -130,6 +130,7 @@ const paymentsProviders = require('../database/controllers/paymentsProviders')
 
 router.post('/paymentsProviders/create', async (req, res) => {
     const { description, type, amount, balance, purchase_id, user_id, pay_date, payment_method_id, provider_id } = req.body
+    console.log(req.body)
     const paymentProvider = await paymentsProviders.create(description, type, amount, balance, purchase_id, user_id, pay_date, payment_method_id, provider_id)
     res.json(paymentProvider)
 })

@@ -39,8 +39,8 @@ app.use(require('./routes/purchases'))
 app.use(require('./routes/purchasesDetails'))
 app.use(require('./routes/receptions'))
 app.use(require('./routes/productCards'))
-
-
+app.use(require('./routes/paymentsProviders'))
+app.use(require('./routes/providerAccountMovements'))
 
 
 
@@ -52,3 +52,4 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
     console.log('server work! at port: ' + port)
 })
+

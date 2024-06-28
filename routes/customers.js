@@ -29,8 +29,8 @@ router.post('/customers/findByRut', async (req, res) => {
 })
 
 router.post('/customers/update', async (req, res) => {
-    const {rut, name, activity, district, city, address, phone, mail } = req.body
-    const customer = await customers.update(rut, name, activity, district, city, address, phone, mail)
+    const {id, name, address, phone, mail, activity, district, city } = req.body
+    const customer = await customers.update(id, name, address, phone, mail, activity, district, city)
     res.json(customer)
 })
 

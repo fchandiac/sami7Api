@@ -67,6 +67,7 @@ db.PurchasesDetails = require('./models/purchasesDetails')(db.connection, DataTy
 db.Receptions = require('./models/receptions')(db.connection, DataTypes)
 db.ProductCards = require('./models/productCards')(db.connection, DataTypes)
 db.PaymentsProviders =  require('./models/paymentsProviders')(db.connection, DataTypes)
+db.ProviderAccountMovements = require('./models/providerAccountMovements')(db.connection, DataTypes)
 
 
 db.Users.belongsTo(db.Profiles)
@@ -83,7 +84,11 @@ db.CashRegisterMovements.belongsTo(db.Users)
 
 db.Products.hasMany(db.Stocks)
 db.Products.hasMany(db.SellingPrices)
+
+db.PurchasePrices.belongsTo(db.Providers)
+
 db.SellingPrices.belongsTo(db.Products)
+
 db.SalePoints.hasMany(db.CashRegisters)
 
 db.Stocks.belongsTo(db.Storages)
@@ -103,6 +108,9 @@ db.SaleDetails.belongsTo(db.Products)
 db.CustomerAccountMovements.belongsTo(db.Customers)
 db.CustomerAccountMovements.belongsTo(db.Users)
 
+db.ProviderAccountMovements.belongsTo(db.Providers)
+db.ProviderAccountMovements.belongsTo(db.Users)
+
 db.CreditNotes.belongsTo(db.Users)
 db.CreditNotes.belongsTo(db.Customers)
 
@@ -119,12 +127,18 @@ db.Purchases.belongsTo(db.Users)
 db.Purchases.belongsTo(db.Providers)
 db.Purchases.hasMany(db.PurchasesDetails)
 
+db.PurchasesDetails.belongsTo(db.Purchases)
+db.PurchasesDetails.belongsTo(db.Products)
+
 
 db.ProductCards.belongsTo(db.Products)
 
 db.PaymentsProviders.belongsTo(db.Users)
 db.PaymentsProviders.belongsTo(db.Providers)
 db.PaymentsProviders.belongsTo(db.PaymentMethods)
+
+db.ProviderAccountMovements.belongsTo(db.Providers)
+db.ProviderAccountMovements.belongsTo(db.Users)
 
 
 

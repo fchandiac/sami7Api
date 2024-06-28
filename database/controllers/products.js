@@ -154,8 +154,6 @@ async function findAllToSalePoint(price_list_id, storage_id) {
 }
 
 
-
-
 async function findOneByIAndStorageAndPriceList(id, storage_id, price_list_id) {
   const product = await Products.findOne({
     include: [
@@ -270,6 +268,24 @@ async function updateStockControlById(id, stock_control) {
   return product;
 }  
 
+
+async function findAllByCode(code) {
+  const product = await Products.findAll({
+    where: { code: code },
+    include: [
+      { model: Subcategories },
+      { model: SellingPrices },
+      { model: PurchasePrices },
+    ],
+  })
+    .then((data) => {
+      return { code: 1, data: data };
+    })
+    .catch((err) => {
+      return { code: 0, data: err };
+    });
+  return product;
+}
 products.create = create;
 products.findAll = findAll;
 products.findOneById = findOneById;
@@ -279,5 +295,6 @@ products.findAllToSalePoint = findAllToSalePoint;
 products.findOneByIdToCart = findOneByIdToCart;
 products.findOneByIAndStorageAndPriceList = findOneByIAndStorageAndPriceList;
 products.updateStockControlById = updateStockControlById;
+products.findAllByCode = findAllByCode;
 
 module.exports = products;

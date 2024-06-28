@@ -1491,7 +1491,62 @@ module.exports = {
       }
     );
 
-    // const provider_account_movements = {
+      // const customer_account_movements = {
+    //   id: null,
+    //   description: "",
+    //   type: 0,
+    //   previous_balance: 0,
+    //   debit: 0,
+    //   credit: 0,
+    //   balance: 0,
+    //   reference_id: null,
+    //   provider_id: null,
+    //   user_id: null,
+    // };
+
+    await queryInterface.createTable('provider_account_movements',{
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER,
+      },
+      description: { type: Sequelize.STRING(200), allowNull: false, unique: false},
+      type: { type: Sequelize.INTEGER, allowNull: false, defaultValue: 0 },
+      previous_balance: { type: Sequelize.INTEGER, allowNull: false, defaultValue: 0 },
+      debit: { type: Sequelize.INTEGER, allowNull: false, defaultValue: 0 },
+      credit: { type: Sequelize.INTEGER, allowNull: false, defaultValue: 0 },
+      balance: { type: Sequelize.INTEGER, allowNull: false, defaultValue: 0 },
+      reference_id: { type: Sequelize.INTEGER, allowNull: true, defaultValue: null },
+      provider_id: {
+        allowNull: true,
+        unique: false,
+        type: Sequelize.INTEGER,
+        onDelete: "SET NULL",
+        references: {
+          model: "providers",
+          key: "id",
+        },
+      },
+      user_id: {
+        allowNull: true,
+        unique: false,
+        type: Sequelize.INTEGER,
+        onDelete: "SET NULL",
+        references: {
+          model: "users",
+          key: "id",
+        },
+      },
+      nulled: {type: sequelize.BOOLEAN, allowNull: false, defaultValue: false},
+      created_at: { type: Sequelize.DATE },
+      updated_at: { type: Sequelize.DATE },
+    },
+      {
+        initialAutoIncrement: 1001,
+      }
+    );
+
 
   },
 

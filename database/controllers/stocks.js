@@ -145,23 +145,23 @@ async function updateAvailable(id){
 //     return newStock
 // }
 
-async function decrementStock(id, quanty) {
-    try {
-        // Decrementa el total del stock por la cantidad especificada
-        const updatedStock = await Stocks.decrement('total', { by: quanty, where: { id: id } });
+// async function decrementStock(id, quanty) {
+//     try {
+//         // Decrementa el total del stock por la cantidad especificada
+//         const updatedStock = await Stocks.decrement('total', { by: quanty, where: { id: id } });
 
-        // Actualiza la disponibilidad del stock
-        await updateAvailable(id);
+//         // Actualiza la disponibilidad del stock
+//         await updateAvailable(id);
 
-        // Encuentra y devuelve el nuevo stock después de la actualización
-        const newStock = await findOneById(id);
+//         // Encuentra y devuelve el nuevo stock después de la actualización
+//         const newStock = await findOneById(id);
 
-        return { 'code': 1, 'data': newStock };
-    } catch (error) {
-        // Maneja cualquier error que pueda ocurrir durante el proceso
-        return { 'code': 0, 'data': error };
-    }
-}
+//         return { 'code': 1, 'data': newStock };
+//     } catch (error) {
+//         // Maneja cualquier error que pueda ocurrir durante el proceso
+//         return { 'code': 0, 'data': error };
+//     }
+// }
 
 
 async function findAllGroupByProduct() {
@@ -194,7 +194,7 @@ stocks.findOneById = findOneById
 stocks.findAllByStorage = findAllByStorage
 stocks.findOneByStorageAndProduct = findOneByStorageAndProduct
 stocks.addStock = addStock
-stocks.decrementStock = decrementStock
+// stocks.decrementStock = decrementStock
 stocks.updateAvailable = updateAvailable,
 stocks.findAllGroupByProduct = findAllGroupByProduct
 

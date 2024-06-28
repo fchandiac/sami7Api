@@ -206,6 +206,44 @@ async function findTaxesBySellingPrice(sellingPriceId) {
   return tax;
 }
 
+async function findAllByProduct(product_id) {
+  const priceList = await SellingPrices.findAll({
+    where: { product_id: product_id },
+    include: PriceLists,
+  })
+    .then((data) => {
+      return { code: 1, data: data };
+    })
+    .catch((err) => {
+      return { code: 0, data: err };
+    });
+  return priceList;
+}
+
+async function updatePurchaseNetByProduct(product_id, purchase_net) {
+  const priceList = await SellingPrices.update(
+    {
+      purchase_net: purchase_net,
+      utility: sequelize.literal(
+        `net - ${purchase_net}`
+      ),
+    },
+    { where: { product_id: product_id } }
+  )
+    .then((data) => {
+      return { code: 1, data: data };
+    })
+    .catch((err) => {
+      return { code: 0, data: err };
+    });
+
+  return priceList;
+}
+
+// findAllByProduct(product_id)
+// updatePurchaseNetByProduct(product_id, purchase_net)
+
+
 sellingPrices.create = create;
 sellingPrices.findAll = findAll;
 sellingPrices.findOneById = findOneById;
@@ -215,5 +253,7 @@ sellingPrices.destroy = destroy;
 sellingPrices.findAllByProductAndPriceList = findAllByProductAndPriceList;
 sellingPrices.findTaxesBySellingPrice = findTaxesBySellingPrice;
 sellingPrices.findAllByPriceListGroupByProduct = findAllByPriceListGroupByProduct;
+sellingPrices.findAllByProduct = findAllByProduct;
+sellingPrices.updatePurchaseNetByProduct = updatePurchaseNetByProduct;
 
 module.exports = sellingPrices;

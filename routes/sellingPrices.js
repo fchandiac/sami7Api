@@ -61,6 +61,23 @@ router.post('/sellingPrices/findAllByPriceListGroupByProduct', async (req, res) 
     res.json(priceList)
 })
 
+// findAllByProduct(product_id)
+// updatePurchaseNetByProduct(product_id, purchase_net)
+
+router.post('/sellingPrices/findAllByProduct', async (req, res) => {
+    const { product_id } = req.body
+    const priceList = await sellingPrices.findAllByProduct(product_id)
+    res.json(priceList)
+})
+
+// updatePurchaseNetByProduct(product_id, purchase_net)
+
+router.post('/sellingPrices/updatePurchaseNetByProduct', async (req, res) => {
+    const { product_id, purchase_net } = req.body
+    const priceList = await sellingPrices.updatePurchaseNetByProduct(product_id, purchase_net)
+    res.json(priceList)
+})
+
 
 
 

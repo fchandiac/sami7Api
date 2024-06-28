@@ -18,6 +18,7 @@
 const { Sales, Users, Customers } = require("../db");
 const sales = {};
 const { Op } = require("sequelize");
+const sequelize = require("sequelize");
 
 async function create(
   description,
@@ -220,6 +221,68 @@ async function updateutility(id, utility) {
 }
 
 
+async function totalSalesBetweenDates(start_date, end_date) {
+  try {
+    const sales = await Sales.findAll({
+      attributes: [
+        [sequelize.fn("sum", sequelize.col("total")), "total"],
+      ],
+      where: { createdAt: { [Op.between]: [start_date, end_date] } },
+    });
+    return { code: 1, data: sales };
+  } catch (err) {
+    return { code: 0, data: err };
+  }
+}
+
+
+async function updateSaleTax(id, tax) {
+  try {
+    const sale = await Sales.update(
+      {
+        tax: tax,
+      },
+      {
+        where: { id: id },
+      }
+    );
+    return { code: 1, data: sale };
+  } catch (err) {
+    return { code: 0, data: err };
+  }
+}
+
+async function updateSaleNet(id, net) {
+  try {
+    const sale = await Sales.update(
+      {
+        net: net,
+      },
+      {
+        where: { id: id },
+      }
+    );
+    return { code: 1, data: sale };
+  } catch (err) {
+    return { code: 0, data: err };
+  }
+}
+
+async function updateSaleDocumentType(id, document_type) {
+  try {
+    const sale = await Sales.update(
+      {
+        document_type: document_type,
+      },
+      {
+        where: { id: id },
+      }
+    );
+    return { code: 1, data: sale };
+  } catch (err) {
+    return { code: 0, data: err };
+  }
+}
 
 
 sales.create = create;
@@ -236,6 +299,10 @@ sales.findAllBetweenDatesByUser = findAllBetweenDatesByUser;
 sales.voidById = voidById;
 sales.updatedocumentId = updatedocumentId;
 sales.updateutility = updateutility;
+sales.totalSalesBetweenDates = totalSalesBetweenDates;
+sales.updateSaleTax = updateSaleTax;
+sales.updateSaleNet = updateSaleNet;
+sales.updateSaleDocumentType = updateSaleDocumentType;
 
 module.exports = sales;
 

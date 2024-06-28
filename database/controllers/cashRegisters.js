@@ -18,6 +18,7 @@
 
 const {CashRegisters, SalePoints} = require('../db')
 const cashRegisters = {}
+const { Op } = require("sequelize");
 
 async function create(description, status, open, balance, close, open_user_id, close_user_id, sale_point_id) {
    const cashRegister = await CashRegisters.create({
@@ -82,6 +83,18 @@ async function balanceCashRegister(cash_register_id, debit, credit) {
     return updatedCashRegister
 }
 
+async function findAllByStatusBetweenDates(status, start_date, end_date) {
+    const cashRegister = await CashRegisters.findAll({
+        where: {
+            status: status,
+            createdAt: {
+                [Op.between]: [start_date, end_date]
+            }
+        }
+    }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
+    return cashRegister
+}
+
 cashRegisters.create = create
 cashRegisters.findAll = findAll
 cashRegisters.findOneById = findOneById
@@ -89,5 +102,6 @@ cashRegisters.updateStatus = updateStatus
 cashRegisters.findAllOpenBySalePoint = findAllOpenBySalePoint
 cashRegisters.balanceCashRegister = balanceCashRegister
 cashRegisters.updateClose = updateClose
+cashRegisters.findAllByStatusBetweenDates = findAllByStatusBetweenDates
 
 module.exports = cashRegisters

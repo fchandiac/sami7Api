@@ -38,11 +38,11 @@ router.post('/stocks/addStock', async (req, res) => {
     res.json(stock)
 })
 
-router.post('/stocks/decrementStock', async (req, res) => {
-    const { id, quanty } = req.body
-    const stock = await stocks.decrementStock(id, quanty)
-    res.json(stock)
-})
+// router.post('/stocks/decrementStock', async (req, res) => {
+//     const { id, quanty } = req.body
+//     const stock = await stocks.decrementStock(id, quanty)
+//     res.json(stock)
+// })
 
 
 router.get('/stocks/findAllGroupByProduct', async (req, res) => {

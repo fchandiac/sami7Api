@@ -47,5 +47,13 @@ router.post('/cashRegisters/updateClose', async (req, res) => {
 })
 
 
+//findAllByStatusBetweenDates(status, start_date, end_date)
+
+router.post('/cashRegisters/findAllByStatusBetweenDates', async (req, res) => {
+    const { status, start_date, end_date } = req.body
+    const cashRegister = await cashRegisters.findAllByStatusBetweenDates(status, start_date, end_date)
+    res.json(cashRegister)
+})
+
 
 module.exports = router

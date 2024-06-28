@@ -45,13 +45,15 @@ async function findOneByName(name) {
     return customer
 }
 
-async function update(id, rut, name, address, phone, mail) {
+async function update(id, name, address, phone, mail, activity, district, city) {
     const customer = await Customers.update({
-        rut: rut,
         name: name,
         address: address,
         phone: phone,
-        mail: mail
+        mail: mail,
+        activity: activity,
+        district: district,
+        city: city
     }, { where: { id: id } }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
 
     return customer

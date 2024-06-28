@@ -92,5 +92,39 @@ router.post('/sales/updateutility', async (req, res) => {
     res.json(sale)
 })
 
+//totalSalesBetweenDates(start_date, end_date)
+
+router.post('/sales/totalSalesBetweenDates', async (req, res) => {
+    const { start_date, end_date } = req.body
+    const sale = await sales.totalSalesBetweenDates(start_date, end_date)
+    res.json(sale)
+})
+
+// function updateSaleTax(id, tax) 
+
+router.post('/sales/updateSaleTax', async (req, res) => {
+    const { id, tax } = req.body
+    const sale = await sales.updateSaleTax(id, tax)
+    res.json(sale)
+})
+
+//function updateSaleNet(id, net)
+
+router.post('/sales/updateSaleNet', async (req, res) => {
+    const { id, net } = req.body
+    const sale = await sales.updateSaleNet(id, net)
+    res.json(sale)
+})
+
+
+//function updateSaleDocumentType(id, document_type)
+
+router.post('/sales/updateSaleDocumentType', async (req, res) => {
+    const { id, document_type } = req.body
+    const sale = await sales.updateSaleDocumentType(id, document_type)
+    res.json(sale)
+})
+
+
 
 module.exports = router

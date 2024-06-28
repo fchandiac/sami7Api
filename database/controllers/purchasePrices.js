@@ -1,4 +1,4 @@
-const {PurchasePrices, Taxes, TaxPurchasePrices} = require('../db')
+const {PurchasePrices, Taxes, TaxPurchasePrices, Products, Providers} = require('../db')
 const purchasePrices = {}
 
 
@@ -76,11 +76,47 @@ async function createTaxPurchasePrices(tax_id, purchase_price_id) {
     return taxPurchasePrices
 }
 
+async function findByPk(id) {
+    const purchasePrice = await PurchasePrices.findByPk(id, {
+        include: [
+            {
+                model: Taxes,
+            },
+            {
+                model: Providers
+            }
+        ]
+    }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
+    return purchasePrice
+}
+
+async function findOneByProduct(id) {
+    const purchasePrice = await PurchasePrices.findOne({
+        where: { product_id: id },
+        include:[ {
+            model: Taxes,
+            as: 'taxes',
+            through: {
+                model: TaxPurchasePrices,
+                as: 'tax_purchase_prices'
+            }
+        },
+        {
+            model: Products
+        }]
+    }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
+    return purchasePrice
+}
+
+
 purchasePrices.create = create
 purchasePrices.findAll = findAll
 purchasePrices.findOneById = findOneById
 purchasePrices.update = update
 purchasePrices.destroy = destroy
 purchasePrices.createTaxPurchasePrices = createTaxPurchasePrices
+purchasePrices.findByPk = findByPk
+purchasePrices.findOneByProduct = findOneByProduct
+
 
 module.exports = purchasePrices

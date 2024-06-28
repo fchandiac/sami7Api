@@ -80,7 +80,6 @@ router.post("/products/findOneByIdToCart", async (req, res) => {
 });
 
 
-
 router.post("/products/findOneByIAndStorageAndPriceList", async (req, res) => {
   const { id, storage_id, price_list_id } = req.body;
   const product = await products.findOneByIAndStorageAndPriceList(
@@ -96,6 +95,14 @@ router.post("/products/findOneByIAndStorageAndPriceList", async (req, res) => {
 router.post("/products/updateStockControlById", async (req, res) => {
   const { id, stock_control } = req.body;
   const product = await products.updateStockControlById(id, stock_control);
+  res.json(product);
+})
+
+//function findAllByCode(code) 
+
+router.post("/products/findAllByCode", async (req, res) => {
+  const { code } = req.body;
+  const product = await products.findAllByCode(code);
   res.json(product);
 })
 

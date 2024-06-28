@@ -349,6 +349,21 @@ async function updateSaleDetail(id, sale_detail_id){
 
 }
 
+async function findAllBySaleDetail(sale_detail_id) {
+  const productCard = await ProductCards.findAll({
+    where: {
+      sale_detail_id: sale_detail_id
+    }
+  })
+    .then((data) => {
+      return { code: 1, data: data };
+    })
+    .catch((err) => {
+      return { code: 0, data: err };
+    });
+  return productCard;
+}
+
 
 
 
@@ -368,5 +383,6 @@ productCards.findAllBySale = findAllBySale;
 productCards.updateSaleValues = updateSaleValues
 productCards.findAllBySaleAndProduct = findAllBySaleAndProduct;
 productCards.updateSaleDetail = updateSaleDetail;
+productCards.findAllBySaleDetail = findAllBySaleDetail;
 
 module.exports = productCards;

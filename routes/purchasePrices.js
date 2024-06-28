@@ -32,10 +32,18 @@ router.post('/purchasePrices/destroy', async (req, res) => {
     res.json(purchasePrice)
 })
 
-// router.post('/purchasePrices/createTaxPurchasePrices', async (req, res) => {
-//     const { tax_id, purchase_price_id } = req.body
-//     const taxPurchasePrices = await purchasePrices.createTaxPurchasePrices(tax_id, purchase_price_id)
-//     res.json(taxPurchasePrices)
-// })
+//findByPk(id)
+router.post('/purchasePrices/findByPk', async (req, res) => {
+    const { id } = req.body
+    const purchasePrice = await purchasePrices.findByPk(id)
+    res.json(purchasePrice)
+})
+
+// findOneByProduct(id)
+router.post('/purchasePrices/findOneByProduct', async (req, res) => {
+    const { id } = req.body
+    const purchasePrice = await purchasePrices.findOneByProduct(id)
+    res.json(purchasePrice)
+})
 
 module.exports = router

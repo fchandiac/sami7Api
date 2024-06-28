@@ -12,7 +12,7 @@
 
     //purchase_details
 
-    const {PurchasesDetails} = require('../db')
+    const {PurchasesDetails, Products} = require('../db')
     const purchasesDetails = {}
 
     async function create(quanty, price, utility, net, tax, total, purchase_id, product_id) {
@@ -50,7 +50,12 @@
         const purchasesDetails = await PurchasesDetails.findAll({
             where: {
                 purchase_id: purchase_id
-            }
+            },
+            include: [
+                {
+                    model: Products
+                }
+            ]
         })
         .then(data => {
             return {code: 1, data: data}
