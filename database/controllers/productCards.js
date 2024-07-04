@@ -276,7 +276,14 @@ async function findAllBySale(sale_id) {
         const productCards = await ProductCards.findAll({
             where: {
                 sale_id: sale_id
-            }
+            },
+            include: [
+                {
+                    model: Products,
+                    attributes: ['name'],
+                    required: true
+                }
+            ]
         });
         return { code: 1, data: productCards };
     } catch (err) {
@@ -364,6 +371,22 @@ async function findAllBySaleDetail(sale_detail_id) {
   return productCard;
 }
 
+async function updateutility(id, utility) {
+  try {
+    const productCard = await ProductCards.update(
+      {
+        utility: utility,
+      },
+      {
+        where: { id: id },
+      }
+    );
+    return { code: 1, data: productCard };
+  } catch (err) {
+    return { code: 0, data: err };
+  }
+}
+
 
 
 
@@ -384,5 +407,6 @@ productCards.updateSaleValues = updateSaleValues
 productCards.findAllBySaleAndProduct = findAllBySaleAndProduct;
 productCards.updateSaleDetail = updateSaleDetail;
 productCards.findAllBySaleDetail = findAllBySaleDetail;
+productCards.updateutility = updateutility;
 
 module.exports = productCards;

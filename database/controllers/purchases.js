@@ -144,9 +144,36 @@ async function findAllBetweenDates(start, end){
 }
 
 
+async function findAllByProvider(provider_id){
+    const purchases = await Purchases.findAll({
+        include: [
+            {model: Users},
+            {model: Providers},
+            {model: PurchasesDetails}
+        ],
+        where: {
+            provider_id: provider_id
+        }
+    })
+    .then(data => {
+        return {code: 1, data: data}
+    })
+    .catch(err => {
+        return {
+            code: 0,
+            data: err
+        }
+    }
+    )
+
+    return purchases
+}
+
+
 purchases.create = create
 purchases.findAll = findAll
 purchases.findById = findById
 purchases.findAllBetweenDates = findAllBetweenDates
+purchases.findAllByProvider = findAllByProvider
 
 module.exports = purchases

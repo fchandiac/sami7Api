@@ -78,6 +78,9 @@ db.SellingPrices.belongsTo(db.PriceLists)
 db.Products.belongsTo(db.Subcategories)
 db.Products.belongsTo(db.PurchasePrices)
 
+db.CashRegisters.belongsTo(db.SalePoints)
+db.CashRegisters.hasMany(db.CashRegisterMovements)
+
 db.CashRegisterMovements.belongsTo(db.CashRegisters)
 db.CashRegisterMovements.belongsTo(db.PaymentMethods)
 db.CashRegisterMovements.belongsTo(db.Users)

@@ -63,5 +63,13 @@ router.post('/purchases/findAllBetweenDates/', async (req, res) => {
     res.json(purchase)
 })
 
+//findAllByProvider(provider_id)
+
+router.post('/purchases/findAllByProvider/', async (req, res) => {
+    const { provider_id } = req.body
+    const purchase = await purchases.findAllByProvider(provider_id)
+    res.json(purchase)
+})
+
 
 module.exports = router

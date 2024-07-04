@@ -121,6 +121,19 @@ async function voidById(id) {
     return cashRegisterMovement
 }
 
+async function findAllNulledBetweenDates(start_date, end_date) {
+    const cashRegisterMovement = await CashRegisterMovements.findAll({
+        where: {
+            nulled: true,
+            createdAt: {
+                [Op.between]: [start_date, end_date]
+            },
+            order: [['createdAt', 'DESC']]
+        }
+    }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
+    return cashRegisterMovement
+}
+
 
 
 cashRegisterMovements.create = create
@@ -131,5 +144,6 @@ cashRegisterMovements.noCashAmount = noCashAmount
 cashRegisterMovements.findAllByCashRegisterAndPaymentMethod = findAllByCashRegisterAndPaymentMethod
 cashRegisterMovements.findAllByCashRegisterAndType = findAllByCashRegisterAndType
 cashRegisterMovements.voidById = voidById
+cashRegisterMovements.findAllNulledBetweenDates = findAllNulledBetweenDates
 
 module.exports = cashRegisterMovements

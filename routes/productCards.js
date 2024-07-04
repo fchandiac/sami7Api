@@ -252,5 +252,15 @@ router.post('/productCards/updateSaleDetail', async (req, res) => {
     res.json(productCard)
 })
 
+
+// function updateutility(id, utility)
+
+router.post('/productCards/updateutility', async (req, res) => {
+    const { id, utility } = req.body
+    const productCard = await productCards.updateutility(id, utility)
+    res.json(productCard)
+})
+
+
 module.exports = router
 

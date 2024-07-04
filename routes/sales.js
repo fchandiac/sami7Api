@@ -126,5 +126,16 @@ router.post('/sales/updateSaleDocumentType', async (req, res) => {
 })
 
 
+// findAllNulledBetweenDates(start_date, end_date)
+
+router.post('/sales/findAllNulledBetweenDates', async (req, res) => {
+    const { start_date, end_date } = req.body
+    const sale = await sales.
+    res.json(sale)
+})
+
+
+
+
 
 module.exports = router

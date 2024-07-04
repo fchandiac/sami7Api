@@ -16,7 +16,7 @@
 // }
 
 
-const {CashRegisters, SalePoints} = require('../db')
+const {CashRegisters, SalePoints, CashRegisterMovements} = require('../db')
 const cashRegisters = {}
 const { Op } = require("sequelize");
 
@@ -73,9 +73,17 @@ async function updateClose(id, close, close_user_id) {
 }
 
 
-async function balanceCashRegister(cash_register_id, debit, credit) {
-    const cashRegister = await CashRegisters.findOne({ where: { id: cash_register_id } })
-    const balance = cashRegister.balance + credit - debit
+async function balanceCashRegister(cash_register_id, debit, credit, type) {
+    const cashRegister = await CashRegisters.findByPk(cash_register_id)
+
+    console.log('credit', credit)
+    console.log('debit', debit)
+
+    const amount = debit - credit
+    let balance = cashRegister.balance + amount
+    if (type == 1) {
+        balance = debit
+    }
     const updatedCashRegister = await CashRegisters.update({
         balance: balance
     }, { where: { id: cash_register_id } }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
@@ -95,6 +103,23 @@ async function findAllByStatusBetweenDates(status, start_date, end_date) {
     return cashRegister
 }
 
+
+async function findAllByStatus(status) {
+    const cashRegister = await CashRegisters.findAll({
+        where: {
+            status: status
+        },
+        include: [
+            { model: SalePoints },
+            { model: CashRegisterMovements }
+
+      
+
+        ]
+    }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
+    return cashRegister
+}
+
 cashRegisters.create = create
 cashRegisters.findAll = findAll
 cashRegisters.findOneById = findOneById
@@ -103,5 +128,8 @@ cashRegisters.findAllOpenBySalePoint = findAllOpenBySalePoint
 cashRegisters.balanceCashRegister = balanceCashRegister
 cashRegisters.updateClose = updateClose
 cashRegisters.findAllByStatusBetweenDates = findAllByStatusBetweenDates
+cashRegisters.findAllByStatus = findAllByStatus
+
+
 
 module.exports = cashRegisters

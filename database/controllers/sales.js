@@ -284,6 +284,23 @@ async function updateSaleDocumentType(id, document_type) {
   }
 }
 
+async function findAllNulledBetweenDates(start_date, end_date){
+  try {
+    const sales = await Sales.findAll({
+      where: {
+        nulled: true,
+        createdAt: {
+          [Op.between]: [start_date, end_date]
+        }
+      },
+      order: [["created_at", "DESC"]],
+    });
+    return { code: 1, data: sales };
+  } catch (err) {
+    return { code: 0, data: err };
+  }
+}
+
 
 sales.create = create;
 sales.findAll = findAll;
@@ -303,6 +320,7 @@ sales.totalSalesBetweenDates = totalSalesBetweenDates;
 sales.updateSaleTax = updateSaleTax;
 sales.updateSaleNet = updateSaleNet;
 sales.updateSaleDocumentType = updateSaleDocumentType;
+sales.findAllNulledBetweenDates = findAllNulledBetweenDates;
 
 module.exports = sales;
 

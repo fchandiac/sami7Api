@@ -33,8 +33,8 @@ router.post('/cashRegisters/findAllOpenBySalePoint', async (req, res) => {
 
 
 router.post('/cashRegisters/balanceCashRegister', async (req, res) => {
-    const { cash_register_id, debit, credit } = req.body
-    const cashRegister = await cashRegisters.balanceCashRegister(cash_register_id, debit, credit)
+    const { cash_register_id, debit, credit, type } = req.body
+    const cashRegister = await cashRegisters.balanceCashRegister(cash_register_id, debit, credit, type)
     res.json(cashRegister)
 })
 
@@ -52,6 +52,14 @@ router.post('/cashRegisters/updateClose', async (req, res) => {
 router.post('/cashRegisters/findAllByStatusBetweenDates', async (req, res) => {
     const { status, start_date, end_date } = req.body
     const cashRegister = await cashRegisters.findAllByStatusBetweenDates(status, start_date, end_date)
+    res.json(cashRegister)
+})
+
+// function findAllByStatus(status)
+
+router.post('/cashRegisters/findAllByStatus', async (req, res) => {
+    const { status } = req.body
+    const cashRegister = await cashRegisters.findAllByStatus(status)
     res.json(cashRegister)
 })
 
