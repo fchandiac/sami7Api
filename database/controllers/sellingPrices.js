@@ -53,7 +53,6 @@ async function findAll() {
         "purchase_net",
         "utility",
         "createdAt",
-        [sequelize.col("product.updated_at"), "updatedAt"], // Corregido aquí
       ],
       include: [
         {
