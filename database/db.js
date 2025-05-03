@@ -5,13 +5,34 @@ const SQLite = require('sqlite3')
 const moment = require('moment');
 require('moment/locale/es');
 
+
+// db.connection = new Sequelize(
+//     process.env.DATABASE,
+//     process.env.USER_NAME,
+//     process.env.PASSWORD,
+
+//     {
+//         host: process.env.HOST,
+//         port: process.env.DB_PORT,
+//         dialect: process.env.DIALECT,
+
+//     }
+// )
+
 db.connection = new Sequelize(
     process.env.DATABASE,
     process.env.USER_NAME,
     process.env.PASSWORD,
     {
         host: process.env.HOST,
+        port: process.env.DB_PORT,
         dialect: process.env.DIALECT,
+        define: {
+            charset: 'utf8',
+            collate: 'utf8_spanish_ci',
+            timestamps: true
+        },
+        logging: false // Desactivar logs de SQL
     }
 )
 
